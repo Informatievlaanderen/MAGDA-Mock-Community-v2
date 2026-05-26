@@ -1,0 +1,74 @@
+image:
+  name: vlaamseoverheid-magda-docker-public.jfrog.io/magda/magda-base-pipeline:jdk21-latest
+  username: $ARTIFACTORY_USER
+  password: $ARTIFACTORY_PASSWORD
+
+definitions:
+  steps:
+    - step: &deploy
+        name: Deploy to ...
+        deployment: PLACEHOLDER
+        caches:
+          - maven
+        script:
+          - export INFRA_REPO='magdamock.service-infra'
+          - export IFS=' '
+          # Allow overwriting applications in deployments
+          - >
+            if [[ "$APPS" == "" ]]; then
+              export APPS='magda-magdamock-community'
+            fi
+          - echo $NAMESPACE > target/namespace  # Necessary for passing namespace to the next steps
+          - chmod +x deploy-with-argocd.sh
+          - ./deploy-with-argocd.sh
+        artifacts:
+          - target/namespace
+    - step: &updateImageVersion
+        name: Update Docker image version
+        caches:
+          - docker
+        script:
+          - ./update_version.sh
+          - git add version.txt
+          - version=$(./read_version.sh)
+          - git commit -m "Updated version to $version"
+          - git push
+    - step: &dockerBuild
+        name: Build Docker image
+        caches:
+          - docker
+        script:
+          - docker login -u $ARTIFACTORY_USER -p $ARTIFACTORY_PASSWORD vlaamseoverheid-magda-docker-releases.jfrog.io
+          - version=$(./read_version.sh)
+          - docker build -t vlaamseoverheid-magda-docker-releases.jfrog.io/magda/magda.magdamock.community:$version .
+          - docker push -a vlaamseoverheid-magda-docker-releases.jfrog.io/magda/magda.magdamock.community
+pipelines:
+  branches:
+    master:
+      - step: *dockerBuild
+      - step:
+          <<: *deploy
+          name: Deploy release to TST
+          deployment: TST_SOLID
+      - step:
+          <<: *deploy
+          name: Deploy release to TNI
+          deployment: TNI_SOLID
+      - step:
+          <<: *deploy
+          name: Deploy release to PRD
+          trigger: manual
+          deployment: PRD_SOLID
+    develop:
+      - step: *dockerBuild
+      - step:
+          <<: *deploy
+          name: Deploy release to DEV
+          deployment: DEV
+  custom:
+    update-image:
+      - step: *updateImageVersion
+      - step: *dockerBuild
+
+options:
+  docker: true
