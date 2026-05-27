@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: magdamock-community
+
+magda:
+  magdamock:
+    magda-mock-test-path: "/data/wiremock"
+    soap-test-path: "/data/soap"
+    magda-xsd-path: "/data/magda.xsd"
