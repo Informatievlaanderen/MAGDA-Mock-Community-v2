@@ -1,8 +1,8 @@
-FROM vlaamseoverheid-magda-docker-releases.jfrog.io/magda/magda.magdamock:0.8.0
+FROM vlaamseoverheid-magda-docker-releases.jfrog.io/magda/magda.magdamock:0.12.0
 
 COPY ./application.yml application.yml
 
-COPY ./wiremock-data /data/wiremock
+COPY ./rest /data/rest
 COPY ./soap /data/soap
 
 EXPOSE 8080
