@@ -1,0 +1,14 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "opZwarteLijst": true,
+      "partijCode": "0123456789",
+      "reden": "DEF",
+      "startDatum": "2023-07-11T16:16:46.081+01:00"
+    }
+  }
+}
