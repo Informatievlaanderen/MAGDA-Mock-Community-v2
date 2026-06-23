@@ -1,4 +1,4 @@
-FROM vlaamseoverheid-magda-docker-releases.jfrog.io/magda/magda.magdamock:0.12.0
+FROM vlaamseoverheid-magda-docker-releases.jfrog.io/magda/magda.magdamock:0.14.0
 
 COPY ./application.yml application.yml
 
