@@ -1,0 +1,343 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "dossierStatusHistoriek": [
+        {
+          "statusCodeVan": "TEMP",
+          "statusCodeTot": "SAVED",
+          "actie": "SAVE",
+          "statusDatum": "2022-11-10T15:51:19+01:00",
+          "partijCode": "0",
+          "commentaar": null
+        },
+        {
+          "statusCodeVan": "SAVED",
+          "statusCodeTot": "CHKS",
+          "actie": "REG",
+          "statusDatum": "2022-11-10T15:54:07+01:00",
+          "partijCode": "4",
+          "commentaar": null
+        },
+        {
+          "statusCodeVan": "CHKS",
+          "statusCodeTot": "CHKO",
+          "actie": "OBJCT",
+          "statusDatum": "2022-11-10T16:10:51+01:00",
+          "partijCode": "0",
+          "commentaar": null
+        },
+        {
+          "statusCodeVan": "CHKO",
+          "statusCodeTot": "CHKS",
+          "actie": "RSPND",
+          "statusDatum": "2022-11-13T09:46:49+01:00",
+          "partijCode": "0",
+          "commentaar": null
+        }
+      ],
+      "dossierInkomstenSamenvattingen": {
+        "totaalInkomsten": null,
+        "totaalInkomstenGeindexeerd": null,
+        "dossierInkomstenSamenvattingen": [
+          {
+            "inkomstenJaar": null,
+            "belastbaarInkomenAanwezigheidCode": null,
+            "belastbaarInkomenJaarTotaal": 0,
+            "leefLoonAanwezigheidCode": null,
+            "leefLoonJaarTotaal": 0,
+            "inkomensVervangendeTegemoetkomingCode": null,
+            "inkomensVervangendeTegemoetkomingJaarTotaal": 0,
+            "inkomensPensioenJaarTotaal": 0,
+            "extraBeroepsBuitenlandInkomstenJaarTotaal": 0,
+            "extraBeroepsInstellingenInkomenstenJaarTotaal": 0,
+            "rijksregisternummer": "63121323902"
+          }
+        ]
+      },
+      "dossierPersonen": [
+        {
+          "contactTypeCode": "_1",
+          "contactAardCode": null,
+          "geboorteDatum": "1995-10-21T00:00:00+01:00",
+          "rijksregisternummer": "63121323902",
+          "voorNaam": "Ronald",
+          "naam": "Andrewson",
+          "genderCode": "VROUW",
+          "burgelijkeStaatCode": "_80",
+          "mantelzorgCode": "NO",
+          "mantelzorgPostCode": null,
+          "taalkennisCode": "NO",
+          "taalkennisSneltestCode": "YES",
+          "email": "pieter.delagrense@dxc.com",
+          "telefoon1": "0492803345",
+          "telefoon2": null,
+          "adressen": {
+            "contactVoorkeurCode": "DOM",
+            "domicilie": {
+              "postCode": "3500",
+              "gemeente": "Hasselt",
+              "gemeenteNisCode": "71022A",
+              "landCode": "150",
+              "straat": "Fruitmarkt",
+              "huisNummer": "77",
+              "huisNummerBus": null
+            },
+            "verblijf": {
+              "postCode": null,
+              "gemeente": null,
+              "gemeenteNisCode": null,
+              "landCode": null,
+              "straat": null,
+              "huisNummer": null,
+              "huisNummerBus": null
+            },
+            "contact": {
+              "postCode": null,
+              "gemeente": null,
+              "gemeenteNisCode": null,
+              "landCode": null,
+              "straat": null,
+              "huisNummer": null,
+              "huisNummerBus": null
+            }
+          },
+          "beperkingMutualiteitErkenningCode": null,
+          "verblijfsAdresCode": "DOM",
+          "contactInvaliditeitCode": "NINV",
+          "werkzaamheidGeschiedenisCode": "Y6M",
+          "contactSubTypeCode": "PRT",
+          "contactAantalKinderenCode": null,
+          "contactPersoonTenLaste": "DDEP",
+          "contactErkenningAfhankelijk": [],
+          "registratieContactErkenningInformatieVoorKind": null,
+          "registratieContactErkenningInformatieVoorVolwassenen": null,
+          "bewindvoerderStatusCode": "NOAD",
+          "bewindvoerderRijksregisternummer": null
+        }
+      ],
+      "dossierLocatieVoorkeuren": [
+        {
+          "gemeenteNisCode": "71022",
+          "wijken": "Acht  Westen",
+          "sorteerIndex": null
+        }
+      ],
+      "dossierOptioneleVoorkeuren": [],
+      "dossierEigendommen": [
+        {
+          "rijksregisternummer": null,
+          "eigendomTypeCode": "JUST",
+          "eigendomAardCode": "APP",
+          "waarde": null,
+          "perceelID": null,
+          "justificatie": null,
+          "justificatieDeclaratie": "USR",
+          "straat": null,
+          "huisNummer": null,
+          "gemeente": null,
+          "postCode": null,
+          "gemeenteNisCode": null,
+          "landCode": null
+        }
+      ],
+      "dossierDienstDossierDomicilieHistoriek": [
+        {
+          "landCode": "BE",
+          "rijksregisternummer": "63121323902",
+          "postCode": "1150",
+          "gemeente": "Sint-Pieters-Woluwe",
+          "gemeenteNisCode": "21019A",
+          "straat": "VerkavelingStraat",
+          "huisNummer": "29",
+          "huisNummerBus": "20",
+          "beginDatum": "2017-09-02T00:00:00+01:00",
+          "eindDatum": "2018-09-02T00:00:00+01:00"
+        },
+        {
+          "landCode": "BE",
+          "rijksregisternummer": "63121323902",
+          "postCode": "2260",
+          "gemeente": "Westerlo",
+          "gemeenteNisCode": "13049D",
+          "straat": "VerkavelingStraat",
+          "huisNummer": "29",
+          "huisNummerBus": "20",
+          "beginDatum": "2018-09-02T00:00:00+01:00",
+          "eindDatum": "2019-09-02T00:00:00+01:00"
+        }
+      ],
+      "dossierBijlages": [
+        {
+          "bestandNaam": "Energiepremiev0.2.pdf",
+          "bestandGrootte": 496011,
+          "bestandExtensieCode": "PDF",
+          "identificatie": "INCPS-0-63121323902",
+          "indentificatieRijksregisternummer": "63121323902",
+          "identificatieBestandCode": "INCPS",
+          "identificatieBestandIndex": 0,
+          "bestand": null,
+          "opmerking": null,
+          "bijlageDatum": "0001-01-01T00:00:00+01:00",
+          "aanvaardingBijlageCode": null
+        }
+      ],
+      "dossierBetrokkenPartijen": [
+        {
+          "partijTypeCode": null,
+          "partijRolCode": "CO",
+          "partijIdentificatie": null,
+          "postCode": "3500",
+          "gemeente": "Hasselt",
+          "gemeenteNisCode": "71022A",
+          "straat": "Fruitmarkt",
+          "huisNummer": "77",
+          "huisNummerBus": null
+        },
+        {
+          "partijTypeCode": null,
+          "partijRolCode": null,
+          "partijIdentificatie": null,
+          "postCode": "3500",
+          "gemeente": "Hasselt",
+          "gemeenteNisCode": null,
+          "straat": "GOUVERNEUR ROPPESINGEL",
+          "huisNummer": "133",
+          "huisNummerBus": ""
+        },
+        {
+          "partijTypeCode": null,
+          "partijRolCode": null,
+          "partijIdentificatie": null,
+          "postCode": "3500",
+          "gemeente": "Hasselt",
+          "gemeenteNisCode": null,
+          "straat": "GOUVERNEUR ROPPESINGEL",
+          "huisNummer": "53",
+          "huisNummerBus": ""
+        },
+        {
+          "partijTypeCode": null,
+          "partijRolCode": null,
+          "partijIdentificatie": null,
+          "postCode": "3700",
+          "gemeente": "Tongeren",
+          "gemeenteNisCode": null,
+          "straat": "PLINIUSWAL",
+          "huisNummer": "1",
+          "huisNummerBus": "2"
+        },
+        {
+          "partijTypeCode": null,
+          "partijRolCode": null,
+          "partijIdentificatie": null,
+          "postCode": "3520",
+          "gemeente": "Zonhoven",
+          "gemeenteNisCode": null,
+          "straat": "KNEUTERWEG",
+          "huisNummer": "3",
+          "huisNummerBus": ""
+        },
+        {
+          "partijTypeCode": "PP",
+          "partijRolCode": "CO",
+          "partijIdentificatie": "63121323902",
+          "postCode": "3500",
+          "gemeente": "Hasselt",
+          "gemeenteNisCode": "71022A",
+          "straat": "Fruitmarkt",
+          "huisNummer": "77",
+          "huisNummerBus": null
+        },
+        {
+          "partijTypeCode": "SHM",
+          "partijRolCode": null,
+          "partijIdentificatie": "0401324929",
+          "postCode": "3500",
+          "gemeente": "Hasselt",
+          "gemeenteNisCode": null,
+          "straat": "GOUVERNEUR ROPPESINGEL",
+          "huisNummer": "133",
+          "huisNummerBus": ""
+        },
+        {
+          "partijTypeCode": "SHM",
+          "partijRolCode": null,
+          "partijIdentificatie": "0401304539",
+          "postCode": "3500",
+          "gemeente": "Hasselt",
+          "gemeenteNisCode": null,
+          "straat": "GOUVERNEUR ROPPESINGEL",
+          "huisNummer": "53",
+          "huisNummerBus": ""
+        },
+        {
+          "partijTypeCode": "SHM",
+          "partijRolCode": null,
+          "partijIdentificatie": "0400954844",
+          "postCode": "3700",
+          "gemeente": "Tongeren",
+          "gemeenteNisCode": null,
+          "straat": "PLINIUSWAL",
+          "huisNummer": "1",
+          "huisNummerBus": "2"
+        },
+        {
+          "partijTypeCode": null,
+          "partijRolCode": null,
+          "partijIdentificatie": "0896662060",
+          "postCode": "3520",
+          "gemeente": "Zonhoven",
+          "gemeenteNisCode": null,
+          "straat": "KNEUTERWEG",
+          "huisNummer": "3",
+          "huisNummerBus": ""
+        }
+      ],
+      "bewindvoerder": null,
+      "oudDossier": null,
+      "aanvaardingDossiers": [],
+      "dossierZwarteLijsten": [],
+      "dossierPanden": [],
+      "dossierHuidigInkomen": [],
+      "dossierNummer": "2022.11.10.0003",
+      "dossierType": "RFH",
+      "statusCode": "CHKS",
+      "woningVoorkeuren": {
+        "maximaalHuurBedrag": 1000,
+        "minimumAantalKamers": 1,
+        "maximumAantalKamers": 1,
+        "woningTypeCode": [
+          "A"
+        ],
+        "lichamelijkeBeperkingCode": "NO"
+      },
+      "inschrijving": {
+        "hulpCode": "WH",
+        "hulpInformerenCode": "NO",
+        "hulpEmail": null,
+        "datum": "2022-11-10T15:51:19+01:00"
+      },
+      "schrapping": {
+        "datum": null,
+        "redenCode": null
+      },
+      "woningNood": {
+        "redenCode": null,
+        "omschrijving": null
+      },
+      "versieNummer": 18,
+      "mogelijkeActies": [
+        "OBJCT",
+        "REQI",
+        "APP",
+        "RJCT"
+      ],
+      "inkomenVoorwaardeStatusCode": "EI",
+      "eigendomVoorwaardeStatusCode": "OK"
+    }
+  }
+}
