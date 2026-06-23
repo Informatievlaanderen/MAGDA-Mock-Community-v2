@@ -1,0 +1,51 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "gemeentes": [
+        {
+          "nisCode": "11001",
+          "naam": "Aartselaar",
+          "taal": "N",
+          "regioCode": "02000",
+          "provincieCode": "10000",
+          "districtCode": "11000",
+          "lengteGraad": 4.382558,
+          "breedteGraad": 51.132102,
+          "deelgemeentes": [
+            {
+              "nisCode": "11001A",
+              "zip": "2630",
+              "naam": "Aartselaar"
+            }
+          ]
+        },
+        {
+          "nisCode": "11002",
+          "naam": "Antwerpen",
+          "taal": "N",
+          "regioCode": "02000",
+          "provincieCode": "10000",
+          "districtCode": "11000",
+          "lengteGraad": 4.369693,
+          "breedteGraad": 51.26069,
+          "deelgemeentes": [
+            {
+              "nisCode": "11002M",
+              "zip": "2000",
+              "naam": "Schelde"
+            },
+            {
+              "nisCode": "11002B",
+              "zip": "2050",
+              "naam": "Linkeroever"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
