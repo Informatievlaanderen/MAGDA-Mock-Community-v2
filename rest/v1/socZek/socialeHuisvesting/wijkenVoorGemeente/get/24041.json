@@ -1,0 +1,28 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "wijken": [
+        {
+          "wijkNaam": "Achter Oost",
+          "gemeenteNisCode": "24041B"
+        },
+        {
+          "wijkNaam": "Hoge Zicht",
+          "gemeenteNisCode": "24041B"
+        },
+        {
+          "wijkNaam": "Twaalf Dijk",
+          "gemeenteNisCode": "24041C"
+        },
+        {
+          "wijkNaam": "vEERTIEN Dijk",
+          "gemeenteNisCode": "24041C"
+        }
+      ]
+    }
+  }
+}
