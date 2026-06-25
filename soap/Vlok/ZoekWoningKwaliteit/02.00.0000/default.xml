@@ -1,0 +1,38 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webservice.zoekwoningkwaliteitdienst-02_00.vlok-02_00.vip.vlaanderen.be">
+   <s:Header/>
+   <s:Body>
+    <web:ZoekWoningKwaliteitResponse>
+          <Repliek>
+              <Context>
+                  <Naam>ZoekWoningKwaliteit</Naam>
+                  <Versie>02.00.0000</Versie>
+                  <Bericht>
+                      <Type>ANTWOORD</Type>
+                      <Tijdstip>
+                          <Datum>?</Datum>
+                          <Tijd>?</Tijd>
+                      </Tijdstip>
+                      <Afzender>
+                          <Identificatie>?</Identificatie>
+                          <Naam>?</Naam>
+                          <Referte>?</Referte>
+                      </Afzender>
+                  </Bericht>
+              </Context>
+              <Antwoorden>
+                  <Antwoord>
+                      <Referte>?</Referte>
+                      <Uitzonderingen>
+                          <Uitzondering>
+                              <Identificatie>60004</Identificatie>
+                              <Oorsprong>VLOK</Oorsprong>
+                              <Type>FOUT</Type>
+                              <Diagnose>Er werden geen objecten gevonden voor type Pand of Entiteit met zoekterm Meir.</Diagnose>
+                          </Uitzondering>
+                      </Uitzonderingen>
+                  </Antwoord>
+              </Antwoorden>
+          </Repliek>
+    </web:ZoekWoningKwaliteitResponse>
+ </s:Body>
+</s:Envelope>
