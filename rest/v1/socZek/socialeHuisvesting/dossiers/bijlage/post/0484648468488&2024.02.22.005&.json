@@ -2,7 +2,7 @@
   "response": {
     "status": 200,
     "headers": {
-      "Content-Type": "application-octet-stream"
+      "Content-Type": "application/octet-stream"
     },
     "body": "746573740a"
   }
