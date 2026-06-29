@@ -46,9 +46,8 @@ definitions:
         name: Merge to master
         script:
           - git fetch origin
-          - git switch master
-          - git pull origin master
-          - git merge origin/develop
+          - git checkout -B master origin/master          
+          - git merge --no-ff origin/develop -m "Release merge develop -> master"
           - git push origin master
     - step: &githubMirror
         name: Mirror to GitHub
