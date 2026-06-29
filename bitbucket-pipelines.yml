@@ -45,7 +45,7 @@ definitions:
     - step: &mergeToMaster
         name: Merge to master
         script:
-          - git fetch origin master develop
+          - git fetch origin master:refs/remotes/origin/master develop:refs/remotes/origin/develop
           - git switch -C master origin/master
           - git merge origin/develop -m "Release merge develop -> master"
           - git push origin master
