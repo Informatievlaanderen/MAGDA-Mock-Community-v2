@@ -45,7 +45,8 @@ definitions:
     - step: &mergeToMaster
         name: Merge to master
         script:
-          - git fetch origin master develop
+          - git clone git@bitbucket.org:vlaamseoverheid/magda.magdamock.community.git /tmp/repository
+          - cd /tmp/repository          
           - git switch -C master origin/master
           - git merge origin/develop -m "Release merge develop -> master"
           - git push origin master
