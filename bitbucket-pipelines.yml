@@ -51,7 +51,7 @@ definitions:
           - git merge origin/develop -m "Release merge develop -> master"
           - git push origin master
     - step: &githubMirror
-        name: Mirror to GitHubkeep
+        name: Mirror to GitHub
         script:
           - git clone --bare git@bitbucket.org:vlaamseoverheid/magda.magdamock.community.git
           - cd magda.magdamock.community.git
