@@ -47,7 +47,7 @@ definitions:
         script:
           - git fetch origin
           - git checkout -B master origin/master
-          - git merge --no-ff origin/develop -m "Release merge develop -> master"
+          - git merge origin/develop -m "Release merge develop -> master"
           - git push origin master
     - step: &githubMirror
         name: Mirror to GitHub
