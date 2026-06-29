@@ -46,7 +46,7 @@ definitions:
         name: Merge to master
         script:
           - git fetch origin
-          - git checkout master
+          - git switch master
           - git pull origin master
           - git merge origin/develop
           - git push origin master
