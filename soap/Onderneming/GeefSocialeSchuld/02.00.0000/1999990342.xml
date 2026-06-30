@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="no"?>
+<web:GeefSocialeSchuldResponse xmlns:web="http://webservice.geefsocialeschulddienst-02_00.onderneming-02_00.vip.vlaanderen.be">
+	<Repliek>
+		<Context>
+			<Naam>GeefSocialeSchuldResponse</Naam>
+			<Versie>02.00.0000</Versie>
+			<Bericht>
+				<Type>ANTWOORD</Type>
+				<Tijdstip>
+					<Datum>0001-01-01</Datum>
+					<Tijd>00:00:00.000</Tijd>
+				</Tijdstip>
+				<Afzender>
+					<Identificatie>?</Identificatie>
+					<Naam>?</Naam>
+					<Referte>?</Referte>
+				</Afzender>
+				<Ontvanger>
+					<Identificatie>?</Identificatie>
+					<Referte>?</Referte>
+					<Hoedanigheid>?</Hoedanigheid>
+				</Ontvanger>
+			</Bericht>
+		</Context>
+		<Antwoorden>
+			<Antwoord>
+				<Referte>?</Referte>
+				<Inhoud>
+					<Ontvangstbevestiging Beschrijving="Correct Ontvangen">1</Ontvangstbevestiging>
+					<SocialeSchuld>
+						<FinancieleSituatie>
+							<Informatie>
+								<Referentienummer>ABC-123</Referentienummer>
+								<DatumVerzendingAntwoord>2026-06-30</DatumVerzendingAntwoord>
+							</Informatie>
+						</FinancieleSituatie>
+					</SocialeSchuld>
+				</Inhoud>
+			</Antwoord>
+		</Antwoorden>
+	</Repliek>
+</web:GeefSocialeSchuldResponse>

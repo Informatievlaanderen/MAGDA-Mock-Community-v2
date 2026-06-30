@@ -1,0 +1,213 @@
+<?xml version="1.0" standalone="no"?>
+<web:GeefOndernemingResponse xmlns:web="http://webservice.geefondernemingdienst-02_00.onderneming-02_00.vip.vlaanderen.be">
+    <Repliek>
+        <Context>
+            <Naam>GeefOnderneming</Naam>
+            <Versie>02.00.0000</Versie>
+            <Bericht>
+ 				<Type>ANTWOORD</Type>
+				<Tijdstip>
+					<Datum>0001-01-01</Datum>
+					<Tijd>00:00:00.000</Tijd>
+				</Tijdstip>
+				<Afzender>
+					<Identificatie>?</Identificatie>
+					<Naam>?</Naam>
+					<Referte>?</Referte>
+				</Afzender>
+				<Ontvanger>
+					<Identificatie>?</Identificatie>
+					<Referte>?</Referte>
+					<Hoedanigheid>?</Hoedanigheid>
+				</Ontvanger>
+            </Bericht>
+        </Context>
+		<Antwoorden>
+			<Antwoord>
+				<Referte>?</Referte>
+				<Inhoud>
+					<Onderneming>
+						<Ondernemingsnummer>1999990243</Ondernemingsnummer>
+						<AuthentiekBron>
+							<Code>03</Code>
+							<Omschrijving>KBO</Omschrijving>
+						</AuthentiekBron>
+						<OndernemingOfVestiging>
+							<Code Beschrijving="Onderneming">1</Code>
+						</OndernemingOfVestiging>
+						<StatusKBO>
+							<Code>ST</Code>
+							<Omschrijving>Stopgezet</Omschrijving>
+						</StatusKBO>
+						<SoortOnderneming>
+							<Code Beschrijving="Rechtspersoon">2</Code>
+						</SoortOnderneming>
+						<Namen>
+							<MaatschappelijkeNamen>
+								<MaatschappelijkeNaam DatumBegin="1996-03-29" DatumEinde="2013-11-25">
+									<Naam>JPKJ HOLDING EN MANAGEMENT</Naam>
+									<Taalcode>nl</Taalcode>
+								</MaatschappelijkeNaam>
+							</MaatschappelijkeNamen>
+						</Namen>
+						<Adressen>
+							<Adres DatumBegin="2003-04-19" DatumEinde="2013-11-25">
+								<Straat>
+									<Code>4740</Code>
+								</Straat>
+								<Huisnummer>51</Huisnummer>
+								<Gemeente>
+									<NISCode>12025</NISCode>
+									<PostCode>2800</PostCode>
+								</Gemeente>
+								<Land>
+									<NISCode>150</NISCode>
+									<ISOCode>BE</ISOCode>
+									<Naam>BELGIE</Naam>
+								</Land>
+								<Type>
+									<Code>001</Code>
+									<Omschrijving>Zetel</Omschrijving>
+								</Type>
+								<Descripties>
+									<Descriptie>
+										<Adres>
+											<Straat>
+												<Naam>Veldenstraat</Naam>
+											</Straat>
+											<Gemeente>
+												<Naam>Mechelen</Naam>
+											</Gemeente>
+											<Land>
+												<NISCode>150</NISCode>
+												<Naam>België</Naam>
+											</Land>
+										</Adres>
+										<Taalcode>NL</Taalcode>
+									</Descriptie>
+								</Descripties>
+							</Adres>
+						</Adressen>
+						<Start>
+							<Datum>1996-03-29</Datum>
+						</Start>
+						<Inschrijving>
+							<Datum>2003-01-19</Datum>
+						</Inschrijving>
+						<Stopzetting>
+							<Code>053</Code>
+							<Datum>2013-11-25</Datum>
+						</Stopzetting>
+						<Rechtsvormen>
+							<Rechtsvorm DatumBegin="1996-03-29" DatumEinde="2013-11-25">
+								<Code>015</Code>
+								<Omschrijving>Besloten vennootschap met beperkte aansprakelijkheid</Omschrijving>
+								<Afkorting>BVBA</Afkorting>
+							</Rechtsvorm>
+						</Rechtsvormen>
+						<Rechtstoestanden>
+							<Rechtstoestand DatumBegin="2013-11-25">
+								<Code>053</Code>
+								<Omschrijving>Sluiting faillissement</Omschrijving>
+								<InstrumenterendeOverheid>457617393</InstrumenterendeOverheid>
+							</Rechtstoestand>
+						</Rechtstoestanden>
+						<Bankrekeningen>
+							<Bankrekeningnummer DatumBegin="1996-04-26" DatumEinde="2013-11-25">
+								<Rekeningnummer>320 0446185 55</Rekeningnummer>
+								<Doel>003</Doel>
+								<IBAN>BE31320044618555</IBAN>
+								<BIC>BBRUBEBB</BIC>
+							</Bankrekeningnummer>
+						</Bankrekeningen>
+						<Functies>
+							<Functie DatumBegin="2003-12-30" DatumEinde="2013-11-25">
+								<FunctiehouderVan>0457617393</FunctiehouderVan>
+								<EindeFunctie>
+									<Code>053</Code>
+									<Omschrijving>Sluiting failliss.</Omschrijving>
+								</EindeFunctie>
+								<AardFunctie>
+									<Code>10006</Code>
+									<Omschrijving>Zaakvoerder</Omschrijving>
+								</AardFunctie>
+								<Persoon>
+									<AchterNaam>Casteels</AchterNaam>
+									<VoorNaam>Stefan</VoorNaam>
+								</Persoon>
+							</Functie>
+							<Functie DatumBegin="2005-01-31" DatumEinde="2013-11-25">
+								<FunctiehouderVan>0457617393</FunctiehouderVan>
+								<EindeFunctie>
+									<Code>053</Code>
+									<Omschrijving>Sluiting failliss.</Omschrijving>
+								</EindeFunctie>
+								<AardFunctie>
+									<Code>10031</Code>
+									<Omschrijving>Wettelijk vertegenwoordiger</Omschrijving>
+								</AardFunctie>
+								<Persoon>
+									<AchterNaam>De Neef</AchterNaam>
+									<VoorNaam>Betty</VoorNaam>
+								</Persoon>
+							</Functie>
+							<Functie DatumBegin="2005-01-31" DatumEinde="2013-11-25">
+								<FunctiehouderVan>0457617393</FunctiehouderVan>
+								<EindeFunctie>
+									<Code>053</Code>
+									<Omschrijving>Sluiting failliss.</Omschrijving>
+								</EindeFunctie>
+								<AardFunctie>
+									<Code>90001</Code>
+									<Omschrijving>Curator  (aanstelling door rechtbanken)</Omschrijving>
+								</AardFunctie>
+								<Persoon>
+									<AchterNaam>De Neef</AchterNaam>
+									<VoorNaam>Betty</VoorNaam>
+								</Persoon>
+							</Functie>
+							<Functie DatumBegin="2003-05-01" DatumEinde="2013-11-25">
+								<FunctiehouderVan>0457617393</FunctiehouderVan>
+								<EindeFunctie>
+									<Code>053</Code>
+									<Omschrijving>Sluiting failliss.</Omschrijving>
+								</EindeFunctie>
+								<AardFunctie>
+									<Code>20090</Code>
+									<Omschrijving>Basiskennis bedrijfsbeheer</Omschrijving>
+								</AardFunctie>
+								<Persoon>
+									<AchterNaam>Van Rompay</AchterNaam>
+									<VoorNaam>Peter</VoorNaam>
+								</Persoon>
+							</Functie>
+						</Functies>
+						<Hoedanigheden>
+							<Hoedanigheid DatumBegin="1996-04-26" DatumEinde="2014-02-25">
+								<Code Beschrijving="Handelsonderneming">00293</Code>
+								<Inschrijving>
+									<Datum>2003-01-26</Datum>
+								</Inschrijving>
+								<Duurtijd>0.0</Duurtijd>
+								<Fase>
+									<Code Beschrijving="Hoedanigheid/Toelating stopgezet">003</Code>
+								</Fase>
+								<Beeindiging>
+									<Code Beschrijving="Ambtshalve doorhaling">100</Code>
+								</Beeindiging>
+							</Hoedanigheid>
+						</Hoedanigheden>
+						<AmbtshalveDoorhalingen>
+							<AmbtshalveDoorhaling DatumBegin="2013-08-03" DatumEinde="2013-11-25">
+								<Reden>
+									<Code>004</Code>
+									<Omschrijving>Doorhaling ten gevolge van niet-neerlegging jaarrekening</Omschrijving>
+								</Reden>
+							</AmbtshalveDoorhaling>
+						</AmbtshalveDoorhalingen>
+					</Onderneming>
+				</Inhoud>
+			</Antwoord>
+		</Antwoorden>
+	</Repliek>
+</web:GeefOndernemingResponse>

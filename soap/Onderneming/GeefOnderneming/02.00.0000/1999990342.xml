@@ -1,0 +1,263 @@
+<?xml version="1.0" standalone="no"?>
+<web:GeefOndernemingResponse xmlns:web="http://webservice.geefondernemingdienst-02_00.onderneming-02_00.vip.vlaanderen.be">
+	<Repliek>
+		<Context>
+			<Naam>GeefOnderneming</Naam>
+			<Versie>02.00.0000</Versie>
+			<Bericht>
+				<Type>ANTWOORD</Type>
+				<Tijdstip>
+					<Datum>0001-01-01</Datum>
+					<Tijd>00:00:00.000</Tijd>
+				</Tijdstip>
+				<Afzender>
+					<Identificatie>?</Identificatie>
+					<Naam>?</Naam>
+					<Referte>?</Referte>
+				</Afzender>
+				<Ontvanger>
+					<Identificatie>?</Identificatie>
+					<Referte>?</Referte>
+					<Hoedanigheid>?</Hoedanigheid>
+				</Ontvanger>
+			</Bericht>
+		</Context>
+		<Antwoorden>
+			<Antwoord>
+				<Referte>?</Referte>
+				<Inhoud>
+					<Onderneming>
+						<Ondernemingsnummer>1999990342</Ondernemingsnummer>
+						<AuthentiekBron>
+							<Code>03</Code>
+							<Omschrijving>KBO</Omschrijving>
+						</AuthentiekBron>
+						<OndernemingOfVestiging>
+							<Code Beschrijving="Onderneming">1</Code>
+						</OndernemingOfVestiging>
+						<StatusKBO>
+							<Code>AC</Code>
+							<Omschrijving>Actief</Omschrijving>
+						</StatusKBO>
+						<SoortOnderneming>
+							<Code Beschrijving="Natuurlijke Persoon">1</Code>
+						</SoortOnderneming>
+						<Namen>
+							<MaatschappelijkeNamen>
+								<MaatschappelijkeNaam DatumBegin="2007-12-15">
+									<Naam>Barbier Ahmed</Naam>
+									<Taalcode>xx</Taalcode>
+								</MaatschappelijkeNaam>
+							</MaatschappelijkeNamen>
+						</Namen>
+						<Adressen>
+							<Adres DatumBegin="2007-12-15">
+								<Straat>
+									<Code>1025</Code>
+								</Straat>
+								<Huisnummer>6</Huisnummer>
+								<Gemeente>
+									<NISCode>33037</NISCode>
+									<PostCode>8980</PostCode>
+								</Gemeente>
+								<Land>
+									<NISCode>150</NISCode>
+									<ISOCode>BE</ISOCode>
+									<Naam>BELGIE</Naam>
+								</Land>
+								<Type>
+									<Code>001</Code>
+									<Omschrijving>Zetel</Omschrijving>
+								</Type>
+								<Descripties>
+									<Descriptie>
+										<Adres>
+											<Straat>
+												<Naam>Grote Molenstraat</Naam>
+											</Straat>
+											<Gemeente>
+												<Naam>Zonnebeke</Naam>
+											</Gemeente>
+											<Land>
+												<NISCode>150</NISCode>
+												<Naam>België</Naam>
+											</Land>
+										</Adres>
+										<Taalcode>NL</Taalcode>
+									</Descriptie>
+								</Descripties>
+							</Adres>
+						</Adressen>
+						<Start>
+							<Datum>2007-12-15</Datum>
+						</Start>
+						<Inschrijving>
+							<Datum>2007-11-19</Datum>
+						</Inschrijving>
+						<Rechtstoestanden>
+							<Rechtstoestand DatumBegin="2007-12-15">
+								<Code>000</Code>
+								<Omschrijving>Normale toestand</Omschrijving>
+								<InstrumenterendeOverheid>893557565</InstrumenterendeOverheid>
+							</Rechtstoestand>
+						</Rechtstoestanden>
+						<Bankrekeningen>
+							<Bankrekeningnummer DatumBegin="2007-12-15">
+								<Rekeningnummer>063 9609044 65</Rekeningnummer>
+								<Doel>003</Doel>
+								<IBAN>BE18063960904465</IBAN>
+								<BIC>GKCCBEBB</BIC>
+							</Bankrekeningnummer>
+						</Bankrekeningen>
+						<Functies>
+							<Functie DatumBegin="2007-12-15">
+								<FunctiehouderVan>0893557565</FunctiehouderVan>
+								<AardFunctie>
+									<Code>00001</Code>
+									<Omschrijving>Oprichter van een geregistreerde entiteit-natuurlijk persoon</Omschrijving>
+								</AardFunctie>
+								<Persoon>
+									<AchterNaam>Victoor</AchterNaam>
+									<VoorNaam>Sylvie</VoorNaam>
+								</Persoon>
+							</Functie>
+							<Functie DatumBegin="2007-12-15">
+								<FunctiehouderVan>0893557565</FunctiehouderVan>
+								<AardFunctie>
+									<Code>20301</Code>
+									<Omschrijving>Kapper/ kapster</Omschrijving>
+								</AardFunctie>
+								<Persoon>
+									<AchterNaam>Victoor</AchterNaam>
+									<VoorNaam>Sylvie</VoorNaam>
+								</Persoon>
+							</Functie>
+						</Functies>
+						<Activiteiten>
+							<Activiteit DatumBegin="2025-01-01">
+								<Nace>
+									<Code>96210</Code>
+									<Omschrijving>Kappers- en barbiersactiviteiten</Omschrijving>
+									<Versie>2025</Versie>
+								</Nace>
+								<Type>
+									<Code Beschrijving="Hoofdactiviteit">P</Code>
+								</Type>
+								<Groep>001</Groep>
+							</Activiteit>
+							<Activiteit DatumBegin="2008-01-01" DatumEinde="2024-12-31">
+								<Nace>
+									<Code>96021</Code>
+									<Omschrijving>Haarverzorging</Omschrijving>
+									<Versie>2008</Versie>
+								</Nace>
+								<Type>
+									<Code Beschrijving="Hoofdactiviteit">P</Code>
+								</Type>
+								<Groep>001</Groep>
+							</Activiteit>
+							<Activiteit DatumBegin="2007-12-15" DatumEinde="2007-12-31">
+								<Nace>
+									<Code>93021</Code>
+									<Omschrijving>Kapsalons</Omschrijving>
+									<Versie>2003</Versie>
+								</Nace>
+								<Type>
+									<Code Beschrijving="Hoofdactiviteit">P</Code>
+								</Type>
+								<Groep>001</Groep>
+							</Activiteit>
+							<Activiteit DatumBegin="2025-01-01">
+								<Nace>
+									<Code>47750</Code>
+									<Omschrijving>Detailhandel in cosmetica en toiletartikelen</Omschrijving>
+									<Versie>2025</Versie>
+								</Nace>
+								<Type>
+									<Code Beschrijving="Nevenactiviteit">S</Code>
+								</Type>
+								<Groep>001</Groep>
+							</Activiteit>
+							<Activiteit DatumBegin="2008-01-01" DatumEinde="2024-12-31">
+								<Nace>
+									<Code>47750</Code>
+									<Omschrijving>Detailhandel in cosmetica en toiletartikelen in gespecialiseerde winkels</Omschrijving>
+									<Versie>2008</Versie>
+								</Nace>
+								<Type>
+									<Code Beschrijving="Nevenactiviteit">S</Code>
+								</Type>
+								<Groep>001</Groep>
+							</Activiteit>
+							<Activiteit DatumBegin="2007-12-15" DatumEinde="2007-12-31">
+								<Nace>
+									<Code>52330</Code>
+									<Omschrijving>Detailhandel in cosmetica en toiletartikelen</Omschrijving>
+									<Versie>2003</Versie>
+								</Nace>
+								<Type>
+									<Code Beschrijving="Nevenactiviteit">S</Code>
+								</Type>
+								<Groep>001</Groep>
+							</Activiteit>
+							<Activiteit DatumBegin="2025-01-01">
+								<Nace>
+									<Code>96210</Code>
+									<Omschrijving>Kappers- en barbiersactiviteiten</Omschrijving>
+									<Versie>2025</Versie>
+								</Nace>
+								<Type>
+									<Code Beschrijving="Hoofdactiviteit">P</Code>
+								</Type>
+								<Groep>006</Groep>
+							</Activiteit>
+							<Activiteit DatumBegin="2008-11-29" DatumEinde="2024-12-31">
+								<Nace>
+									<Code>96021</Code>
+									<Omschrijving>Haarverzorging</Omschrijving>
+									<Versie>2008</Versie>
+								</Nace>
+								<Type>
+									<Code Beschrijving="Hoofdactiviteit">P</Code>
+								</Type>
+								<Groep>006</Groep>
+							</Activiteit>
+						</Activiteiten>
+						<Hoedanigheden>
+							<Hoedanigheid DatumBegin="2008-11-29">
+								<Code Beschrijving="Werkgever RSZ">00070</Code>
+								<Inschrijving>
+									<Datum>2008-12-16</Datum>
+								</Inschrijving>
+								<Duurtijd>0.0</Duurtijd>
+								<Fase>
+									<Code Beschrijving="hoedanigheid/Toelating verworven">002</Code>
+								</Fase>
+							</Hoedanigheid>
+							<Hoedanigheid DatumBegin="2007-12-15">
+								<Code Beschrijving="Onderneming onderworpen aan BTW">00084</Code>
+								<Inschrijving>
+									<Datum>2007-11-22</Datum>
+								</Inschrijving>
+								<Duurtijd>0.0</Duurtijd>
+								<Fase>
+									<Code Beschrijving="hoedanigheid/Toelating verworven">002</Code>
+								</Fase>
+							</Hoedanigheid>
+							<Hoedanigheid DatumBegin="2018-11-01">
+								<Code Beschrijving="Inschrijvingsplichtige onderneming">00295</Code>
+								<Inschrijving>
+									<Datum>2007-11-19</Datum>
+								</Inschrijving>
+								<Duurtijd>0.0</Duurtijd>
+								<Fase>
+									<Code Beschrijving="hoedanigheid/Toelating verworven">002</Code>
+								</Fase>
+							</Hoedanigheid>
+						</Hoedanigheden>
+					</Onderneming>
+				</Inhoud>
+			</Antwoord>
+		</Antwoorden>
+	</Repliek>
+</web:GeefOndernemingResponse>
