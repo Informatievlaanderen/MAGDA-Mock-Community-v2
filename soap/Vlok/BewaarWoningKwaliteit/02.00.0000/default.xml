@@ -1,42 +1,33 @@
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-    <SOAP-ENV:Header />
-    <SOAP-ENV:Body>
-        <BewaarWoningKwaliteitResponse xmlns="http://webservice.bewaarwoningkwaliteitdienst-02_00.vlok-02_00.vip.vlaanderen.be">
-            <Repliek xmlns="">
-                <Context>
-                    <Naam>Vlok.BewaarWoningKwaliteit</Naam>
-                    <Versie>02.00.0000</Versie>
-                    <Bericht>
-                        <Type>ANTWOORD</Type>
-                        <Tijdstip>
-                            <Datum>0001-01-01</Datum>
-                            <Tijd>00:00:00.000</Tijd>
-                        </Tijdstip>
-                        <Afzender>
-                            <Identificatie>?</Identificatie>
-                            <Naam>?</Naam>
-                            <Referte>?</Referte>
-                        </Afzender>
-                        <Ontvanger>
-                            <Identificatie>?</Identificatie>
-                            <Referte>?</Referte>
-                            <Hoedanigheid>?</Hoedanigheid>
-                        </Ontvanger>
-                    </Bericht>
-                </Context>
-                <Uitzonderingen>
-                    <Uitzondering>
-                        <Identificatie>30001</Identificatie>
-                        <Oorsprong>VLOK</Oorsprong>
-                        <Type>FOUT</Type>
-                        <Tijdstip>
-                            <Datum>2026-06-22</Datum>
-                            <Tijd>21:38:22</Tijd>
-                        </Tijdstip>
-                        <Diagnose>Geen gegevens gevonden voor de vraag</Diagnose>
-                    </Uitzondering>
-                </Uitzonderingen>
-            </Repliek>
-        </BewaarWoningKwaliteitResponse>
-    </SOAP-ENV:Body>
-</SOAP-ENV:Envelope>
+<web:BewaarWoningKwaliteitResponse xmlns:web="http://webservice.bewaarwoningkwaliteitdienst-02_00.vlok-02_00.vip.vlaanderen.be">
+	<Repliek>
+		<Context>
+			<Naam>BewaarWoningKwaliteit</Naam>
+			<Versie>02.00.0000</Versie>
+			<Bericht>
+				<Type>ANTWOORD</Type>
+				<Tijdstip>
+					<Datum>?</Datum>
+					<Tijd>?</Tijd>
+				</Tijdstip>
+				<Afzender>
+					<Identificatie>?</Identificatie>
+					<Naam>?</Naam>
+					<Referte>?</Referte>
+				</Afzender>
+			</Bericht>
+		</Context>
+		<Antwoorden>
+			<Antwoord>
+				<Referte>?</Referte>
+				<Uitzonderingen>
+					<Uitzondering>
+						<Identificatie>60004</Identificatie>
+						<Oorsprong>VLOK</Oorsprong>
+						<Type>FOUT</Type>
+						<Diagnose>Er heeft zich een technisch probleem voorgedaan.</Diagnose>
+					</Uitzondering>
+				</Uitzonderingen>
+			</Antwoord>
+		</Antwoorden>
+	</Repliek>
+</web:BewaarWoningKwaliteitResponse>

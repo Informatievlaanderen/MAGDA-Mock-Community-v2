@@ -1,7 +1,7 @@
-<web:ZoekWoningKwaliteitResponse xmlns:web="http://webservice.zoekwoningkwaliteitdienst-02_00.vlok-02_00.vip.vlaanderen.be">
+<web:BewaarWoningKwaliteitBijlageResponse xmlns:web="http://webservice.bewaarwoningkwaliteitbijlagedienst-02_00.vlok-02_00.vip.vlaanderen.be">
 	<Repliek>
 		<Context>
-			<Naam>ZoekWoningKwaliteit</Naam>
+			<Naam>BewaarWoningKwaliteitBijlageResponse</Naam>
 			<Versie>02.00.0000</Versie>
 			<Bericht>
 				<Type>ANTWOORD</Type>
@@ -21,13 +21,13 @@
 				<Referte>?</Referte>
 				<Uitzonderingen>
 					<Uitzondering>
-						<Identificatie>15001</Identificatie>
+						<Identificatie>60004</Identificatie>
 						<Oorsprong>VLOK</Oorsprong>
 						<Type>FOUT</Type>
-						<Diagnose>Er werden geen objecten gevonden voor type Pand of Entiteit met zoekterm Meir.</Diagnose>
+						<Diagnose>Er heeft zich een technisch probleem voorgedaan.</Diagnose>
 					</Uitzondering>
 				</Uitzonderingen>
 			</Antwoord>
 		</Antwoorden>
 	</Repliek>
-</web:ZoekWoningKwaliteitResponse>
+</web:BewaarWoningKwaliteitBijlageResponse>
