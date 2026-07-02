@@ -1,0 +1,273 @@
+<?xml version="1.0" standalone="no"?>
+<web:GeefOndernemingResponse xmlns:web="http://webservice.geefondernemingdienst-02_00.onderneming-02_00.vip.vlaanderen.be">
+    <Repliek>
+        <Context>
+            <Naam>GeefOnderneming</Naam>
+            <Versie>02.00.0000</Versie>
+            <Bericht>
+ 				<Type>ANTWOORD</Type>
+				<Tijdstip>
+					<Datum>0001-01-01</Datum>
+					<Tijd>00:00:00.000</Tijd>
+				</Tijdstip>
+				<Afzender>
+					<Identificatie>?</Identificatie>
+					<Naam>?</Naam>
+					<Referte>?</Referte>
+				</Afzender>
+				<Ontvanger>
+					<Identificatie>?</Identificatie>
+					<Referte>?</Referte>
+					<Hoedanigheid>?</Hoedanigheid>
+				</Ontvanger>
+            </Bericht>
+        </Context>
+        <Antwoorden>
+            <Antwoord>
+                <Referte>?</Referte>
+                <Inhoud>
+                    <Onderneming>
+                        <Ondernemingsnummer>0207528035</Ondernemingsnummer>
+                        <AuthentiekBron>
+                            <Code>03</Code>
+                            <Omschrijving>KBO</Omschrijving>
+                        </AuthentiekBron>
+                        <OndernemingOfVestiging>
+                            <Code Beschrijving="Onderneming">1</Code>
+                        </OndernemingOfVestiging>
+                        <StatusKBO>
+                            <Code>AC</Code>
+                        </StatusKBO>
+                        <SoortOnderneming>
+                            <Code Beschrijving="Rechtspersoon">2</Code>
+                        </SoortOnderneming>
+                        <Namen>
+                            <MaatschappelijkeNamen>
+                                <MaatschappelijkeNaam DatumBegin="1899-07-12">
+                                    <Naam>Stad Brugge</Naam>
+                                    <Taalcode>nl</Taalcode>
+                                </MaatschappelijkeNaam>
+                            </MaatschappelijkeNamen>
+                        </Namen>
+                        <Adressen>
+                            <Adres DatumBegin="1980-01-01">
+                                <Straat>
+                                    <Code>0047</Code>
+                                </Straat>
+                                <Huisnummer>12</Huisnummer>
+                                <Gemeente>
+                                    <NISCode>31005</NISCode>
+                                    <PostCode>8000</PostCode>
+                                </Gemeente>
+                                <Land>
+                                    <NISCode>150</NISCode>
+                                    <ISOCode>BE</ISOCode>
+                                    <Naam>BELGIE</Naam>
+                                </Land>
+                                <Type>
+                                    <Code>001</Code>
+                                </Type>
+                                <Descripties>
+                                    <Descriptie>
+                                        <Adres>
+                                            <Straat>
+                                                <Naam>Burg</Naam>
+                                            </Straat>
+                                            <Gemeente>
+                                                <Naam>Brugge</Naam>
+                                            </Gemeente>
+                                            <Land>
+                                                <NISCode>150</NISCode>
+                                                <Naam>België</Naam>
+                                            </Land>
+                                        </Adres>
+                                        <Taalcode>NL</Taalcode>
+                                    </Descriptie>
+                                </Descripties>
+                            </Adres>
+                        </Adressen>
+                        <Start>
+                            <Datum>1899-07-12</Datum>
+                        </Start>
+                        <Inschrijving>
+                            <Datum>2003-01-18</Datum>
+                        </Inschrijving>
+                        <Rechtsvormen>
+                            <Rechtsvorm DatumBegin="1899-07-12">
+                                <Code>411</Code>
+                            </Rechtsvorm>
+                        </Rechtsvormen>
+                        <Rechtstoestanden>
+                            <Rechtstoestand DatumBegin="1899-07-12">
+                                <Code>000</Code>
+                                <InstrumenterendeOverheid>207528035</InstrumenterendeOverheid>
+                            </Rechtstoestand>
+                        </Rechtstoestanden>
+                        <Activiteiten>
+                            <Activiteit DatumBegin="2025-01-01">
+                                <Nace>
+                                    <Code>84114</Code>
+                                    <Versie>2025</Versie>
+                                </Nace>
+                                <Type>
+                                    <Code Beschrijving="Hoofdactiviteit">P</Code>
+                                </Type>
+                                <Groep>001</Groep>
+                            </Activiteit>
+                            <Activiteit DatumBegin="2008-01-01" DatumEinde="2024-12-31">
+                                <Nace>
+                                    <Code>84114</Code>
+                                    <Versie>2008</Versie>
+                                </Nace>
+                                <Type>
+                                    <Code Beschrijving="Hoofdactiviteit">P</Code>
+                                </Type>
+                                <Groep>001</Groep>
+                            </Activiteit>
+                            <Activiteit DatumBegin="2025-01-01">
+                                <Nace>
+                                    <Code>96302</Code>
+                                    <Versie>2025</Versie>
+                                </Nace>
+                                <Type>
+                                    <Code Beschrijving="Nevenactiviteit">S</Code>
+                                </Type>
+                                <Groep>001</Groep>
+                            </Activiteit>
+                            <Activiteit DatumBegin="2011-04-20" DatumEinde="2024-12-31">
+                                <Nace>
+                                    <Code>96032</Code>
+                                    <Versie>2008</Versie>
+                                </Nace>
+                                <Type>
+                                    <Code Beschrijving="Nevenactiviteit">S</Code>
+                                </Type>
+                                <Groep>001</Groep>
+                            </Activiteit>
+                            <Activiteit DatumBegin="2025-01-01">
+                                <Nace>
+                                    <Code>77394</Code>
+                                    <Versie>2025</Versie>
+                                </Nace>
+                                <Type>
+                                    <Code Beschrijving="Nevenactiviteit">S</Code>
+                                </Type>
+                                <Groep>001</Groep>
+                            </Activiteit>
+                            <Activiteit DatumBegin="2008-04-16" DatumEinde="2024-12-31">
+                                <Nace>
+                                    <Code>77394</Code>
+                                    <Versie>2008</Versie>
+                                </Nace>
+                                <Type>
+                                    <Code Beschrijving="Nevenactiviteit">S</Code>
+                                </Type>
+                                <Groep>001</Groep>
+                            </Activiteit>
+                            <Activiteit DatumBegin="2025-01-01">
+                                <Nace>
+                                    <Code>77210</Code>
+                                    <Versie>2025</Versie>
+                                </Nace>
+                                <Type>
+                                    <Code Beschrijving="Nevenactiviteit">S</Code>
+                                </Type>
+                                <Groep>001</Groep>
+                            </Activiteit>
+                            <Activiteit DatumBegin="2008-10-15" DatumEinde="2024-12-31">
+                                <Nace>
+                                    <Code>77210</Code>
+                                    <Versie>2008</Versie>
+                                </Nace>
+                                <Type>
+                                    <Code Beschrijving="Nevenactiviteit">S</Code>
+                                </Type>
+                                <Groep>001</Groep>
+                            </Activiteit>
+                            <Activiteit DatumBegin="2025-01-01">
+                                <Nace>
+                                    <Code>56220</Code>
+                                    <Versie>2025</Versie>
+                                </Nace>
+                                <Type>
+                                    <Code Beschrijving="Nevenactiviteit">S</Code>
+                                </Type>
+                                <Groep>001</Groep>
+                            </Activiteit>
+                            <Activiteit DatumBegin="2017-05-01" DatumEinde="2024-12-31">
+                                <Nace>
+                                    <Code>56290</Code>
+                                    <Versie>2008</Versie>
+                                </Nace>
+                                <Type>
+                                    <Code Beschrijving="Nevenactiviteit">S</Code>
+                                </Type>
+                                <Groep>001</Groep>
+                            </Activiteit>
+                            <Activiteit DatumBegin="2025-01-01">
+                                <Nace>
+                                    <Code>47789</Code>
+                                    <Versie>2025</Versie>
+                                </Nace>
+                                <Type>
+                                    <Code Beschrijving="Nevenactiviteit">S</Code>
+                                </Type>
+                                <Groep>001</Groep>
+                            </Activiteit>
+                            <Activiteit DatumBegin="2008-08-28" DatumEinde="2024-12-31">
+                                <Nace>
+                                    <Code>47789</Code>
+                                    <Versie>2008</Versie>
+                                </Nace>
+                                <Type>
+                                    <Code Beschrijving="Nevenactiviteit">S</Code>
+                                </Type>
+                                <Groep>001</Groep>
+                            </Activiteit>
+                            <Activiteit DatumBegin="2025-01-01">
+                                <Nace>
+                                    <Code>47742</Code>
+                                    <Versie>2025</Versie>
+                                </Nace>
+                                <Type>
+                                    <Code Beschrijving="Nevenactiviteit">S</Code>
+                                </Type>
+                                <Groep>001</Groep>
+                            </Activiteit>
+                            <Activiteit DatumBegin="2008-08-28" DatumEinde="2024-12-31">
+                                <Nace>
+                                    <Code>47782</Code>
+                                    <Versie>2008</Versie>
+                                </Nace>
+                                <Type>
+                                    <Code Beschrijving="Nevenactiviteit">S</Code>
+                                </Type>
+                                <Groep>001</Groep>
+                            </Activiteit>
+                            <Activiteit DatumBegin="2025-01-01">
+                                <Nace>
+                                    <Code>84114</Code>
+                                    <Versie>2025</Versie>
+                                </Nace>
+                                <Type>
+                                    <Code Beschrijving="Hoofdactiviteit">P</Code>
+                                </Type>
+                                <Groep>006</Groep>
+                            </Activiteit>
+                            <Activiteit DatumBegin="2022-01-01" DatumEinde="2024-12-31">
+                                <Nace>
+                                    <Code>84114</Code>
+                                    <Versie>2008</Versie>
+                                </Nace>
+                                <Type>
+                                    <Code Beschrijving="Hoofdactiviteit">P</Code>
+                                </Type>
+                                <Groep>006</Groep>
+                            </Activiteit>
+                        </Activiteiten>
+                    </Onderneming>
+                </Inhoud>
+            </Antwoord>
+        </Antwoorden>
+    </Repliek>
+</web:GeefOndernemingResponse>

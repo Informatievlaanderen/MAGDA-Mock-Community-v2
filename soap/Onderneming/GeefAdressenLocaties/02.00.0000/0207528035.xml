@@ -1,0 +1,63 @@
+<?xml version="1.0" standalone="no"?>
+<web:GeefAdressenLocatiesResponse xmlns:web="http://webservice.geefadressenlocatiesdienst-02_00.ondgeo-02_00.vip.vlaanderen.be">
+	<Repliek>
+		<Context>
+			<Naam>GeefAdressenLocaties</Naam>
+			<Versie>02.00.0000</Versie>
+			<Bericht>
+				<Type>ANTWOORD</Type>
+				<Tijdstip>
+					<Datum>?</Datum>
+					<Tijd>?</Tijd>
+				</Tijdstip>
+				<Afzender>
+					<Identificatie>?</Identificatie>
+					<Naam>?</Naam>
+					<Referte>?</Referte>
+				</Afzender>
+				<Ontvanger>
+					<Identificatie>?</Identificatie>
+					<Referte>?</Referte>
+				</Ontvanger>
+			</Bericht>
+		</Context>
+		<Antwoorden>
+			<Antwoord>
+				<Referte>?</Referte>
+				<Inhoud>
+					<AdressenLocaties>
+						<AdresLocaties>
+							<Ondernemingsnummer>0207528035</Ondernemingsnummer>
+							<SoortOnderneming>
+								<Code Beschrijving="Rechtspersoon">2</Code>
+							</SoortOnderneming>
+							<KBOAdres DatumBegin="1980-01-01" DatumEinde="9999-12-31">
+								<Straat>
+									<Code>0047</Code>
+									<Naam>Burg</Naam>
+								</Straat>
+								<Huisnummer>12</Huisnummer>
+								<Gemeente>
+									<NISCode>31005</NISCode>
+									<PostCode>8000</PostCode>
+									<Naam>Brugge</Naam>
+								</Gemeente>
+								<Land>
+									<NISCode>150</NISCode>
+									<ISOCode>BEL</ISOCode>
+									<Naam>BELGIE</Naam>
+								</Land>
+								<Taal>
+									<Code Beschrijving="nl">2</Code>
+								</Taal>
+								<Type>
+									<Code Beschrijving="Onderneming">001</Code>
+								</Type>
+							</KBOAdres>
+						</AdresLocaties>
+					</AdressenLocaties>
+				</Inhoud>
+			</Antwoord>
+		</Antwoorden>
+	</Repliek>
+</web:GeefAdressenLocatiesResponse>

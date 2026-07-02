@@ -1,0 +1,65 @@
+<?xml version="1.0" standalone="no"?>
+<web:GeefFiscaleInhoudingsplichtResponse xmlns:web="http://magda.vlaanderen.be/onderneming/soap/geeffiscaleinhoudingsplicht/v02_01">
+	<Repliek>
+		<Context>
+			<Naam>GeefFiscaleInhoudingsplicht</Naam>
+			<Versie>02.01.0000</Versie>
+			<Bericht>
+				<Type>ANTWOORD</Type>
+				<Tijdstip>
+					<Datum>?</Datum>
+					<Tijd>?</Tijd>
+				</Tijdstip>
+				<Afzender>
+					<Identificatie>?</Identificatie>
+					<Naam>?</Naam>
+					<Referte>?</Referte>
+				</Afzender>
+				<Ontvanger>
+					<Identificatie>?</Identificatie>
+					<Naam>?</Naam>
+					<Referte>?</Referte>
+				</Ontvanger>
+			</Bericht>
+		</Context>
+		<Antwoorden>
+			<Antwoord>
+				<Referte>?</Referte>
+				<Inhoud>
+					<FiscaleInhoudingsplicht>
+						<Ondernemingsnummer>0207528035</Ondernemingsnummer>
+						<Inhoudingsplicht>
+							<Code>1</Code>
+							<Omschrijving Taal="nl">Inhoudingsplicht van toepassing</Omschrijving>
+						</Inhoudingsplicht>
+						<Status>
+							<Code>3</Code>
+							<Omschrijving Taal="nl">Er zijn schulden gevonden voor de onderneming</Omschrijving>
+						</Status>
+						<Attest>1419003</Attest>
+						<DatumEindeGeldigheid>2026-06-26</DatumEindeGeldigheid>
+						<Onderneming>
+							<Naam Taal="nl">Stad Brugge</Naam>
+							<Adres>
+								<Huisnummer>12</Huisnummer>
+								<Land>
+									<String>België</String>
+									<Taal>nl</Taal>
+								</Land>
+								<Postcode>8000</Postcode>
+								<NietGestandaardiseerdeStraatnaam>
+									<String>Burg</String>
+									<Taal>nl</Taal>
+								</NietGestandaardiseerdeStraatnaam>
+								<NietGestandaardiseerdeGemeentenaam>
+									<String>Brugge</String>
+									<Taal>nl</Taal>
+								</NietGestandaardiseerdeGemeentenaam>
+							</Adres>
+						</Onderneming>
+					</FiscaleInhoudingsplicht>
+				</Inhoud>
+			</Antwoord>
+		</Antwoorden>
+	</Repliek>
+</web:GeefFiscaleInhoudingsplichtResponse>

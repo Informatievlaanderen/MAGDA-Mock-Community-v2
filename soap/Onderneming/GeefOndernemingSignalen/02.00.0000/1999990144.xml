@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="no"?>
+<web:GeefOndernemingSignalenResponse xmlns:web="http://webservice.geefondernemingsignalendienst-02_00.onderneming-02_00.vip.vlaanderen.be">
+	<Repliek>
+		<Context>
+			<Naam>Onderneming.GeefOndernemingSignalen</Naam>
+			<Versie>02.00.0000</Versie>
+			<Bericht>
+				<Type>ANTWOORD</Type>
+				<Tijdstip>
+					<Datum>?</Datum>
+					<Tijd>?</Tijd>
+				</Tijdstip>
+				<Afzender>
+					<Identificatie>?</Identificatie>
+					<Naam>?</Naam>
+					<Referte>?</Referte>
+				</Afzender>
+				<Ontvanger>
+					<Identificatie>?</Identificatie>
+					<Referte>?</Referte>
+					<Hoedanigheid>?</Hoedanigheid>
+				</Ontvanger>
+			</Bericht>
+		</Context>
+		<Antwoorden>
+			<Antwoord>
+				<Referte>?</Referte>
+				<Inhoud>
+					<OndernemingSignalen>
+						<Faillissementsignalen>
+							<Faillissementsignaal>
+								<Ondernemingsnummer>1999990144</Ondernemingsnummer>
+								<Soort>
+									<Code Beschrijving="gerechtelijke reorganisatie, sluiting procedure">32</Code>
+								</Soort>
+								<Bron>Rechtbank van Koophandel</Bron>
+								<RechtbankVanKoophandel>LEUVEN</RechtbankVanKoophandel>
+								<DatumRegistratie>2026-02-20</DatumRegistratie>
+								<MeldingReedsOpgenomen>
+									<Code Beschrijving="Nog niet gemeld">N</Code>
+								</MeldingReedsOpgenomen>
+							</Faillissementsignaal>
+							<Faillissementsignaal>
+								<Ondernemingsnummer>1999990144</Ondernemingsnummer>
+								<Soort>
+									<Code Beschrijving="faillissement">1</Code>
+								</Soort>
+								<Bron>Belgisch Staatsblad</Bron>
+								<RechtbankVanKoophandel>LEUVEN</RechtbankVanKoophandel>
+								<DatumRegistratie>2026-03-06</DatumRegistratie>
+								<MeldingReedsOpgenomen>
+									<Code Beschrijving="Nog niet gemeld">N</Code>
+								</MeldingReedsOpgenomen>
+								<Faillissement>
+									<DatumUitspraak>2026-03-05</DatumUitspraak>
+									<Curatoren>
+										<Curator>
+											<Naam>JANSSENS GREET</Naam>
+											<Adres>Bondgenotenlaan 87</Adres>
+											<Postcode>3000</Postcode>
+											<Gemeente>LEUVEN</Gemeente>
+										</Curator>
+									</Curatoren>
+								</Faillissement>
+							</Faillissementsignaal>
+						</Faillissementsignalen>
+						<RSZDagvaardingen>
+							<RSZDagvaarding>
+								<Ondernemingsnummer>1999990144</Ondernemingsnummer>
+								<Soort>
+									<Code Beschrijving="nieuwe dagvaarding RSZ">1</Code>
+								</Soort>
+								<Datum>2025-11-14</Datum>
+								<Arbeidsrechtbank>LEUVEN</Arbeidsrechtbank>
+							</RSZDagvaarding>
+						</RSZDagvaardingen>
+					</OndernemingSignalen>
+				</Inhoud>
+			</Antwoord>
+		</Antwoorden>
+	</Repliek>
+</web:GeefOndernemingSignalenResponse>

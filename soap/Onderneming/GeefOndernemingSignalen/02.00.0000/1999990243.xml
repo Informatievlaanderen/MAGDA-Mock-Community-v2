@@ -1,0 +1,89 @@
+<?xml version="1.0" standalone="no"?>
+<web:GeefOndernemingSignalenResponse xmlns:web="http://webservice.geefondernemingsignalendienst-02_00.onderneming-02_00.vip.vlaanderen.be">
+	<Repliek>
+		<Context>
+			<Naam>Onderneming.GeefOndernemingSignalen</Naam>
+			<Versie>02.00.0000</Versie>
+			<Bericht>
+				<Type>ANTWOORD</Type>
+				<Tijdstip>
+					<Datum>?</Datum>
+					<Tijd>?</Tijd>
+				</Tijdstip>
+				<Afzender>
+					<Identificatie>?</Identificatie>
+					<Naam>?</Naam>
+					<Referte>?</Referte>
+				</Afzender>
+				<Ontvanger>
+					<Identificatie>?</Identificatie>
+					<Referte>?</Referte>
+					<Hoedanigheid>?</Hoedanigheid>
+				</Ontvanger>
+			</Bericht>
+		</Context>
+		<Antwoorden>
+			<Antwoord>
+				<Referte>?</Referte>
+				<Inhoud>
+					<OndernemingSignalen>
+						<Faillissementsignalen>
+							<Faillissementsignaal>
+								<Ondernemingsnummer>1999990243</Ondernemingsnummer>
+								<Soort>
+									<Code Beschrijving="afsluiting faillissement">2</Code>
+								</Soort>
+								<Bron>Kruispuntbank van Ondernemingen</Bron>
+								<RechtbankVanKoophandel>MECHELEN</RechtbankVanKoophandel>
+								<DatumRegistratie>2013-11-28</DatumRegistratie>
+								<MeldingReedsOpgenomen>
+									<Code Beschrijving="Nog niet gemeld">N</Code>
+								</MeldingReedsOpgenomen>
+								<Faillissement>
+									<DatumAfsluiting>2013-11-25</DatumAfsluiting>
+									<Verschoonbaarheid>
+										<Code Beschrijving="geen publicatie van eventuele verschoonbaarheid">-</Code>
+									</Verschoonbaarheid>
+									<Curatoren>
+										<Curator>
+											<Naam>DE NEEF BETTY</Naam>
+											<Adres>VEEMARKT 37 A/2</Adres>
+											<Postcode>2800</Postcode>
+											<Gemeente>MECHELEN</Gemeente>
+										</Curator>
+									</Curatoren>
+								</Faillissement>
+							</Faillissementsignaal>
+							<Faillissementsignaal>
+								<Ondernemingsnummer>1999990243</Ondernemingsnummer>
+								<Soort>
+									<Code Beschrijving="afsluiting faillissement">2</Code>
+								</Soort>
+								<Bron>Belgisch Staatsblad</Bron>
+								<RechtbankVanKoophandel>MECHELEN</RechtbankVanKoophandel>
+								<DatumRegistratie>2013-12-03</DatumRegistratie>
+								<MeldingReedsOpgenomen>
+									<Code Beschrijving="Nog niet gemeld">N</Code>
+								</MeldingReedsOpgenomen>
+								<Faillissement>
+									<DatumAfsluiting>2013-11-25</DatumAfsluiting>
+									<Verschoonbaarheid>
+										<Code Beschrijving="geen publicatie van eventuele verschoonbaarheid">-</Code>
+									</Verschoonbaarheid>
+									<Curatoren>
+										<Curator>
+											<Naam>DE NEEF BETTY</Naam>
+											<Adres>VEEMARKT 37 A/2</Adres>
+											<Postcode>2800</Postcode>
+											<Gemeente>MECHELEN</Gemeente>
+										</Curator>
+									</Curatoren>
+								</Faillissement>
+							</Faillissementsignaal>
+						</Faillissementsignalen>
+					</OndernemingSignalen>
+				</Inhoud>
+			</Antwoord>
+		</Antwoorden>
+	</Repliek>
+</web:GeefOndernemingSignalenResponse>

@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="no"?>
+<web:GeefPCenTWResponse xmlns:web="http://webservice.geefpcentwdienst-02_00.onderneming-02_00.vip.vlaanderen.be">
+	<Repliek>
+		<Context>
+			<Naam>GeefPCenTWResponse</Naam>
+			<Versie>02.00.0000</Versie>
+			<Bericht>
+				<Type>ANTWOORD</Type>
+				<Tijdstip>
+					<Datum>0001-01-01</Datum>
+					<Tijd>00:00:00.000</Tijd>
+				</Tijdstip>
+				<Afzender>
+					<Identificatie>?</Identificatie>
+					<Naam>?</Naam>
+					<Referte>?</Referte>
+				</Afzender>
+				<Ontvanger>
+					<Identificatie>?</Identificatie>
+					<Referte>?</Referte>
+					<Hoedanigheid>?</Hoedanigheid>
+				</Ontvanger>
+			</Bericht>
+		</Context>
+		<Antwoorden>
+			<Antwoord>
+				<Referte>0332b07e-8dc1-4297-b94a-aa4844172889</Referte>
+				<Inhoud>
+					<PCenTWen>
+						<PCenTW>
+							<Ondernemingsnummer>0893557565</Ondernemingsnummer>
+							<AuthentiekeBron>
+								<Code>05</Code>
+								<Omschrijving>RSZ</Omschrijving>
+							</AuthentiekeBron>
+							<Periode>
+								<Jaar>2022</Jaar>
+								<Kwartaal>3</Kwartaal>
+								<Begin>2022-07-01</Begin>
+								<Einde>2022-09-30</Einde>
+							</Periode>
+							<ParitairComite>
+								<Code>314</Code>
+								<Omschrijving>Paritair Comité voor het kappersbedrijf en de schoonheidszorgen</Omschrijving>
+							</ParitairComite>
+							<Tewerkstelling>
+								<Code>0</Code>
+								<Omschrijving>0 tot 0</Omschrijving>
+							</Tewerkstelling>
+						</PCenTW>
+					</PCenTWen>
+				</Inhoud>
+			</Antwoord>
+		</Antwoorden>
+	</Repliek>
+</web:GeefPCenTWResponse>
