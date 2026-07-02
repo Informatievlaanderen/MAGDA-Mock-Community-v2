@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web:ZoekPersoonOpAdresResponse xmlns:web="http://magda.vlaanderen.be/persoon/soap/zoekpersoonopadres/v02_02">
+	<Repliek>
+		<Context>
+			<Naam>ZoekPersoonOpAdres</Naam>
+			<Versie>02.02.0000</Versie>
+			<Bericht>
+				<Type>ANTWOORD</Type>
+				<Tijdstip>
+					<Datum>0001-01-01</Datum>
+					<Tijd>00:00:00.000</Tijd>
+				</Tijdstip>
+				<Afzender>
+					<Identificatie>?</Identificatie>
+					<Naam>?</Naam>
+					<Referte>?</Referte>
+				</Afzender>
+				<Ontvanger>
+					<Identificatie>?</Identificatie>
+					<Referte>?</Referte>
+					<Hoedanigheid>?</Hoedanigheid>
+				</Ontvanger>
+			</Bericht>
+		</Context>
+		<Antwoorden>
+			<Antwoord>
+				<Referte>?</Referte>
+				<Inhoud>
+					<Personen>
+						<Persoon Bron="KSZ">
+							<INSZ>01234567894</INSZ>
+							<Naam>
+								<Achternamen>
+									<Achternaam>Pieters</Achternaam>
+								</Achternamen>
+								<Voornamen>
+									<Voornaam>Nicole</Voornaam>
+								</Voornamen>
+							</Naam>
+							<Geslacht>
+								<Code>2</Code>
+								<Omschrijving Taal="nl">Vrouwelijk</Omschrijving>
+							</Geslacht>
+							<Geboortedatum>1968-07-15</Geboortedatum>
+							<Register>
+								<Code>RR</Code>
+							</Register>
+							<Adressen>
+								<Hoofdverblijfplaats DatumBegin="1976-11-21">
+									<Huisnummer>7</Huisnummer>
+									<Land>
+										<String>BELGIE</String>
+										<Taal>nl</Taal>
+									</Land>
+									<Postcode>4160</Postcode>
+									<NISCodeLand>150</NISCodeLand>
+									<ISOCodeLand>BEL</ISOCodeLand>
+									<NISCodeGemeente>61079</NISCodeGemeente>
+									<StraatCode>0015</StraatCode>
+									<NietGestandaardiseerdeStraatnaam>
+										<String>Route Belle Vue</String>
+										<Taal>fr</Taal>
+									</NietGestandaardiseerdeStraatnaam>
+									<NietGestandaardiseerdeGemeentenaam>
+										<String>Anthisnes</String>
+										<Taal>fr</Taal>
+									</NietGestandaardiseerdeGemeentenaam>
+								</Hoofdverblijfplaats>
+							</Adressen>
+						</Persoon>
+					</Personen>
+				</Inhoud>
+			</Antwoord>
+		</Antwoorden>
+	</Repliek>
+</web:ZoekPersoonOpAdresResponse>

@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <web:GeefPersoonResponse xmlns:web="http://magda.vlaanderen.be/persoon/soap/geefpersoon/v02_02">
     <Repliek>
         <Context>
             <Naam>GeefPersoon</Naam>
             <Versie>02.02.0000</Versie>
             <Bericht>
-                <Type>ANTWOORD</Type>
-                <Tijdstip>
-                    <Datum>2025-11-17</Datum>
-                    <Tijd>16:07:32.742</Tijd>
-                </Tijdstip>
-                <Afzender>
-                    <Identificatie>vip.vlaanderen.be</Identificatie>
-                    <Naam>VIP</Naam>
-                    <Referte>09c3bd6d-f4ae-4b2f-ad63-58efbc5187e0</Referte>
-                </Afzender>
-                <Ontvanger>
-                    <Identificatie>gent.be/ipdc57648</Identificatie>
-                    <Referte>AREF_QT_911125_879464</Referte>
-                    <Hoedanigheid>ipdc57648</Hoedanigheid>
-                </Ontvanger>
+ 				<Type>ANTWOORD</Type>
+				<Tijdstip>
+					<Datum>0001-01-01</Datum>
+					<Tijd>00:00:00.000</Tijd>
+				</Tijdstip>
+				<Afzender>
+					<Identificatie>?</Identificatie>
+					<Naam>?</Naam>
+					<Referte>?</Referte>
+				</Afzender>
+				<Ontvanger>
+					<Identificatie>?</Identificatie>
+					<Referte>?</Referte>
+					<Hoedanigheid>?</Hoedanigheid>
+				</Ontvanger>
             </Bericht>
         </Context>
         <Antwoorden>
             <Antwoord>
-                <Referte>71061148-ef05-4e25-ad80-4e3d690e24c8</Referte>
+                <Referte>?</Referte>
                 <Inhoud>
                     <Persoon Bron="RR" DatumCreatie="2001-10-04">
                         <INSZ>01700462685</INSZ>

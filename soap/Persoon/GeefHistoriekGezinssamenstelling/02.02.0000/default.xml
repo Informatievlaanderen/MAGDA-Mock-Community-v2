@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<web:GeefPersoonResponse xmlns:web="http://magda.vlaanderen.be/persoon/soap/geefpersoon/v02_02">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<web:GeefHistoriekGezinssamenstellingResponse xmlns:web="http://magda.vlaanderen.be/persoon/soap/geefhistoriekgezinssamenstelling/v02_02">
     <Repliek>
         <Context>
-            <Naam>GeefPersoon</Naam>
+            <Naam>GeefHistoriekGezinssamenstelling</Naam>
             <Versie>02.02.0000</Versie>
             <Bericht>
  				<Type>ANTWOORD</Type>
@@ -28,11 +28,11 @@
                 <Uitzonderingen>
                     <Uitzondering>
                         <Identificatie>30001</Identificatie>
-                        <Oorsprong>RR</Oorsprong>
+                        <Oorsprong>MAGDA</Oorsprong>
                         <Type>FOUT</Type>
                         <Tijdstip>
-          					<Datum>0001-01-01</Datum>
-          					<Tijd>00:00:00.000</Tijd>
+                            <Datum>2023-12-12</Datum>
+                            <Tijd>15:11:27.938</Tijd>
                         </Tijdstip>
                         <Diagnose>Geen gegevens gevonden voor de vraag</Diagnose>
                     </Uitzondering>
@@ -40,5 +40,4 @@
             </Antwoord>
         </Antwoorden>
     </Repliek>
-</web:GeefPersoonResponse>
-
+</web:GeefHistoriekGezinssamenstellingResponse>
