@@ -2,7 +2,7 @@
 <web:GeefSocialeSchuldResponse xmlns:web="http://webservice.geefsocialeschulddienst-02_00.onderneming-02_00.vip.vlaanderen.be">
 	<Repliek>
 		<Context>
-			<Naam>GeefSocialeSchuldResponse</Naam>
+			<Naam>GeefSocialeSchuld</Naam>
 			<Versie>02.00.0000</Versie>
 			<Bericht>
 				<Type>ANTWOORD</Type>
@@ -26,7 +26,6 @@
 			<Antwoord>
 				<Referte>?</Referte>
 				<Inhoud>
-					<Ontvangstbevestiging Beschrijving="Correct Ontvangen">1</Ontvangstbevestiging>
 					<SocialeSchuld>
 						<FinancieleSituatie>
 							<Informatie>
