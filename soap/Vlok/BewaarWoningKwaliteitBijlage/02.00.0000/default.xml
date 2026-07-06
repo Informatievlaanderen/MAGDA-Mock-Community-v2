@@ -1,7 +1,7 @@
 <web:BewaarWoningKwaliteitBijlageResponse xmlns:web="http://webservice.bewaarwoningkwaliteitbijlagedienst-02_00.vlok-02_00.vip.vlaanderen.be">
 	<Repliek>
 		<Context>
-			<Naam>BewaarWoningKwaliteitBijlageResponse</Naam>
+			<Naam>BewaarWoningKwaliteitBijlage</Naam>
 			<Versie>02.00.0000</Versie>
 			<Bericht>
 				<Type>ANTWOORD</Type>
@@ -14,6 +14,11 @@
 					<Naam>?</Naam>
 					<Referte>?</Referte>
 				</Afzender>
+				<Ontvanger>
+					<Identificatie>?</Identificatie>
+					<Referte>?</Referte>
+					<Hoedanigheid>?</Hoedanigheid>
+				</Ontvanger>
 			</Bericht>
 		</Context>
 		<Antwoorden>

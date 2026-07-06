@@ -14,6 +14,12 @@
 					<Naam>MagdaGateway</Naam>
 					<Referte>5dd07869-6ce5-4a17-a946-bf37d2d2d65c</Referte>
 				</Afzender>
+				<Ontvanger>
+					<Identificatie>?</Identificatie>
+					<Naam>?</Naam>
+					<Referte>?</Referte>
+					<Hoedanigheid>?</Hoedanigheid>
+				</Ontvanger>
 			</Bericht>
 		</Context>
 		<Antwoorden>
