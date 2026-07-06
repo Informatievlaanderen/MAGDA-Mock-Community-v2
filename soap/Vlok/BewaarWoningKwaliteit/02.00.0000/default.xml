@@ -14,6 +14,11 @@
 					<Naam>?</Naam>
 					<Referte>?</Referte>
 				</Afzender>
+				<Ontvanger>
+					<Identificatie>?</Identificatie>
+					<Referte>?</Referte>
+					<Hoedanigheid>?</Hoedanigheid>
+				</Ontvanger>
 			</Bericht>
 		</Context>
 		<Antwoorden>

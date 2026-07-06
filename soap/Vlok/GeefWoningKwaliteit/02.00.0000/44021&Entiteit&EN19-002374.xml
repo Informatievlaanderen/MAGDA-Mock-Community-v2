@@ -1,7 +1,7 @@
 <web:GeefWoningKwaliteitResponse xmlns:web="http://webservice.geefwoningkwaliteitdienst-02_00.vlok-02_00.vip.vlaanderen.be">
 	<Repliek>
 		<Context>
-			<Naam>GeefWoningkwaliteitDienst</Naam>
+			<Naam>GeefWoningKwaliteit</Naam>
 			<Versie>02.00.0000</Versie>
 			<Bericht>
 				<Type>ANTWOORD</Type>
