@@ -57,14 +57,14 @@
 									<ISOCodeLand>BEL</ISOCodeLand>
 									<NISCodeGemeente>31005</NISCodeGemeente>
 									<StraatCode>2026</StraatCode>
-									<Straatnaam>
+									<NietGestandaardiseerdeStraatnaam>
 										<String>Stationsstraat</String>
 										<Taal>nl</Taal>
-									</Straatnaam>
-									<Gemeentenaam>
+									</NietGestandaardiseerdeStraatnaam>
+									<NietGestandaardiseerdeGemeentenaam>
 										<String>Brugge</String>
 										<Taal>nl</Taal>
-									</Gemeentenaam>
+									</NietGestandaardiseerdeGemeentenaam>
 								</Hoofdverblijfplaats>
 							</Adressen>
 						</Persoon>
