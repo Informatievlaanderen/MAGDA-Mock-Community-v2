@@ -1,0 +1,15 @@
+{
+    "response": {
+        "status": 400,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "detail": "Source: VCode moet groter zijn dan 1000",
+            "instance": "73970f73-7e1e-4b5a-9880-d944ad7520a2",
+            "status": 400,
+            "title": "Er heeft zich een fout voorgedaan!",
+            "type": "urn:associationregistry.admin.api:domain"
+        }
+    }
+}
