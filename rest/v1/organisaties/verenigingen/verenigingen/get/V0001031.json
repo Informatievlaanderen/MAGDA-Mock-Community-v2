@@ -1,0 +1,147 @@
+{
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "@context": "https://publiek.verenigingen.vlaanderen.be/v1/contexten/beheer/detail-vereniging-context.json",
+            "vereniging": {
+                "@type": "fei:FeitelijkeVerenigingen",
+                "vCode": "V0001031",
+                "verenigingstype": {
+                    "code": "FV",
+                    "naam": "Feitelijke vereniging"
+                },
+                "naam": "Chocolat Biscuit",
+                "korteNaam": "Choco",
+                "korteBeschrijving": "Test MAGDAA",
+                "startdatum": "2005-08-13",
+                "einddatum": null,
+                "doelgroep": {
+                    "@id": "doel:822da1f9-21b6-563d-a778-f094e171bb79",
+                    "@type": "verenigingen_ext:Doelgroep",
+                    "minimumleeftijd": 0,
+                    "maximumleeftijd": 100
+                },
+                "status": "Actief",
+                "isUitgeschrevenUitPubliekeDatastroom": false,
+                "hoofdactiviteitenVerenigingsloket": [
+                    {
+                        "@id": "act:68023564-66df-5717-beb8-d974fc7da114",
+                        "@type": "skos:Concept",
+                        "code": "BWWC",
+                        "naam": "Buurtwerking & Wijkcomité"
+                    },
+                    {
+                        "@id": "act:1e562652-7c0c-5db6-bfcd-c6d195b9c784",
+                        "@type": "skos:Concept",
+                        "code": "DINT",
+                        "naam": "Diversiteit & Integratie"
+                    },
+                    {
+                        "@id": "act:08abc36c-2ac4-5efc-844c-17686bf327c2",
+                        "@type": "skos:Concept",
+                        "code": "GEWE",
+                        "naam": "Gezondheid & Welzijn"
+                    },
+                    {
+                        "@id": "act:7d2f1817-a098-5cdd-aa8b-7393fd71a9fc",
+                        "@type": "skos:Concept",
+                        "code": "HOSP",
+                        "naam": "Hobby & Spel"
+                    }
+                ],
+                "contactgegevens": [
+                    {
+                        "@id": "cont:dd121c00-2bda-57f2-916b-f972e42ca176",
+                        "@type": "schema:ContactPoint",
+                        "contactgegevenId": 1,
+                        "contactgegeventype": "E-mail",
+                        "waarde": "algemeen@noname.com",
+                        "beschrijving": "Algemeen",
+                        "isPrimair": true,
+                        "bron": "Initiator"
+                    }
+                ],
+                "locaties": [
+                    {
+                        "@id": "loc:839fe85a-a9f4-5109-a287-afc8abd65ff3",
+                        "@type": "org:Site",
+                        "locatieId": 1,
+                        "locatietype": "Activiteiten",
+                        "isPrimair": true,
+                        "naam": "Naam locatie",
+                        "adres": {
+                            "@id": "adressen:f1958506-021c-5acf-b566-e68b4d8e4e29",
+                            "@type": "locn:Address",
+                            "straatnaam": "Straatnddddaam",
+                            "huisnummer": "234",
+                            "busnummer": "12",
+                            "postcode": "1000",
+                            "gemeente": "Gemeente",
+                            "land": "België"
+                        },
+                        "adresvoorstelling": "Straatnddddaam 234 bus 12, 1000 Gemeente, België",
+                        "adresId": {
+                            "broncode": "AR",
+                            "bronwaarde": "https://data.vlaanderen.be/id/adres/0"
+                        },
+                        "verwijstNaar": {
+                            "@id": "adressenregister:0",
+                            "@type": "geregistreerdAdres"
+                        },
+                        "bron": "Initiator"
+                    }
+                ],
+                "vertegenwoordigers": [
+                    {
+                        "@id": "person:31bdad2b-55fa-5ada-953a-809b8298236e",
+                        "@type": "person:Person",
+                        "vertegenwoordigerId": 1,
+                        "insz": "01010100225",
+                        "voornaam": "testAchernaam",
+                        "achternaam": "testAchernaam",
+                        "roepnaam": "Nickname",
+                        "rol": "testRole",
+                        "isPrimair": true,
+                        "e-mail": "",
+                        "telefoon": "0000112233",
+                        "mobiel": "9999887766",
+                        "socialMedia": "http://example.org",
+                        "vertegenwoordigerContactgegevens": {
+                            "@id": "cont:3eaaac4b-28f6-5c01-abc5-a9415bf004e5",
+                            "@type": "schema:ContactPoint",
+                            "isPrimair": true,
+                            "e-mail": "",
+                            "telefoon": "0000112233",
+                            "mobiel": "9999887766",
+                            "socialMedia": "http://example.org"
+                        },
+                        "bron": "Initiator"
+                    }
+                ],
+                "sleutels": [
+                    {
+                        "@id": "identificatoren:3fa4b88f-c940-5359-99fa-76fa9b5d3c43",
+                        "@type": "adms:Identifier",
+                        "bron": "Vcode",
+                        "waarde": "V0001031",
+                        "codeerSysteem": "Vcode",
+                        "gestructureerdeIdentificator": {
+                            "@id": "ges:21f77ad4-eee4-5c25-8424-0111a1f80927",
+                            "@type": "generiek:GestructureerdeIdentificator",
+                            "nummer": "V0001031"
+                        }
+                    }
+                ],
+                "relaties": [
+                ],
+                "bron": "Initiator"
+            },
+            "metadata": {
+                "datumLaatsteAanpassing": "2024-03-18"
+            }
+        }
+    }
+}
