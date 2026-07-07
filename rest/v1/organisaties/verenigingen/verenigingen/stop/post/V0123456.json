@@ -1,0 +1,15 @@
+{
+    "response": {
+        "status": 400,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "detail": "Source: Einddatum moet na startdatum liggen.",
+            "instance": "305b0278-4700-4360-b196-30865c22f92b",
+            "status": 400,
+            "title": "Er heeft zich een fout voorgedaan!",
+            "type": "urn:associationregistry.admin.api:domain"
+        }
+    }
+}
