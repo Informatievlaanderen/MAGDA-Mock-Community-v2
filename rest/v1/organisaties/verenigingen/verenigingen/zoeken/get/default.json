@@ -1,0 +1,19 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "@context": "https://publiek.verenigingen.vlaanderen.be/v1/contexten/beheer/zoek-verenigingen-context.json",
+      "verenigingen": [],
+      "metadata": {
+          "pagination": {
+              "totalCount": 0,
+              "offset": 0,
+              "limit": 5
+          }
+      }
+    }
+  }
+}
