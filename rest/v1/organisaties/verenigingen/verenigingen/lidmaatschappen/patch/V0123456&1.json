@@ -1,0 +1,23 @@
+{
+    "response": {
+        "status": 400,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "detail": "Source: Validatie mislukt!",
+            "instance": "04b01df8-23e8-430d-99ac-107331bed445",
+            "status": 400,
+            "title": "Er heeft zich een fout voorgedaan!",
+            "type": "urn:associationregistry.admin.api:validation",
+            "validationErrors": {
+                "tot": [
+                    {
+                        "code": "GreaterThanOrEqualValidator",
+                        "reason": "Een einddatum in een periode moet altijd later zijn dan de startdatum."
+                    }
+                ]
+            }
+        }
+    }
+}
