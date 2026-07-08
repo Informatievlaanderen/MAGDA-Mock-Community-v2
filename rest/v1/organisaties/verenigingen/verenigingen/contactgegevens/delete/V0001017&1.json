@@ -1,0 +1,14 @@
+{
+    "response": {
+        "status": 500,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "title": "Internal Server Error",
+            "status": "500",
+            "detail": "Authentication error",
+            "instance": "a6182f66-5831-465b-85df-0fa7cd3e1c4a"
+        }
+    }
+}
