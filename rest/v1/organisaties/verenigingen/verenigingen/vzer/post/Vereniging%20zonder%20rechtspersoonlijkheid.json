@@ -1,0 +1,29 @@
+{
+    "response": {
+        "status": 400,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "detail": "Source: Validatie mislukt!",
+            "instance": "b759ca82-e66a-4d30-9e38-9339cb3af269",
+            "status": 400,
+            "title": "Er heeft zich een fout voorgedaan!",
+            "type": "urn:associationregistry.admin.api:validation",
+            "validationErrors": {
+                "contactgegevens[0].Contactgegeventype": [
+                    {
+                        "code": "NotNullValidator",
+                        "reason": "'contactgegeventype' is verplicht."
+                    }
+                ],
+                "locaties[0]": [
+                    {
+                        "code": "PredicateValidator",
+                        "reason": "'Locatie' moet of een adres of een adresId bevatten."
+                    }
+                ]
+            }
+        }
+    }
+}
