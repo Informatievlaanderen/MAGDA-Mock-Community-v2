@@ -1,0 +1,10 @@
+{
+  "response": {
+    "status": 202,
+    "headers": {
+      "VR-sequence": "1564",
+      "ETag": "W/\"26\"",
+      "Location": "https://mock.api.vlaanderen.be/api/v1/organisaties/verenigingen/verenigingen/V013245/contactgegevens/2"
+    }
+  }
+}

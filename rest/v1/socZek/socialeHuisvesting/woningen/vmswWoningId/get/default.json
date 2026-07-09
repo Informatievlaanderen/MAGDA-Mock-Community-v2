@@ -1,0 +1,14 @@
+{
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "title": "Not Found",
+      "detail": "Source: Geen woning gevonden voor vmswWoningId.",
+      "instance": "86b6af70-fc85-401f-9fb1-ca206d1c7a4e",
+      "status": "404"
+    }
+  }
+}

@@ -1,0 +1,480 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningen/KPRLW/conditiescore",
+      "value": {
+        "gebouwstaatWegingsfactorProcent": 100,
+        "gebouwstaat": {
+          "groepen": [
+            {
+              "scores": [
+                {
+                  "totaalProcent": 100,
+                  "scoreLabel": "Uitstekende staat",
+                  "score": "1,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/VTG",
+                    "code": "VTG",
+                    "label": "Geveloppervlak",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/VTG"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": 8
+                },
+                {
+                  "totaalProcent": 100,
+                  "scoreLabel": "Uitstekende staat",
+                  "score": "1,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/RQL",
+                    "code": "RQL",
+                    "label": "Raam- en deurprofielen",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/RQL"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": 6
+                },
+                {
+                  "totaalProcent": 100,
+                  "scoreLabel": "Uitstekende staat",
+                  "score": "1,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/QFM",
+                    "code": "QFM",
+                    "label": "Dakoppervlak",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/QFM"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": 10
+                },
+                {
+                  "totaalProcent": 100,
+                  "scoreLabel": "Uitstekende staat",
+                  "score": "1,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/WTZ",
+                    "code": "WTZ",
+                    "label": "Hemelwaterafvoer",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/WTZ"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": 2
+                },
+                {
+                  "totaalProcent": 100,
+                  "scoreLabel": "Uitstekende staat",
+                  "score": "1,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/KDX",
+                    "code": "KDX",
+                    "label": "Dakranden en kroonlijsten",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/KDX"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": 4
+                }
+              ],
+              "totaalProcent": 100,
+              "wegingsfactorProcent": 30,
+              "naam": "Extern"
+            },
+            {
+              "scores": [
+                {
+                  "totaalProcent": 40,
+                  "scoreLabel": "ERP-score dubbel - overwegend",
+                  "score": "4,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/BQZ",
+                    "code": "BQZ",
+                    "label": "Beglazing",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/BQZ"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": 8
+                },
+                {
+                  "totaalProcent": 40,
+                  "scoreLabel": "ERP-score <6 cm",
+                  "score": "4,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/DCP",
+                    "code": "DCP",
+                    "label": "Dakisolatie",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/DCP"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": 8
+                },
+                {
+                  "totaalProcent": 40,
+                  "scoreLabel": "ERP-score geïsoleerd <6 cm",
+                  "score": "4,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/SVR",
+                    "code": "SVR",
+                    "label": "Gevelisolatie",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/SVR"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": 8
+                },
+                {
+                  "totaalProcent": 100,
+                  "scoreLabel": "0 < EPC <= 100 kWh/m²jaar",
+                  "score": "1,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/CKV",
+                    "code": "CKV",
+                    "label": "EPC klasse",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/CKV"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": 6
+                }
+              ],
+              "totaalProcent": 52,
+              "wegingsfactorProcent": 30,
+              "naam": "Isolatie"
+            },
+            {
+              "scores": [
+                {
+                  "totaalProcent": 100,
+                  "scoreLabel": "Uitstekende staat",
+                  "score": "1,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/RLJ",
+                    "code": "RLJ",
+                    "label": "Vloerafwerking",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/RLJ"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": 6
+                },
+                {
+                  "totaalProcent": 100,
+                  "scoreLabel": "Uitstekende staat",
+                  "score": "1,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/GFL",
+                    "code": "GFL",
+                    "label": "Badkamer",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/GFL"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": 7
+                },
+                {
+                  "totaalProcent": 100,
+                  "scoreLabel": "Uitstekende staat",
+                  "score": "1,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/NTP",
+                    "code": "NTP",
+                    "label": "Keuken",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/NTP"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": 7
+                }
+              ],
+              "totaalProcent": 100,
+              "wegingsfactorProcent": 20,
+              "naam": "Intern"
+            },
+            {
+              "scores": [
+                {
+                  "totaalProcent": 100,
+                  "scoreLabel": "Uitstekende installatie",
+                  "score": "1,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/PJX",
+                    "code": "PJX",
+                    "label": "Verwarmingstoestel",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/PJX"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": 6
+                },
+                {
+                  "totaalProcent": 100,
+                  "scoreLabel": "Uitstekende installatie",
+                  "score": "1,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/XSM",
+                    "code": "XSM",
+                    "label": "Sanitair warmwaterbereiding",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/XSM"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": 3
+                },
+                {
+                  "totaalProcent": 80,
+                  "scoreLabel": "Goede installatie",
+                  "score": "2,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/VBG",
+                    "code": "VBG",
+                    "label": "Ventilatiesysteem",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/VBG"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": 5
+                },
+                {
+                  "totaalProcent": 60,
+                  "scoreLabel": "Redelijke installatie",
+                  "score": "3,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/LQY",
+                    "code": "LQY",
+                    "label": "Elektrische installatie",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/LQY"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": 6
+                }
+              ],
+              "totaalProcent": 83,
+              "wegingsfactorProcent": 20,
+              "naam": "Technieken"
+            }
+          ],
+          "naam": "Gebouwstaat"
+        },
+        "voorWoning": "/v1/woonmaatschappijen/0400898624/woningen/KPRLW",
+        "gebouwstaatScoreProcent": 82.2,
+        "veiligheidEnGezondheidWegingsfactorProcent": -50,
+        "veiligheidEnGezondheid": {
+          "groepen": [
+            {
+              "scores": [
+                {
+                  "totaalProcent": 0,
+                  "scoreLabel": "Geen zichtbare gebreken",
+                  "score": "1,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/SCG",
+                    "code": "SCG",
+                    "label": "Stabiliteit algemeen",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/SCG"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": -10
+                }
+              ],
+              "totaalProcent": 0,
+              "wegingsfactorProcent": -10,
+              "naam": "Stabiliteit"
+            },
+            {
+              "scores": [
+                {
+                  "totaalProcent": 100,
+                  "scoreLabel": "Geen verslag beschikbaar (app)",
+                  "score": "3,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/KGP",
+                    "code": "KGP",
+                    "label": "Brandweerverslag",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/KGP"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": -2
+                },
+                {
+                  "totaalProcent": 0,
+                  "scoreLabel": "Blustoestellen met keuring (app)",
+                  "score": "1,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/STS",
+                    "code": "STS",
+                    "label": "Brandblusvoorzieningen",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/STS"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": -4
+                },
+                {
+                  "totaalProcent": 0,
+                  "scoreLabel": "Rookdetectoren op elk niveau",
+                  "score": "1,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/LPL",
+                    "code": "LPL",
+                    "label": "Branddetectie",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/LPL"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": -4
+                }
+              ],
+              "totaalProcent": -2,
+              "wegingsfactorProcent": -10,
+              "naam": "Brandveiligheid"
+            },
+            {
+              "scores": [
+                {
+                  "totaalProcent": 0,
+                  "scoreLabel": "Gelijkvormigheidsattest beschikbaar",
+                  "score": "1,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/BWM",
+                    "code": "BWM",
+                    "label": "Conformiteit elektrische installatie",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/BWM"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": -5
+                },
+                {
+                  "totaalProcent": 0,
+                  "scoreLabel": "Geen vast te stellen risico",
+                  "score": "1,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/XBC",
+                    "code": "XBC",
+                    "label": "CO-risico",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/XBC"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": -5
+                },
+                {
+                  "totaalProcent": 0,
+                  "scoreLabel": "Gekeurd - in goede staat",
+                  "score": "1,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/XTG",
+                    "code": "XTG",
+                    "label": "Gasinstallatie",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/XTG"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": -5
+                }
+              ],
+              "totaalProcent": 0,
+              "wegingsfactorProcent": -15,
+              "naam": "Veiligheid installaties"
+            },
+            {
+              "scores": [
+                {
+                  "totaalProcent": 0,
+                  "scoreLabel": "Geen inventaris - geen asbestvermoeden (BJ na 1995)",
+                  "score": "4,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/HXF",
+                    "code": "HXF",
+                    "label": "Aanwezigheid asbest",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/HXF"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": -3
+                },
+                {
+                  "totaalProcent": 0,
+                  "scoreLabel": "Geen loden leidingen",
+                  "score": "1,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/WPC",
+                    "code": "WPC",
+                    "label": "Loden leidingen",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/WPC"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": -2
+                }
+              ],
+              "totaalProcent": 0,
+              "wegingsfactorProcent": -5,
+              "naam": "Gevaarlijke stoffen"
+            },
+            {
+              "scores": [
+                {
+                  "totaalProcent": 0,
+                  "scoreLabel": "Voldoen aan huidige eisen",
+                  "score": "1,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/JPW",
+                    "code": "JPW",
+                    "label": "Borstweringen en leuningen",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/JPW"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": -5
+                }
+              ],
+              "totaalProcent": 0,
+              "wegingsfactorProcent": -5,
+              "naam": "Valbeveiliging"
+            },
+            {
+              "scores": [
+                {
+                  "totaalProcent": 0,
+                  "scoreLabel": "Geen vochtproblemen vastgesteld",
+                  "score": "1,00",
+                  "woningKenmerk": {
+                    "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/TJM",
+                    "code": "TJM",
+                    "label": "Vocht",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "@id": "/v1/woningkenmerken/TJM"
+                  },
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "wegingsfactorProcent": -5
+                }
+              ],
+              "totaalProcent": 0,
+              "wegingsfactorProcent": -5,
+              "naam": "Binnenklimaat"
+            }
+          ],
+          "naam": "VeiligheidEnGezondheid"
+        },
+        "veiligheidEnGezondheidScoreProcent": -2,
+        "totaalScoreProcent": 80.2,
+        "magdaVoorWoning": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningen/KPRLW"
+      },
+      "@type": "ConditiescoreVoorWoningResource",
+      "@id": "/v1/woonmaatschappijen/0400898624/woningen/KPRLW/conditiescore"
+    }
+  }
+}

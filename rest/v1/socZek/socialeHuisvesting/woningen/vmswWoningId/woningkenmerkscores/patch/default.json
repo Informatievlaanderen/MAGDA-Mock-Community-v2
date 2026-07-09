@@ -1,0 +1,21 @@
+{
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "detail": "Voor meer informatie gelieve eigenschap 'validationErrors' te bekijken.",
+      "instance": "/v1/woonmaatschappijen/0400898624/woningen/BNVBM/woningkenmerkscores",
+      "status": 400,
+      "title": "Het verzoek is niet geldig.",
+      "type": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "validationErrors": [
+        {
+          "name": "Code",
+          "reason": "Het woningkenmerk met opgegeven code bestaat niet."
+        }
+      ]
+    }
+  }
+}

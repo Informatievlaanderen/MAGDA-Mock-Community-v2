@@ -1,0 +1,53 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "@id": "/v2/woonmaatschappijen/0400898624/woningen/CWLTJ",
+      "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningen/CWLTJ",
+      "@type": "WivWoningResource",
+      "value": {
+        "adres": {
+          "gemeenteNISCode": "23027",
+          "gemeentenaam": {
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "spelling": "Halle",
+            "taal": "nl-BE"
+          },
+          "huisnummer": "53",
+          "postcode": "1500",
+          "straatnaam": {
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "spelling": "Leeuwerikenlaan",
+            "taal": "nl-BE"
+          }
+        },
+        "bebouwingsType": "AHD",
+        "beheerder": {
+          "@type": "OrganisatieResource",
+          "organisatieId": "0400898624",
+          "organisatieType": "Woonmaatschappij"
+        },
+        "bouwjaar": 1961,
+        "eigenaar": {
+          "@type": "OrganisatieResource",
+          "organisatieId": "0400898624",
+          "organisatieType": "Woonmaatschappij"
+        },
+        "gebouweenheidIds": [
+          "30730685"
+        ],
+        "statistischeSector": "23027A11-",
+        "verhuringsStelsel": "Sociale verhuur",
+        "vmswWoningId": "CWLTJ",
+        "woningStatus": "In beheer",
+        "woningType": "APP",
+        "woonmaatschappijWoningCode": "011035",
+        "woonmaatschappijWoningGroepCode": "HAL011",
+        "woonmaatschappijWoningId": "150"
+      }
+    }
+  }
+}

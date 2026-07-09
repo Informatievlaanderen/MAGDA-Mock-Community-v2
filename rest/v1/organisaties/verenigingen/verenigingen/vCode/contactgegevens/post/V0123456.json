@@ -1,0 +1,23 @@
+{
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "detail": "Source: Validatie mislukt!",
+      "instance": "f03a3f79-cf34-40cc-a664-d61b18dfc854",
+      "status": 400,
+      "title": "Er heeft zich een fout voorgedaan!",
+      "type": "urn:associationregistry.admin.api:validation",
+      "validationErrors": {
+        "contactgegeven.Contactgegeventype": [
+          {
+            "code": "PredicateValidator",
+            "reason": "De waarde 'mail' is geen gekend contactgegeven type."
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,547 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "@id": "/v1/woonmaatschappijen/0400898624/woningen/BNVBM/woningkenmerkscores",
+      "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningen/BNVBM/woningkenmerkscores",
+      "@type": "WoningKenmerkScoresMetWoningResource",
+      "value": {
+        "magdaVoorWoning": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningen/BNVBM",
+        "scores": [
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "3",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/VTG",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/VTG",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "VTG",
+              "label": "Geveloppervlak"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "4",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/RQL",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/RQL",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "RQL",
+              "label": "Raam- en deurprofielen"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "3",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/QFM",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/QFM",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "QFM",
+              "label": "Dakoppervlak"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "4",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/WTZ",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/WTZ",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "WTZ",
+              "label": "Hemelwaterafvoer"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "4",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/KDX",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/KDX",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "KDX",
+              "label": "Dakranden en kroonlijsten"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "4",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/BQZ",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/BQZ",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "BQZ",
+              "label": "Beglazing"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "2",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/DCP",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/DCP",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "DCP",
+              "label": "Dakisolatie"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "4",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/SVR",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/SVR",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "SVR",
+              "label": "Gevelisolatie"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "7",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/CKV",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/CKV",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "CKV",
+              "label": "EPC klasse"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "5",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/RLJ",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/RLJ",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "RLJ",
+              "label": "Vloerafwerking"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "6",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/GFL",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/GFL",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "GFL",
+              "label": "Badkamer"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "6",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/NTP",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/NTP",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "NTP",
+              "label": "Keuken"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "5",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/PJX",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/PJX",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "PJX",
+              "label": "Verwarmingstoestel"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "5",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/XSM",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/XSM",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "XSM",
+              "label": "Sanitair warmwaterbereiding"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "2",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/VBG",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/VBG",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "VBG",
+              "label": "Ventilatiesysteem"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "3",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/LQY",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/LQY",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "LQY",
+              "label": "Elektrische installatie"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "1",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/SCG",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/SCG",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "SCG",
+              "label": "Stabiliteit algemeen"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "3",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/KGP",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/KGP",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "KGP",
+              "label": "Brandweerverslag"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "4",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/STS",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/STS",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "STS",
+              "label": "Brandblusvoorzieningen"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "1",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/LPL",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/LPL",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "LPL",
+              "label": "Branddetectie"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "3",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/BWM",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/BWM",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "BWM",
+              "label": "Conformiteit elektrische installatie"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "1",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/XBC",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/XBC",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "XBC",
+              "label": "CO-risico"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "5",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/XTG",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/XTG",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "XTG",
+              "label": "Gasinstallatie"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "3",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/HXF",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/HXF",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "HXF",
+              "label": "Aanwezigheid asbest"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "1",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/WPC",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/WPC",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "WPC",
+              "label": "Loden leidingen"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "1",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/JPW",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/JPW",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "JPW",
+              "label": "Borstweringen en leuningen"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "1",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/TJM",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/TJM",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "TJM",
+              "label": "Vocht"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "SPM",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/LSZ",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/LSZ",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "LSZ",
+              "label": "Geveltype"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "H",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/HLL",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/HLL",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "HLL",
+              "label": "Daktype"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "ELEK",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/QVL",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/QVL",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "QVL",
+              "label": "Verwarmingstype"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "B",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/CSF",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/CSF",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "CSF",
+              "label": "Ventilatietype"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "N",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/JBZ",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/JBZ",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "JBZ",
+              "label": "Personenlift aanwezig"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "23027A042",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/FMZ",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/FMZ",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "FMZ",
+              "label": "Statistische sector"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "GEEN",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/NPW",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/NPW",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "NPW",
+              "label": "Parkeerplaats"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "5,00000",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/NMC",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/NMC",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "NMC",
+              "label": "Oppervlakte terras"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "0,00000",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/VXJ",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/VXJ",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "VXJ",
+              "label": "Oppervlakte tuin"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "2",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/XQF",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/XQF",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "XQF",
+              "label": "Aantal lagen gebouw (bovengr)"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "0",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/XQG",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/XQG",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "XQG",
+              "label": "Verdieping (toegang)"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "84,62000",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/RGF",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/RGF",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "RGF",
+              "label": "Bruto woonoppervlakte"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "2",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/ZSZ",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/ZSZ",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "ZSZ",
+              "label": "Aantal slaapkamers"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "NT",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/WFC",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/WFC",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "WFC",
+              "label": "Mindervaliden"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "Fluvius Halle-Vilvoorde",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/CQV",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/CQV",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "CQV",
+              "label": "Netbeheerder"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "01/01/2020",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/BRM",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/BRM",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "BRM",
+              "label": "Referentiedatum huur"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "1",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/VKP",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/VKP",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "VKP",
+              "label": "Verwarmingssysteem"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "6",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/TLT",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/TLT",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "TLT",
+              "label": "Toilet"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "1988",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/ZGX",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/ZGX",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "ZGX",
+              "label": "Bouwjaar"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "APP",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/QBB",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/QBB",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "QBB",
+              "label": "Woningtype"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "AV",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/YQW",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/YQW",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "YQW",
+              "label": "Bebouwingstype"
+            }
+          }
+        ],
+        "voorWoning": "/v2/woonmaatschappijen/0400898624/woningen/BNVBM"
+      }
+    }
+  }
+}
