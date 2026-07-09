@@ -4,6 +4,6 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "body": 15
+    "body": false
   }
 }
