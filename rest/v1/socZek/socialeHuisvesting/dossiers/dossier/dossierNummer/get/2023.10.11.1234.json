@@ -1,0 +1,591 @@
+{
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "aanvaardingDossiers": [
+            ],
+            "dossierBetrokkenPartijen": [
+                {
+                    "gemeente": "Halle",
+                    "huisNummer": "1",
+                    "huisNummerBus": "1",
+                    "partijIdentificatie": "0207535458",
+                    "partijRolCode": "P",
+                    "partijTypeCode": "SHM",
+                    "postCode": "1500",
+                    "straat": "Molenborre 26 bus"
+                },
+                {
+                    "gemeente": "Halle",
+                    "gemeenteNisCode": "23027",
+                    "huisNummer": "51",
+                    "huisNummerBus": "0022",
+                    "partijIdentificatie": "70702704736",
+                    "partijRolCode": "REQ1",
+                    "partijTypeCode": "PP",
+                    "postCode": "1501",
+                    "straat": "Kluisbos"
+                },
+                {
+                    "gemeente": "Halle",
+                    "gemeenteNisCode": "23027",
+                    "huisNummer": "51",
+                    "huisNummerBus": "0022",
+                    "partijIdentificatie": "72640804229",
+                    "partijRolCode": "REQ2",
+                    "partijTypeCode": "PP",
+                    "postCode": "1501",
+                    "straat": "Kluisbos"
+                },
+                {
+                    "gemeente": "Halle",
+                    "gemeenteNisCode": "23027",
+                    "huisNummer": "9",
+                    "huisNummerBus": "0011",
+                    "partijIdentificatie": "04673011354",
+                    "partijRolCode": "CO",
+                    "partijTypeCode": "PP",
+                    "postCode": "1500",
+                    "straat": "Biezeweide"
+                },
+                {
+                    "gemeente": "Halle",
+                    "gemeenteNisCode": "23027",
+                    "huisNummer": "51",
+                    "huisNummerBus": "0022",
+                    "partijIdentificatie": "06092907648",
+                    "partijRolCode": "CO",
+                    "partijTypeCode": "PP",
+                    "postCode": "1501",
+                    "straat": "Kluisbos"
+                },
+                {
+                    "gemeente": "Halle",
+                    "gemeenteNisCode": "23027",
+                    "huisNummer": "51",
+                    "huisNummerBus": "0022",
+                    "partijIdentificatie": "98711723465",
+                    "partijRolCode": "CO",
+                    "partijTypeCode": "PP",
+                    "postCode": "1501",
+                    "straat": "Kluisbos"
+                }
+            ],
+            "dossierBijlages": [
+            ],
+            "dossierDienstDossierDomicilieHistoriek": [
+                {
+                    "beginDatum": "2016-11-15T00:00:00+01:00",
+                    "eindDatum": "2023-12-05T00:00:00+01:00",
+                    "gemeente": "Halle",
+                    "gemeenteNisCode": "23027",
+                    "huisNummer": "9",
+                    "huisNummerBus": "0011",
+                    "landCode": "150",
+                    "postCode": "1500",
+                    "rijksregisternummer": "98711723465",
+                    "straat": "Biezeweide"
+                },
+                {
+                    "beginDatum": "2013-05-13T00:00:00+02:00",
+                    "eindDatum": "2016-11-15T00:00:00+01:00",
+                    "gemeente": "Halle",
+                    "gemeenteNisCode": "23027",
+                    "huisNummer": "54",
+                    "huisNummerBus": "0002",
+                    "landCode": "150",
+                    "postCode": "1500",
+                    "rijksregisternummer": "98711723465",
+                    "straat": "Rodenemweg"
+                },
+                {
+                    "beginDatum": "2023-12-05T00:00:00+01:00",
+                    "eindDatum": "2024-10-03T00:00:00+02:00",
+                    "gemeente": "Halle",
+                    "gemeenteNisCode": "23027",
+                    "huisNummer": "6",
+                    "landCode": "150",
+                    "postCode": "1500",
+                    "rijksregisternummer": "70702704736",
+                    "straat": "Leeuwerikenlaan"
+                },
+                {
+                    "beginDatum": "2016-11-15T00:00:00+01:00",
+                    "eindDatum": "2023-12-05T00:00:00+01:00",
+                    "gemeente": "Halle",
+                    "gemeenteNisCode": "23027",
+                    "huisNummer": "9",
+                    "huisNummerBus": "0011",
+                    "landCode": "150",
+                    "postCode": "1500",
+                    "rijksregisternummer": "70702704736",
+                    "straat": "Biezeweide"
+                },
+                {
+                    "beginDatum": "2013-05-13T00:00:00+02:00",
+                    "eindDatum": "2016-11-15T00:00:00+01:00",
+                    "gemeente": "Halle",
+                    "gemeenteNisCode": "23027",
+                    "huisNummer": "54",
+                    "huisNummerBus": "0002",
+                    "landCode": "150",
+                    "postCode": "1500",
+                    "rijksregisternummer": "70702704736",
+                    "straat": "Rodenemweg"
+                },
+                {
+                    "beginDatum": "2010-10-14T00:00:00+02:00",
+                    "eindDatum": "2013-05-13T00:00:00+02:00",
+                    "gemeente": "Vilvoorde",
+                    "gemeenteNisCode": "23088",
+                    "huisNummer": "192",
+                    "landCode": "150",
+                    "postCode": "1800",
+                    "rijksregisternummer": "70702704736",
+                    "straat": "Harensesteenweg"
+                },
+                {
+                    "beginDatum": "2024-10-03T00:00:00+02:00",
+                    "gemeente": "Halle",
+                    "gemeenteNisCode": "23027",
+                    "huisNummer": "51",
+                    "huisNummerBus": "0022",
+                    "landCode": "150",
+                    "postCode": "1501",
+                    "rijksregisternummer": "70702704736",
+                    "straat": "Kluisbos"
+                },
+                {
+                    "beginDatum": "2023-12-05T00:00:00+01:00",
+                    "eindDatum": "2024-10-03T00:00:00+02:00",
+                    "gemeente": "Halle",
+                    "gemeenteNisCode": "23027",
+                    "huisNummer": "6",
+                    "landCode": "150",
+                    "postCode": "1500",
+                    "rijksregisternummer": "72640804229",
+                    "straat": "Leeuwerikenlaan"
+                },
+                {
+                    "beginDatum": "2016-11-15T00:00:00+01:00",
+                    "eindDatum": "2023-12-05T00:00:00+01:00",
+                    "gemeente": "Halle",
+                    "gemeenteNisCode": "23027",
+                    "huisNummer": "9",
+                    "huisNummerBus": "0011",
+                    "landCode": "150",
+                    "postCode": "1500",
+                    "rijksregisternummer": "72640804229",
+                    "straat": "Biezeweide"
+                },
+                {
+                    "beginDatum": "2024-10-03T00:00:00+02:00",
+                    "gemeente": "Halle",
+                    "gemeenteNisCode": "23027",
+                    "huisNummer": "51",
+                    "huisNummerBus": "0022",
+                    "landCode": "150",
+                    "postCode": "1501",
+                    "rijksregisternummer": "72640804229",
+                    "straat": "Kluisbos"
+                }
+            ],
+            "dossierEigendommen": [
+            ],
+            "dossierHuidigInkomen": [
+                {
+                    "authentiekebron": [
+                    ],
+                    "rijksregisternummer": "70702704736"
+                },
+                {
+                    "authentiekebron": [
+                    ],
+                    "rijksregisternummer": "72640804229"
+                }
+            ],
+            "dossierInkomstenSamenvattingen": {
+                "dossierInkomstenSamenvattingen": [
+                    {
+                        "belastbaarInkomenAanwezigheidCode": "S6",
+                        "belastbaarInkomenJaarTotaal": 18017.33,
+                        "inkomstenJaar": "2021",
+                        "rijksregisternummer": "70702704736"
+                    },
+                    {
+                        "belastbaarInkomenAanwezigheidCode": "S6",
+                        "belastbaarInkomenJaarTotaal": 8655.88,
+                        "inkomstenJaar": "2021",
+                        "rijksregisternummer": "72640804229"
+                    }
+                ],
+                "totaalInkomstenGeindexeerd": 31611.80817792
+            },
+            "dossierLocatieVoorkeuren": [
+                {
+                    "gemeenteNisCode": "23027",
+                    "wijken": "23027A;23027B;23027C"
+                },
+                {
+                    "gemeenteNisCode": "23003",
+                    "wijken": "23003A;23003E;23003B;23003C;23003D"
+                }
+            ],
+            "dossierNummer": "2023.10.11.1234",
+            "dossierOptioneleVoorkeuren": [
+            ],
+            "dossierPanden": [
+                {
+                    "gemeente": "HALLE",
+                    "gemeenteNisCode": "23027",
+                    "huisNummer": "  87",
+                    "huisNummerBus": "     ",
+                    "pandAanbiedingStatus": "OFFER",
+                    "partijCode": "0207535458",
+                    "postCode": "1500",
+                    "statusDatum": "2024-11-26T15:33:24.463+01:00",
+                    "straat": "KOPHEIWEG"
+                },
+                {
+                    "gemeente": "HALLE",
+                    "gemeenteNisCode": "23027",
+                    "huisNummer": "  87",
+                    "huisNummerBus": "     ",
+                    "pandAanbiedingStatus": "CCLGW",
+                    "partijCode": "0207535458",
+                    "postCode": "1500",
+                    "statusDatum": "2024-11-26T15:58:57.75+01:00",
+                    "straat": "KOPHEIWEG"
+                }
+            ],
+            "dossierPersonen": [
+                {
+                    "adressen": {
+                        "contact": {
+                            "landCode": "999"
+                        },
+                        "contactVoorkeurCode": "DOM",
+                        "domicilie": {
+                            "gemeente": "Halle",
+                            "gemeenteNisCode": "23027",
+                            "huisNummer": "51",
+                            "huisNummerBus": "0022",
+                            "landCode": "150",
+                            "postCode": "1501",
+                            "straat": "Kluisbos"
+                        },
+                        "verblijf": {
+                            "gemeente": "HALLE",
+                            "huisNummer": "9",
+                            "huisNummerBus": "0011",
+                            "landCode": "150",
+                            "postCode": "1500",
+                            "straat": "BIEZEWEIDE"
+                        }
+                    },
+                    "beperkingMutualiteitErkenningCode": "NO",
+                    "burgelijkeStaatCode": "_20",
+                    "contactAardCode": "DOM",
+                    "contactErkenningAfhankelijk": [
+                    ],
+                    "contactInvaliditeitCode": "INV",
+                    "contactTypeCode": "_1",
+                    "geboorteDatum": "1968-10-26T23:00:00+01:00",
+                    "genderCode": "MAN",
+                    "mantelzorgGeefCode": "NO",
+                    "mantelzorgKrijgCode": "NO",
+                    "naam": "Vranckx",
+                    "registratieContactErkenningInformatieVoorKind": "0,0,0,0",
+                    "registratieContactErkenningInformatieVoorVolwassenen": "verminderingzelfredzaamheidhuishouden:0;verminderingzelfredzaamheidhygiene:0;verminderingzelfredzaamheidminderdan9punten:True;verminderingzelfredzaamheidmobiliteit:0;verminderingzelfredzaamheidsocialevaardigheden:0;verminderingzelfredzaamheidtoezicht:0;verminderingzelfredzaamheidvoeding:0;verminderingzelfredzaamheidtotaal:0",
+                    "rijksregisternummer": "70702704736",
+                    "taalkennisCode": "NO",
+                    "taalkennisSneltestCode": "NO",
+                    "verblijfsAdresCode": "DOM",
+                    "voorNaam": "Emiel Michel Ferdinand",
+                    "werkzaamheidGeschiedenisCode": "NA"
+                },
+                {
+                    "adressen": {
+                        "contact": {
+                            "landCode": "999"
+                        },
+                        "contactVoorkeurCode": "DOM",
+                        "domicilie": {
+                            "gemeente": "Halle",
+                            "gemeenteNisCode": "23027",
+                            "huisNummer": "51",
+                            "huisNummerBus": "0022",
+                            "landCode": "150",
+                            "postCode": "1501",
+                            "straat": "Kluisbos"
+                        },
+                        "verblijf": {
+                            "gemeente": "HALLE",
+                            "huisNummer": "9",
+                            "huisNummerBus": "0011",
+                            "landCode": "150",
+                            "postCode": "1500",
+                            "straat": "BIEZEWEIDE"
+                        }
+                    },
+                    "beperkingMutualiteitErkenningCode": "NO",
+                    "burgelijkeStaatCode": "_20",
+                    "contactAardCode": "DOM",
+                    "contactErkenningAfhankelijk": [
+                    ],
+                    "contactInvaliditeitCode": "NINV",
+                    "contactSubTypeCode": "PRT",
+                    "contactTypeCode": "_2",
+                    "geboorteDatum": "1968-03-08T00:00:00+01:00",
+                    "genderCode": "VROUW",
+                    "mantelzorgGeefCode": "NO",
+                    "mantelzorgKrijgCode": "NO",
+                    "naam": "De Wachter",
+                    "rijksregisternummer": "72640804229",
+                    "taalkennisCode": "NO",
+                    "taalkennisSneltestCode": "NO",
+                    "telefoon2": "0468149061",
+                    "verblijfsAdresCode": "DOM",
+                    "voorNaam": "Carine Rosalie François",
+                    "werkzaamheidGeschiedenisCode": "NA"
+                },
+                {
+                    "adressen": {
+                        "contact": {
+                            "gemeente": "HALLE",
+                            "huisNummer": "6",
+                            "huisNummerBus": "",
+                            "landCode": "150",
+                            "postCode": "1500",
+                            "straat": "LEEUWERIKENLAAN"
+                        },
+                        "contactVoorkeurCode": "DOM",
+                        "domicilie": {
+                            "gemeente": "Halle",
+                            "gemeenteNisCode": "23027",
+                            "huisNummer": "9",
+                            "huisNummerBus": "0011",
+                            "landCode": "150",
+                            "postCode": "1500",
+                            "straat": "Biezeweide"
+                        },
+                        "verblijf": {
+                            "gemeente": "HALLE",
+                            "huisNummer": "9",
+                            "huisNummerBus": "0011",
+                            "landCode": "150",
+                            "postCode": "1500",
+                            "straat": "BIEZEWEIDE"
+                        }
+                    },
+                    "beperkingMutualiteitErkenningCode": "NO",
+                    "burgelijkeStaatCode": "_10",
+                    "contactAardCode": "DOM",
+                    "contactErkenningAfhankelijk": [
+                    ],
+                    "contactInvaliditeitCode": "NINV",
+                    "contactPersoonTenLaste": "DEP",
+                    "contactSubTypeCode": "SOJ",
+                    "contactTypeCode": "_3",
+                    "geboorteDatum": "2010-07-30T00:00:00+02:00",
+                    "genderCode": "MAN",
+                    "mantelzorgGeefCode": "NO",
+                    "mantelzorgKrijgCode": "NO",
+                    "naam": "Vranckx",
+                    "rijksregisternummer": "04673011354",
+                    "taalkennisCode": "NO",
+                    "taalkennisSneltestCode": "NO",
+                    "telefoon2": "0468149061",
+                    "verblijfsAdresCode": "DOM",
+                    "voorNaam": "Yarno Andy Cynthia",
+                    "werkzaamheidGeschiedenisCode": "NA"
+                },
+                {
+                    "adressen": {
+                        "contact": {
+                            "gemeente": "HALLE",
+                            "huisNummer": "6",
+                            "huisNummerBus": "",
+                            "landCode": "150",
+                            "postCode": "1500",
+                            "straat": "LEEUWERIKENLAAN"
+                        },
+                        "contactVoorkeurCode": "DOM",
+                        "domicilie": {
+                            "gemeente": "Halle",
+                            "gemeenteNisCode": "23027",
+                            "huisNummer": "51",
+                            "huisNummerBus": "0022",
+                            "landCode": "150",
+                            "postCode": "1501",
+                            "straat": "Kluisbos"
+                        },
+                        "verblijf": {
+                            "gemeente": "HALLE",
+                            "huisNummer": "9",
+                            "huisNummerBus": "0011",
+                            "landCode": "150",
+                            "postCode": "1500",
+                            "straat": "BIEZEWEIDE"
+                        }
+                    },
+                    "beperkingMutualiteitErkenningCode": "NO",
+                    "burgelijkeStaatCode": "_10",
+                    "contactAardCode": "DOM",
+                    "contactErkenningAfhankelijk": [
+                    ],
+                    "contactInvaliditeitCode": "NINV",
+                    "contactPersoonTenLaste": "DEP",
+                    "contactSubTypeCode": "SOJ",
+                    "contactTypeCode": "_3",
+                    "geboorteDatum": "2006-09-29T00:00:00+02:00",
+                    "genderCode": "VROUW",
+                    "mantelzorgGeefCode": "NO",
+                    "mantelzorgKrijgCode": "NO",
+                    "naam": "Vranckx",
+                    "rijksregisternummer": "06092907648",
+                    "taalkennisCode": "NO",
+                    "taalkennisSneltestCode": "NO",
+                    "telefoon2": "0468149061",
+                    "verblijfsAdresCode": "DOM",
+                    "voorNaam": "Yana Geert Anja",
+                    "werkzaamheidGeschiedenisCode": "NA"
+                },
+                {
+                    "adressen": {
+                        "contact": {
+                            "gemeente": "HALLE",
+                            "huisNummer": "6",
+                            "huisNummerBus": "",
+                            "landCode": "150",
+                            "postCode": "1500",
+                            "straat": "LEEUWERIKENLAAN"
+                        },
+                        "contactVoorkeurCode": "DOM",
+                        "domicilie": {
+                            "gemeente": "Halle",
+                            "gemeenteNisCode": "23027",
+                            "huisNummer": "51",
+                            "huisNummerBus": "0022",
+                            "landCode": "150",
+                            "postCode": "1501",
+                            "straat": "Kluisbos"
+                        },
+                        "verblijf": {
+                            "gemeente": "HALLE",
+                            "huisNummer": "9",
+                            "huisNummerBus": "0011",
+                            "landCode": "150",
+                            "postCode": "1500",
+                            "straat": "BIEZEWEIDE"
+                        }
+                    },
+                    "beperkingMutualiteitErkenningCode": "NO",
+                    "burgelijkeStaatCode": "_10",
+                    "contactAardCode": "DOM",
+                    "contactErkenningAfhankelijk": [
+                    ],
+                    "contactInvaliditeitCode": "INV",
+                    "contactSubTypeCode": "SOJ",
+                    "contactTypeCode": "_3",
+                    "geboorteDatum": "1996-08-17T00:00:00+02:00",
+                    "genderCode": "VROUW",
+                    "mantelzorgGeefCode": "NO",
+                    "mantelzorgKrijgCode": "NO",
+                    "naam": "Vranckx",
+                    "registratieContactErkenningInformatieVoorKind": "0,0,0,0",
+                    "rijksregisternummer": "98711723465",
+                    "taalkennisCode": "NO",
+                    "taalkennisSneltestCode": "NO",
+                    "telefoon2": "0468149061",
+                    "verblijfsAdresCode": "DOM",
+                    "voorNaam": "Cynthia Christel Raphael",
+                    "werkzaamheidGeschiedenisCode": "NA"
+                }
+            ],
+            "dossierStatusHistoriek": [
+                {
+                    "actie": "REG",
+                    "commentaar": "Invlechting REG actie",
+                    "id": 53755078,
+                    "statusCodeTot": "REG",
+                    "statusCodeVan": "SAVED",
+                    "statusDatum": "2023-10-11T00:00:00+02:00"
+                },
+                {
+                    "actie": "CONF",
+                    "id": 54959901,
+                    "statusCodeTot": "REG",
+                    "statusCodeVan": "REG",
+                    "statusDatum": "2024-05-02T18:31:06.283+02:00"
+                },
+                {
+                    "actie": "OFFER",
+                    "id": 55462210,
+                    "partijCode": "0207535458",
+                    "statusCodeTot": "OFFER",
+                    "statusCodeVan": "REG",
+                    "statusDatum": "2024-11-26T15:33:24.81+01:00"
+                },
+                {
+                    "actie": "CCLGW",
+                    "id": 55462342,
+                    "partijCode": "0207535458",
+                    "statusCodeTot": "REG",
+                    "statusCodeVan": "OFFER",
+                    "statusDatum": "2024-11-26T15:58:58.093+01:00"
+                },
+                {
+                    "actie": "WAIT",
+                    "commentaar": "U staat in wacht bij WPZ bij beslissing van bestuursorgaan van 19 november 2024. Wegens een openstaande schuld. ",
+                    "id": 55474630,
+                    "partijCode": "0207535458",
+                    "statusCodeTot": "WAITS",
+                    "statusCodeVan": "REG",
+                    "statusDatum": "2024-11-29T14:44:43.633+01:00"
+                }
+            ],
+            "dossierType": "RFH",
+            "dossierZwarteLijsten": [
+            ],
+            "eigendomVoorwaardeStatusCode": "OK",
+            "inkomenVoorwaardeStatusCode": "OK",
+            "inschrijving": {
+                "datum": "2023-10-11T00:00:00+02:00"
+            },
+            "mogelijkeActies": [
+                "WAKE",
+                "SAVE",
+                "UNDNR",
+                "UNDRF"
+            ],
+            "oudDossier": [
+                {
+                    "oudDossierNummer": "TEMP-10019695"
+                },
+                {
+                    "oudDossierNummer": "2023.10.11.001",
+                    "partijCode": "0207535458"
+                }
+            ],
+            "statusCode": "WAITS",
+            "tijdstipLaatsteHandeling": "2024-12-15T06:55:00+01:00",
+            "versieNummer": 23,
+            "volmachtWijzigingen": "YES",
+            "woningVoorkeuren": {
+                "lichamelijkeBeperkingCode": "NO",
+                "maximumAantalKamers": 4,
+                "minimumAantalKamers": 3,
+                "woningTypeCode": [
+                    "H",
+                    "A"
+                ]
+            },
+            "woonsituaties": [
+            ]
+        }
+    }
+}
