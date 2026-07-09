@@ -1,0 +1,14 @@
+{
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "title": "Not Found",
+      "detail": "Source: Geen enkele woning voldoet aan deze gegevens.",
+      "instance": "f090b32f-da8e-4646-b356-07decabfbefd",
+      "status": "404"
+    }
+  }
+}

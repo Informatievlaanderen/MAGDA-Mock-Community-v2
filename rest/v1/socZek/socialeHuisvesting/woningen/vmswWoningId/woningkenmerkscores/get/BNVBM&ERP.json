@@ -1,0 +1,129 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "@id": "/v1/woonmaatschappijen/0400898624/woningen/BNVBM/woningkenmerkscores",
+      "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningen/BNVBM/woningkenmerkscores",
+      "@type": "WoningKenmerkScoresMetWoningResource",
+      "value": {
+        "magdaVoorWoning": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningen/BNVBM",
+        "scores": [
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "4",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/BQZ",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/BQZ",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "BQZ",
+              "label": "Beglazing"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "2",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/DCP",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/DCP",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "DCP",
+              "label": "Dakisolatie"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "4",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/SVR",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/SVR",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "SVR",
+              "label": "Gevelisolatie"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "7",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/CKV",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/CKV",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "CKV",
+              "label": "EPC klasse"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "SPM",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/LSZ",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/LSZ",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "LSZ",
+              "label": "Geveltype"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "H",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/HLL",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/HLL",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "HLL",
+              "label": "Daktype"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "ELEK",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/QVL",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/QVL",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "QVL",
+              "label": "Verwarmingstype"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "B",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/CSF",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/CSF",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "CSF",
+              "label": "Ventilatietype"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "1988",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/ZGX",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/ZGX",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "ZGX",
+              "label": "Bouwjaar"
+            }
+          },
+          {
+            "@type": "WoningKenmerkScoreResource",
+            "score": "APP",
+            "woningKenmerk": {
+              "@id": "/v1/woningkenmerken/QBB",
+              "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningkenmerken/QBB",
+              "@type": "WoningKenmerkDefinitieResource",
+              "code": "QBB",
+              "label": "Woningtype"
+            }
+          }
+        ],
+        "voorWoning": "/v2/woonmaatschappijen/0400898624/woningen/BNVBM"
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "wijken": [
+        {
+          "gemeenteNisCode": "31005F",
+          "wijkNaam": "Brugge Assebroek"
+        },
+        {
+          "gemeenteNisCode": "31005A",
+          "wijkNaam": "Brugge Centrum"
+        },
+        {
+          "gemeenteNisCode": "31005C",
+          "wijkNaam": "Brugge Dudzele"
+        },
+        {
+          "gemeenteNisCode": "31005D",
+          "wijkNaam": "Brugge Koolkerke"
+        },
+        {
+          "gemeenteNisCode": "31005A",
+          "wijkNaam": "Brugge Kristus Koning"
+        },
+        {
+          "gemeenteNisCode": "31005C",
+          "wijkNaam": "Brugge Kruisabele"
+        },
+        {
+          "gemeenteNisCode": "31005B",
+          "wijkNaam": "Brugge Lissewege"
+        },
+        {
+          "gemeenteNisCode": "31005H",
+          "wijkNaam": "Brugge Sint-Andries"
+        },
+        {
+          "gemeenteNisCode": "31005A",
+          "wijkNaam": "Brugge Sint-Jozef"
+        },
+        {
+          "gemeenteNisCode": "31005E",
+          "wijkNaam": "Brugge Sint-Kruis"
+        },
+        {
+          "gemeenteNisCode": "31005G",
+          "wijkNaam": "Brugge Sint-Michiels"
+        },
+        {
+          "gemeenteNisCode": "31005A",
+          "wijkNaam": "Brugge Sint-Pieters (omgeving Berkenstraat)"
+        },
+        {
+          "gemeenteNisCode": "31005A",
+          "wijkNaam": "Brugge Sint-Pieters (omgeving Rond den Heerd)"
+        },
+        {
+          "gemeenteNisCode": "31005A",
+          "wijkNaam": "Brugge Sint-Pieters (voorbij de Spoorweg)"
+        },
+        {
+          "gemeenteNisCode": "31005F",
+          "wijkNaam": "Brugge Ver-Assebroek"
+        },
+        {
+          "gemeenteNisCode": "31005B",
+          "wijkNaam": "Brugge Zeebrugge"
+        },
+        {
+          "gemeenteNisCode": "31005B",
+          "wijkNaam": "Brugge Zwankendamme"
+        }
+      ]
+    }
+  }
+}

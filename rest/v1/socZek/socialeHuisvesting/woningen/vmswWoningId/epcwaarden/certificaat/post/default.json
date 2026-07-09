@@ -1,0 +1,14 @@
+{
+  "response": {
+    "status": 502,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "title": "Bad Gateway",
+      "detail": "Unexpected error from the source",
+      "instance": "542b232d-785f-478a-a796-ce3a9599d953",
+      "status": "502"
+    }
+  }
+}

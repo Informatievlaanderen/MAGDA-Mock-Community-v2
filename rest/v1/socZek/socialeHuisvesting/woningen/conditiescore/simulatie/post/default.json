@@ -1,0 +1,73 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "@context": "string",
+      "@id": "https://cwr.vmsw.vonet.be/api/v1/woonmaatschappijen/{organisatieId}/markthuurwaarden/simulatie#2023-04-13T16:15",
+      "@magdaId": "string",
+      "@type": "ConditiescoreSimulatieResource",
+      "value": {
+        "gebouwstaat": {
+          "naam": "string",
+          "groepen": [
+            {
+              "naam": "string",
+              "scores": [
+                {
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "woningKenmerk": {
+                    "@id": "/v1/woningkenmerken/{code}",
+                    "@magdaId": "string",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "label": "string",
+                    "code": "string"
+                  },
+                  "score": "string",
+                  "scoreLabel": "string",
+                  "wegingsfactorProcent": 0,
+                  "totaalProcent": 0
+                }
+              ],
+              "wegingsfactorProcent": 0,
+              "totaalProcent": 0
+            }
+          ]
+        },
+        "veiligheidEnGezondheid": {
+          "naam": "string",
+          "groepen": [
+            {
+              "naam": "string",
+              "scores": [
+                {
+                  "@type": "ConditiescoreWoningKenmerkScoreResource",
+                  "woningKenmerk": {
+                    "@id": "/v1/woningkenmerken/{code}",
+                    "@magdaId": "string",
+                    "@type": "WoningKenmerkDefinitieResource",
+                    "label": "string",
+                    "code": "string"
+                  },
+                  "score": "string",
+                  "scoreLabel": "string",
+                  "wegingsfactorProcent": 0,
+                  "totaalProcent": 0
+                }
+              ],
+              "wegingsfactorProcent": 0,
+              "totaalProcent": 0
+            }
+          ]
+        },
+        "gebouwstaatScoreProcent": 0,
+        "gebouwstaatWegingsfactorProcent": 0,
+        "veiligheidEnGezondheidScoreProcent": 0,
+        "veiligheidEnGezondheidWegingsfactorProcent": 0,
+        "totaalScoreProcent": 0
+      }
+    }
+  }
+}

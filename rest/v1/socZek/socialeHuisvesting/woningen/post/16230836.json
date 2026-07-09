@@ -1,0 +1,53 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "@id": "/v2/woonmaatschappijen/0400898624/woningen/ZYKTR",
+      "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningen/ZYKTR",
+      "@type": "WivWoningResource",
+      "value": {
+        "adres": {
+          "gemeenteNISCode": "23027",
+          "gemeentenaam": {
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "spelling": "Halle",
+            "taal": "nl-BE"
+          },
+          "huisnummer": "100",
+          "postcode": "1500",
+          "straatnaam": {
+            "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "spelling": "Labbeekstraat",
+            "taal": "nl-BE"
+          }
+        },
+        "bebouwingsType": "OB",
+        "beheerder": {
+          "@type": "OrganisatieResource",
+          "organisatieId": "0400898624",
+          "organisatieType": "Woonmaatschappij"
+        },
+        "bouwjaar": 1982,
+        "eigenaar": {
+          "@type": "OrganisatieResource",
+          "organisatieId": "0400898624",
+          "organisatieType": "Woonmaatschappij"
+        },
+        "gebouweenheidIds": [
+          "16230836"
+        ],
+        "statistischeSector": "23027A042",
+        "verhuringsStelsel": "Sociale verhuur",
+        "vmswWoningId": "ZYKTR",
+        "woningStatus": "In beheer",
+        "woningType": "WON",
+        "woonmaatschappijWoningCode": "031030",
+        "woonmaatschappijWoningGroepCode": "HAL031",
+        "woonmaatschappijWoningId": "775"
+      }
+    }
+  }
+}

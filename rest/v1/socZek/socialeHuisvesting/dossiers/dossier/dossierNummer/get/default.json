@@ -1,0 +1,14 @@
+{
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "title": "Not found",
+      "status": 404,
+      "detail": "Source: Geen dossier gevonden",
+      "instance": "e24aff4c-2df9-458c-8bb8-fbe71c745df6"
+    }
+  }
+}

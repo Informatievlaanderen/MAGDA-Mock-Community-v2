@@ -1,0 +1,552 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "dossierStatusHistoriek": [
+        {
+          "statusCodeVan": "TEMP",
+          "statusCodeTot": "SAVED",
+          "actie": "SAVE",
+          "statusDatum": "2023-07-06T13:11:05.258+01:00",
+          "partijCode": null,
+          "commentaar": null,
+          "id": 123345
+        },
+        {
+          "statusCodeVan": "SAVED",
+          "statusCodeTot": "CHKS",
+          "actie": "REG",
+          "statusDatum": "2023-07-06T13:22:41.654+01:00",
+          "partijCode": "4",
+          "commentaar": null,
+          "id": 123346
+        }
+      ],
+      "dossierInkomstenSamenvattingen": {
+        "totaalInkomsten": null,
+        "totaalInkomstenGeindexeerd": 0,
+        "dossierInkomstenSamenvattingen": [
+          {
+            "inkomstenJaar": "2023",
+            "belastbaarInkomenAanwezigheidCode": null,
+            "belastbaarInkomenJaarTotaal": 0,
+            "leefLoonAanwezigheidCode": null,
+            "leefLoonJaarTotaal": 0,
+            "inkomensVervangendeTegemoetkomingCode": null,
+            "inkomensVervangendeTegemoetkomingJaarTotaal": 0,
+            "inkomensPensioenJaarTotaal": 0,
+            "extraBeroepsBuitenlandInkomstenJaarTotaal": 0,
+            "extraBeroepsInstellingenInkomenstenJaarTotaal": 0,
+            "rijksregisternummer": "01700462685"
+          }
+        ]
+      },
+      "dossierPersonen": [
+        {
+          "contactTypeCode": "_1",
+          "contactAardCode": null,
+          "geboorteDatum": "1956-08-09T00:00:00.951+01:00",
+          "rijksregisternummer": "01700462685",
+          "voorNaam": "Annemie",
+          "naam": "Baeckeland",
+          "genderCode": "VROUW",
+          "burgelijkeStaatCode": "_41",
+          "mantelzorgGeefCode": "NO",
+          "mantelzorgGeefPostcode": null,
+          "mantelzorgKrijgCode": "NO",
+          "mantelzorgKrijgPostcode": null,
+          "taalkennisCode": "NO",
+          "taalkennisSneltestCode": null,
+          "email": "test@gmail.com",
+          "telefoon1": "0490111111",
+          "telefoon2": null,
+          "adressen": {
+            "contactVoorkeurCode": "DOM",
+            "domicilie": {
+              "postCode": "9000",
+              "gemeente": "Gent",
+              "gemeenteNisCode": "44021",
+              "landCode": "150",
+              "straat": "Kerkstraat",
+              "huisNummer": "1",
+              "huisNummerBus": " 011"
+            },
+            "verblijf": {
+              "postCode": null,
+              "gemeente": null,
+              "gemeenteNisCode": null,
+              "landCode": "BE",
+              "straat": null,
+              "huisNummer": null,
+              "huisNummerBus": null
+            },
+            "contact": {
+              "postCode": null,
+              "gemeente": null,
+              "gemeenteNisCode": null,
+              "landCode": "BE",
+              "straat": null,
+              "huisNummer": null,
+              "huisNummerBus": null
+            }
+          },
+          "beperkingMutualiteitErkenningCode": "NO",
+          "verblijfsAdresCode": "DOM",
+          "contactInvaliditeitCode": "NINV",
+          "werkzaamheidGeschiedenisCode": "Y6M",
+          "contactSubTypeCode": "PRT",
+          "contactAantalKinderenCode": null,
+          "contactPersoonTenLaste": null,
+          "contactErkenningAfhankelijk": [],
+          "registratieContactErkenningInformatieVoorKind": null,
+          "registratieContactErkenningInformatieVoorVolwassenen": null,
+          "bewindvoerderCode": null,
+          "bewindvoerderRijksregisternummer": "UHLPD",
+          "verbondenAanVennootschap": null
+        }
+      ],
+      "dossierLocatieVoorkeuren": [
+        {
+          "gemeenteNisCode": "71022",
+          "wijken": "Hasselt,Kermt,Kuringen,Sint-Lambrechts-Herk,Spalbeek,Stevoort,Stokrooie,Wimmertingen",
+          "sorteerIndex": null
+        }
+      ],
+      "dossierOptioneleVoorkeuren": [],
+      "dossierEigendommen": [
+        {
+          "rijksregisternummer": "01700462685",
+          "eigendomTypeCode": "VE",
+          "eigendomAardCode": "APP",
+          "waarde": null,
+          "perceelID": "44021_C_0762_W_002_00",
+          "justificatie": null,
+          "justificatieDeclaratie": "Test",
+          "straat": "Kerkstraat ",
+          "huisNummer": null,
+          "gemeente": "GENT",
+          "postCode": "9000",
+          "gemeenteNisCode": "44021",
+          "landCode": null
+        },
+        {
+          "rijksregisternummer": "01700462685",
+          "eigendomTypeCode": "VE",
+          "eigendomAardCode": "APP",
+          "waarde": null,
+          "perceelID": "44021_C_0762_W_002_00",
+          "justificatie": null,
+          "justificatieDeclaratie": "Test",
+          "straat": "Kerkstraat 1",
+          "huisNummer": null,
+          "gemeente": "GENT",
+          "postCode": "9000",
+          "gemeenteNisCode": "44021",
+          "landCode": null
+        },
+        {
+          "rijksregisternummer": "01700462685",
+          "eigendomTypeCode": "VE",
+          "eigendomAardCode": "APP",
+          "waarde": null,
+          "perceelID": "44021_C_0762_W_002_00",
+          "justificatie": null,
+          "justificatieDeclaratie": "Test",
+          "straat": "Kerkstraat 1",
+          "huisNummer": null,
+          "gemeente": "GENT",
+          "postCode": "9000",
+          "gemeenteNisCode": "44021",
+          "landCode": null
+        }
+      ],
+      "dossierDienstDossierDomicilieHistoriek": [
+        {
+          "landCode": null,
+          "rijksregisternummer": "01700462685",
+          "postCode": "9000",
+          "gemeente": "Gent",
+          "gemeenteNisCode": "44021",
+          "straat": "Kerkstraat",
+          "huisNummer": "1",
+          "huisNummerBus": " 011",
+          "beginDatum": "2013-11-06T00:00:00.574+01:00",
+          "eindDatum": "0001-01-01T00:00:00.652+01:00"
+        },
+        {
+          "landCode": null,
+          "rijksregisternummer": "01700462685",
+          "postCode": "9000",
+          "gemeente": "Gent",
+          "gemeenteNisCode": "44021",
+          "straat": "Belgiëland",
+          "huisNummer": "7",
+          "huisNummerBus": null,
+          "beginDatum": "2012-04-17T00:00:00.258+01:00",
+          "eindDatum": "2013-11-06T00:00:00.314+01:00"
+        },
+        {
+          "landCode": null,
+          "rijksregisternummer": "01700462685",
+          "postCode": "9000",
+          "gemeente": "Gent",
+          "gemeenteNisCode": "44021",
+          "straat": "Haltraat",
+          "huisNummer": "32",
+          "huisNummerBus": " 023",
+          "beginDatum": "2009-01-31T00:00:00.325+01:00",
+          "eindDatum": "2012-04-17T00:00:00.965+01:00"
+        },
+        {
+          "landCode": null,
+          "rijksregisternummer": "01700462685",
+          "postCode": "9000",
+          "gemeente": "Gent",
+          "gemeenteNisCode": "44021",
+          "straat": "Molenlaan",
+          "huisNummer": "7",
+          "huisNummerBus": "A000",
+          "beginDatum": "2002-07-31T00:00:00.524+01:00",
+          "eindDatum": "2009-01-31T00:00:00.658+01:00"
+        },
+        {
+          "landCode": null,
+          "rijksregisternummer": "01700462685",
+          "postCode": "9000",
+          "gemeente": "Gent",
+          "gemeenteNisCode": "44021",
+          "straat": "Kustlaan",
+          "huisNummer": "78",
+          "huisNummerBus": null,
+          "beginDatum": "1986-02-03T00:00:00.854+01:00",
+          "eindDatum": "2002-07-31T00:00:00.745+01:00"
+        },
+        {
+          "landCode": null,
+          "rijksregisternummer": "01700462685",
+          "postCode": "3870",
+          "gemeente": "Heers",
+          "gemeenteNisCode": "73022",
+          "straat": "Gemeentelaan",
+          "huisNummer": "49",
+          "huisNummerBus": null,
+          "beginDatum": "1985-03-21T00:00:00.652+01:00",
+          "eindDatum": "1986-02-03T00:00:00.458+01:00"
+        },
+        {
+          "landCode": null,
+          "rijksregisternummer": "01700462685",
+          "postCode": "4250",
+          "gemeente": "Geer",
+          "gemeenteNisCode": "64029",
+          "straat": "Granolastraat",
+          "huisNummer": "5",
+          "huisNummerBus": null,
+          "beginDatum": "1982-05-26T00:00:00.654+01:00",
+          "eindDatum": "1985-03-21T00:00:00.254+01:00"
+        },
+        {
+          "landCode": null,
+          "rijksregisternummer": "01700462685",
+          "postCode": "3870",
+          "gemeente": "Heers",
+          "gemeenteNisCode": "73022",
+          "straat": "Gemeentelaan",
+          "huisNummer": "49",
+          "huisNummerBus": null,
+          "beginDatum": "1977-01-03T00:00:00.625+01:00",
+          "eindDatum": "1982-05-26T00:00:00.032+01:00"
+        },
+        {
+          "landCode": null,
+          "rijksregisternummer": "01700462685",
+          "postCode": "3870",
+          "gemeente": "Bovelingen",
+          "gemeenteNisCode": "73103",
+          "straat": "Gemeentelaan",
+          "huisNummer": "43",
+          "huisNummerBus": null,
+          "beginDatum": "1972-01-01T00:00:00.014+01:00",
+          "eindDatum": "1977-01-03T00:00:00.951+01:00"
+        }
+      ],
+      "dossierBijlages": [
+        {
+          "bestandNaam": "TestDocument.pdf",
+          "bestandGrootte": null,
+          "bestandExtensieCode": "PDF",
+          "identificatie": "INCPS-0-56080925825",
+          "indentificatieRijksregisternummer": "01700462685",
+          "identificatieBestandCode": "INCPS",
+          "identificatieBestandIndex": 0,
+          "bestand": null,
+          "opmerking": null,
+          "bijlageDatum": "2023-07-06T13:19:22.753+01:00",
+          "aanvaardingBijlageCode": null
+        }
+      ],
+      "dossierBetrokkenPartijen": [
+        {
+          "partijTypeCode": "PP",
+          "partijRolCode": "CO",
+          "partijIdentificatie": "01700462685",
+          "postCode": "9000",
+          "gemeente": "Gent",
+          "gemeenteNisCode": "44021",
+          "straat": "Kerkstraat",
+          "huisNummer": "1",
+          "huisNummerBus": " 011"
+        },
+        {
+          "partijTypeCode": "SHM",
+          "partijRolCode": "P",
+          "partijIdentificatie": "0401304539",
+          "postCode": "3500",
+          "gemeente": "Hasselt",
+          "gemeenteNisCode": null,
+          "straat": "Burgemeesterlaan",
+          "huisNummer": "53",
+          "huisNummerBus": ""
+        },
+        {
+          "partijTypeCode": "SHM",
+          "partijRolCode": "S",
+          "partijIdentificatie": "0401324929",
+          "postCode": "3500",
+          "gemeente": "Hasselt",
+          "gemeenteNisCode": null,
+          "straat": "Burgemeesterlaan",
+          "huisNummer": "133",
+          "huisNummerBus": ""
+        },
+        {
+          "partijTypeCode": "SHM",
+          "partijRolCode": "S",
+          "partijIdentificatie": "0400954844",
+          "postCode": "3700",
+          "gemeente": "Tongeren",
+          "gemeenteNisCode": null,
+          "straat": "Vogelbekdierstraat",
+          "huisNummer": "1",
+          "huisNummerBus": "2"
+        },
+        {
+          "partijTypeCode": "SVK",
+          "partijRolCode": "S",
+          "partijIdentificatie": "0896662060",
+          "postCode": "3520",
+          "gemeente": "Zonhoven",
+          "gemeenteNisCode": null,
+          "straat": "Kalematen",
+          "huisNummer": "3",
+          "huisNummerBus": ""
+        }
+      ],
+      "bewindvoerder": null,
+      "oudDossier": null,
+      "aanvaardingDossiers": [],
+      "dossierZwarteLijsten": [],
+      "dossierPanden": [],
+      "dossierHuidigInkomen": [
+        {
+          "rijksregisternummer": "01700462685",
+          "authentiekebron": {
+            "inkomenType": null,
+            "jaarMaand": "2023-06",
+            "bedrag": 1331.1
+          },
+          "gewerktLaatste6Maand": "F;T;F;T;F;T",
+          "schuldenregeling": "NO",
+          "onderhoudsgelden": "NO"
+        },
+        {
+          "rijksregisternummer": "01700462685",
+          "authentiekebron": {
+            "inkomenType": null,
+            "jaarMaand": "2023-05",
+            "bedrag": 1331.1
+          },
+          "gewerktLaatste6Maand": "F;T;F;T;F;T",
+          "schuldenregeling": "NO",
+          "onderhoudsgelden": "NO"
+        },
+        {
+          "rijksregisternummer": "01700462685",
+          "authentiekebron": {
+            "inkomenType": null,
+            "jaarMaand": "2023-05",
+            "bedrag": 911.42
+          },
+          "gewerktLaatste6Maand": "F;T;F;T;F;T",
+          "schuldenregeling": "NO",
+          "onderhoudsgelden": "NO"
+        },
+        {
+          "rijksregisternummer": "01700462685",
+          "authentiekebron": {
+            "inkomenType": null,
+            "jaarMaand": "2023-04",
+            "bedrag": 1331.1
+          },
+          "gewerktLaatste6Maand": "F;T;F;T;F;T",
+          "schuldenregeling": "NO",
+          "onderhoudsgelden": "NO"
+        },
+        {
+          "rijksregisternummer": "01700462685",
+          "authentiekebron": {
+            "inkomenType": null,
+            "jaarMaand": "2023-03",
+            "bedrag": 1331.1
+          },
+          "gewerktLaatste6Maand": "F;T;F;T;F;T",
+          "schuldenregeling": "NO",
+          "onderhoudsgelden": "NO"
+        },
+        {
+          "rijksregisternummer": "01700462685",
+          "authentiekebron": {
+            "inkomenType": null,
+            "jaarMaand": "2023-02",
+            "bedrag": 1331.1
+          },
+          "gewerktLaatste6Maand": "F;T;F;T;F;T",
+          "schuldenregeling": "NO",
+          "onderhoudsgelden": "NO"
+        },
+        {
+          "rijksregisternummer": "01700462685",
+          "authentiekebron": {
+            "inkomenType": null,
+            "jaarMaand": "2023-01",
+            "bedrag": 1331.1
+          },
+          "gewerktLaatste6Maand": "F;T;F;T;F;T",
+          "schuldenregeling": "NO",
+          "onderhoudsgelden": "NO"
+        },
+        {
+          "rijksregisternummer": "01700462685",
+          "authentiekebron": {
+            "inkomenType": null,
+            "jaarMaand": "2023-06",
+            "bedrag": 1331.1
+          },
+          "gewerktLaatste6Maand": "F;T;F;T;F;T",
+          "schuldenregeling": "NO",
+          "onderhoudsgelden": "NO"
+        },
+        {
+          "rijksregisternummer": "01700462685",
+          "authentiekebron": {
+            "inkomenType": null,
+            "jaarMaand": "2023-05",
+            "bedrag": 1331.1
+          },
+          "gewerktLaatste6Maand": "F;T;F;T;F;T",
+          "schuldenregeling": "NO",
+          "onderhoudsgelden": "NO"
+        },
+        {
+          "rijksregisternummer": "01700462685",
+          "authentiekebron": {
+            "inkomenType": null,
+            "jaarMaand": "2023-05",
+            "bedrag": 911.42
+          },
+          "gewerktLaatste6Maand": "F;T;F;T;F;T",
+          "schuldenregeling": "NO",
+          "onderhoudsgelden": "NO"
+        },
+        {
+          "rijksregisternummer": "01700462685",
+          "authentiekebron": {
+            "inkomenType": null,
+            "jaarMaand": "2023-04",
+            "bedrag": 1331.1
+          },
+          "gewerktLaatste6Maand": "F;T;F;T;F;T",
+          "schuldenregeling": "NO",
+          "onderhoudsgelden": "NO"
+        },
+        {
+          "rijksregisternummer": "01700462685",
+          "authentiekebron": {
+            "inkomenType": null,
+            "jaarMaand": "2023-03",
+            "bedrag": 1331.1
+          },
+          "gewerktLaatste6Maand": "F;T;F;T;F;T",
+          "schuldenregeling": "NO",
+          "onderhoudsgelden": "NO"
+        },
+        {
+          "rijksregisternummer": "01700462685",
+          "authentiekebron": {
+            "inkomenType": null,
+            "jaarMaand": "2023-02",
+            "bedrag": 1331.1
+          },
+          "gewerktLaatste6Maand": "F;T;F;T;F;T",
+          "schuldenregeling": "NO",
+          "onderhoudsgelden": "NO"
+        },
+        {
+          "rijksregisternummer": "01700462685",
+          "authentiekebron": {
+            "inkomenType": null,
+            "jaarMaand": "2023-01",
+            "bedrag": 1331.1
+          },
+          "gewerktLaatste6Maand": "F;T;F;T;F;T",
+          "schuldenregeling": "NO",
+          "onderhoudsgelden": "NO"
+        }
+      ],
+      "dossierNummer": "2023.07.06.0002",
+      "dossierType": "RFH",
+      "statusCode": "CHKS",
+      "woningVoorkeuren": {
+        "maximaalHuurBedrag": 100,
+        "maximaalHuurLast": 20,
+        "minimumAantalKamers": 1,
+        "maximumAantalKamers": 1,
+        "woningTypeCode": [
+          "A"
+        ],
+        "lichamelijkeBeperkingCode": "NO"
+      },
+      "inschrijving": {
+        "hulpCode": "WH",
+        "hulpInformerenCode": null,
+        "hulpNaam": null,
+        "hulpEmail": null,
+        "datum": "2023-07-06T13:11:03.777+01:00"
+      },
+      "schrapping": {
+        "datum": null,
+        "redenCode": null
+      },
+      "woningNood": {
+        "redenCode": null,
+        "omschrijving": null,
+        "indentificatie": null
+      },
+      "versieNummer": 8,
+      "mogelijkeActies": [
+        "OBJCT",
+        "SAVE",
+        "REQI",
+        "APP",
+        "RJCT"
+      ],
+      "inkomenVoorwaardeStatusCode": null,
+      "eigendomVoorwaardeStatusCode": "OK",
+      "tijdstipLaatsteHandeling": "2023-07-06T13:22:41.524+01:00",
+      "volmachtWijzigingen": "YES"
+    }
+  }
+}

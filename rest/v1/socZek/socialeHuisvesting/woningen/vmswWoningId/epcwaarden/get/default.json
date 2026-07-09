@@ -1,0 +1,14 @@
+{
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "title": "Not Found",
+      "detail": "Source: De woning is niet gekend.",
+      "instance": "c87cb5d5-5385-4fa8-bd20-4768d0104c94",
+      "status": "404"
+    }
+  }
+}

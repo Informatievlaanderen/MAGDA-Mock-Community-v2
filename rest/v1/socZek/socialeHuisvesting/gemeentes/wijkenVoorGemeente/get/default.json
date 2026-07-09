@@ -4,6 +4,8 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "body": true
+    "jsonBody": {
+      "wijken": []
+    }
   }
 }

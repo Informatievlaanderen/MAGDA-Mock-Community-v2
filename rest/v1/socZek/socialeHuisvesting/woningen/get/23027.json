@@ -1,0 +1,15 @@
+{
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "type": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "title": "Fout in zoekcriteria.",
+      "status": "400",
+      "detail": "Meerdere woningen voldoen aan deze gegevens.",
+      "instance": "/v2/woonmaatschappijen/0400898624/woningen"
+    }
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "@id": "/v1/woonmaatschappijen/0400898624/woningen/YXDVY/epcwaarden",
+      "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningen/YXDVY/epcwaarden",
+      "@type": "EpcVersiesVoorWoningResource",
+      "value": {
+        "@type": "EpcVersiesVoorWoningResource",
+        "epcVersies": [
+          {
+            "@type": "EpcVersieResource",
+            "epcWaarden": [
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "CNR",
+                  "label": "Certificaatnummer"
+                },
+                "waarde": "20200605-0002277780-RES-1"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "EPT",
+                  "label": "EpcType"
+                },
+                "waarde": "EPC bestaand"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "EPK",
+                  "label": "EpcKengetal"
+                },
+                "waarde": "158,00000"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "BVO",
+                  "label": "BeschermdVolume"
+                },
+                "waarde": "239,00000"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "TVO",
+                  "label": "TotaleVerliesoppervlakte"
+                },
+                "waarde": "74,00000"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "GUW",
+                  "label": "GemiddeldeUWaarde"
+                },
+                "waarde": "1,43000"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "RVH",
+                  "label": "Ruimteverwarming"
+                },
+                "waarde": "10453,00000"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "SWW",
+                  "label": "SanitairWarmWater"
+                },
+                "waarde": "1771,00000"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "BBV",
+                  "label": "BrutoBruikbareVloerOppervlakte"
+                },
+                "waarde": "84,00000"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "TOV",
+                  "label": "TotaleOppervlakteVensters"
+                },
+                "waarde": "17,30000"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "DEP",
+                  "label": "DatumEpc"
+                },
+                "waarde": "05/06/2020"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "LGO",
+                  "label": "LaatstGewijzigdOp"
+                },
+                "waarde": "25/11/2020 9:23:24"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "LGD",
+                  "label": "LaatstGewijzigdDoorNaam"
+                },
+                "waarde": "WoningKenmerkenServiceBus"
+              }
+            ],
+            "epcWaardenDocumentReferenties": [
+            ],
+            "id": 2058936,
+            "isReferentieVersie": true,
+            "laatstGewijzigdDoor": "WoningKenmerkenServiceBus",
+            "laatstGewijzigdOp": "2020-11-25T09:23:24.2473854+01:00",
+            "opmerkingen": [
+              {
+                "@type": "OpmerkingResource",
+                "bericht": "De waarden in de velden 'Energiedrager RV' en 'Energiedrager SWW' verschillen van de VEKA gegevens.",
+                "typeOpmerking": "waarschuwing"
+              }
+            ],
+            "status": "Huidig",
+            "versieNaam": "Import - 25/11/2020 9:23"
+          },
+          {
+            "@type": "EpcVersieResource",
+            "epcWaarden": [
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "CNR",
+                  "label": "Certificaatnummer"
+                },
+                "waarde": "20200605-0002277780-RES-1"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "EPT",
+                  "label": "EpcType"
+                },
+                "waarde": "EPC bestaand"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "EPK",
+                  "label": "EpcKengetal"
+                },
+                "waarde": "158,00000"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "BVO",
+                  "label": "BeschermdVolume"
+                },
+                "waarde": "239,00000"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "TVO",
+                  "label": "TotaleVerliesoppervlakte"
+                },
+                "waarde": "74,00000"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "GUW",
+                  "label": "GemiddeldeUWaarde"
+                },
+                "waarde": "1,43000"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "RVH",
+                  "label": "Ruimteverwarming"
+                },
+                "waarde": "10453,00000"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "SWW",
+                  "label": "SanitairWarmWater"
+                },
+                "waarde": "1771,00000"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "BBV",
+                  "label": "BrutoBruikbareVloerOppervlakte"
+                },
+                "waarde": "84,00000"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "TOV",
+                  "label": "TotaleOppervlakteVensters"
+                },
+                "waarde": "17,30000"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "DEP",
+                  "label": "DatumEpc"
+                },
+                "waarde": "05/06/2020"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "LGO",
+                  "label": "LaatstGewijzigdOp"
+                },
+                "waarde": "25/11/2020 9:23:24"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "LGD",
+                  "label": "LaatstGewijzigdDoorNaam"
+                },
+                "waarde": "WoningKenmerkenServiceBus"
+              }
+            ],
+            "epcWaardenDocumentReferenties": [
+            ],
+            "id": 2638965,
+            "isReferentieVersie": false,
+            "laatstGewijzigdDoor": "WoningKenmerkenServiceBus",
+            "laatstGewijzigdOp": "2020-11-25T09:23:24.2317699+01:00",
+            "opmerkingen": [
+            ],
+            "status": "Historisch",
+            "versieNaam": "Import - 25/11/2020 8:22"
+          }
+        ],
+        "voorWoning": "/v1/woonmaatschappijen/0400898624/woningen/YXDVY"
+      }
+    }
+  }
+}

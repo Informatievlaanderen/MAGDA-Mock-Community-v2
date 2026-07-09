@@ -1,0 +1,21 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "detail": "zie validationErrors",
+      "instance": "KPRLW",
+      "status": 400,
+      "title": "Data validatie fouten",
+      "type": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "validationErrors": [
+        {
+          "name": "Ongeldige waarde",
+          "reason": "KPRLW;2020;Geen enkele epc versie is als referentieversie aangeduid, KPRLW;2021;Geen enkele epc versie is als referentieversie aangeduid, KPRLW;2022;Geen enkele epc versie is als referentieversie aangeduid, KPRLW;2023;Geen enkele epc versie is als referentieversie aangeduid, KPRLW;2024;Geen enkele epc versie is als referentieversie aangeduid, KPRLW;2025;Geen enkele epc versie is als referentieversie aangeduid, KPRLW;2026;Geen enkele epc versie is als referentieversie aangeduid, KPRLW;2027;Geen enkele epc versie is als referentieversie aangeduid"
+        }
+      ]
+    }
+  }
+}

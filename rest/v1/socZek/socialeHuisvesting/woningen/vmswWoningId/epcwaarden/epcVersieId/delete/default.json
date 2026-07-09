@@ -1,0 +1,14 @@
+{
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "title": "Not Found",
+      "detail": "Source: Er bestaat geen EPC versie met dit EPCVersieId.",
+      "instance": "ef621d19-ff71-46fa-a665-adfb39beaeab",
+      "status": "404"
+    }
+  }
+}

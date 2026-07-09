@@ -7,12 +7,24 @@
     "jsonBody": {
       "dossiers": [
         {
-          "dossierType": "RFH",
+          "dossierType": "REG",
           "dossierStatus": "CHKO",
-          "dossierNummer": "2023.01.11.0016",
+          "dossierNummer": "2023.01.11.0020",
           "inschrijvingsDatum": "2023-07-06T10:14:33.22.235+01:00",
           "creatieDatum": "2023-07-06T10:14:33.19.325+01:00",
           "laatsteWijzigingsDatum": "2023-07-06T10:24:19.655+01:00",
+          "voorNaam": "Mark",
+          "naam": "Marnix",
+          "aanvragerRijksregisternummer": "01700462685",
+          "versieNummer": 9
+        },
+        {
+          "dossierType": "REG",
+          "dossierStatus": "CHKO",
+          "dossierNummer": "2024.01.11.0016",
+          "inschrijvingsDatum": "2024-07-06T10:14:33.22.235+01:00",
+          "creatieDatum": "2024-07-06T10:14:33.19.325+01:00",
+          "laatsteWijzigingsDatum": "2024-07-06T10:24:19.655+01:00",
           "voorNaam": "Mark",
           "naam": "Marnix",
           "aanvragerRijksregisternummer": "01700462685",

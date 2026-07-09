@@ -1,0 +1,151 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "@id": "/v1/woonmaatschappijen/0400898624/woningen/TNTXY/epcwaarden",
+      "@magdaId": "https://iv.api.test-vlaanderen.be/api/v1/socZek/socialeHuisvesting/woningen/TNTXY/epcwaarden",
+      "@type": "EpcVersiesVoorWoningResource",
+      "value": {
+        "@type": "EpcVersiesVoorWoningResource",
+        "epcVersies": [
+          {
+            "@type": "EpcVersieResource",
+            "epcWaarden": [
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "CNR",
+                  "label": "Certificaatnummer"
+                },
+                "waarde": "20230809-0002961152-RES-1"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "EPT",
+                  "label": "EpcType"
+                },
+                "waarde": "EPC bestaand"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "EPK",
+                  "label": "EpcKengetal"
+                },
+                "waarde": "404,00000"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "BVO",
+                  "label": "BeschermdVolume"
+                },
+                "waarde": "148,00000"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "TVO",
+                  "label": "TotaleVerliesoppervlakte"
+                },
+                "waarde": "169,00000"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "GUW",
+                  "label": "GemiddeldeUWaarde"
+                },
+                "waarde": "0,94000"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "RVH",
+                  "label": "Ruimteverwarming"
+                },
+                "waarde": "61559,89200"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "SWW",
+                  "label": "SanitairWarmWater"
+                },
+                "waarde": "4917,42000"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "BBV",
+                  "label": "BrutoBruikbareVloerOppervlakte"
+                },
+                "waarde": "52,00000"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "TOV",
+                  "label": "TotaleOppervlakteVensters"
+                },
+                "waarde": "9,89000"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "DEP",
+                  "label": "DatumEpc"
+                },
+                "waarde": "09/08/2023"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "LGO",
+                  "label": "LaatstGewijzigdOp"
+                },
+                "waarde": "7/09/2023 19:52:06"
+              },
+              {
+                "@type": "EpcWaardeResource",
+                "epcWaardeDefinitie": {
+                  "@type": "EpcWaardeDefinitieResource",
+                  "code": "LGD",
+                  "label": "LaatstGewijzigdDoorNaam"
+                },
+                "waarde": "Jonas Nachtegael"
+              }
+            ],
+            "epcWaardenDocumentReferenties": [
+            ],
+            "id": 3071368,
+            "isReferentieVersie": false,
+            "laatstGewijzigdDoor": "VEKA",
+            "laatstGewijzigdOp": "2023-09-07T19:52:06.4361607+02:00",
+            "opmerkingen": [
+            ],
+            "status": "Huidig",
+            "versieNaam": "VEKA - 7/09/2023 19:51"
+          }
+        ],
+        "voorWoning": "/v1/woonmaatschappijen/0400898624/woningen/TNTXY"
+      }
+    }
+  }
+}

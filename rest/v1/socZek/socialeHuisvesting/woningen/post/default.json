@@ -1,0 +1,25 @@
+{
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "detail": "Voor meer informatie gelieve eigenschap 'validationErrors' te bekijken.",
+      "instance": "/v2/woonmaatschappijen/0400898624/woningen",
+      "status": 400,
+      "title": "Het verzoek is niet geldig.",
+      "type": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+      "validationErrors": [
+        {
+          "name": "GebouweenheidId",
+          "reason": "Er moet minstens een volledig adres of gebouweenheidId ingevuld zijn."
+        },
+        {
+          "name": "Adres",
+          "reason": "Er moet minstens een volledig adres of gebouweenheidId ingevuld zijn."
+        }
+      ]
+    }
+  }
+}

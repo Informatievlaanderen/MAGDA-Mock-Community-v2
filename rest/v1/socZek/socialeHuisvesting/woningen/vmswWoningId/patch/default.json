@@ -1,0 +1,14 @@
+{
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "title": "Bad Request",
+      "status": "400",
+      "detail": "Object instance has properties which are not allowed by the schema.",
+      "instance": "3b6ddbf9-61d5-4f21-95f6-5a2289ad5194"
+    }
+  }
+}
