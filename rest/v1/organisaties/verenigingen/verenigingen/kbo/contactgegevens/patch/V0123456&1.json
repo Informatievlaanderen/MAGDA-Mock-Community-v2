@@ -1,0 +1,15 @@
+{
+    "response": {
+        "status": 400,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "detail": "Source: De resource met id 'V0123456' werd niet gevonden.",
+            "instance": "8860fd63-ee6a-4ee4-a916-b630b82f4de4",
+            "status": 400,
+            "title": "Deze actie is niet geldig!",
+            "type": "urn:associationregistry.admin.api:aggregatenotfound"
+        }
+    }
+}

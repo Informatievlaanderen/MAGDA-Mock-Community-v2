@@ -1,0 +1,10 @@
+{
+    "response": {
+        "status": 202,
+        "headers": {
+            "VR-sequence": "84569",
+            "ETag": "W/\"27\"",
+            "Location": "https://mock.api.vlaanderen.be/api/v1/organisaties/verenigingen/verenigingen/V0002415/lidmaatschappen/1"
+        }
+    }
+}

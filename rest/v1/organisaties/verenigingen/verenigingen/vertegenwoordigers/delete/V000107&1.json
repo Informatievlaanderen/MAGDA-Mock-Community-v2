@@ -1,0 +1,15 @@
+{
+    "response": {
+        "status": 400,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "detail": "Source: Vertegenwoordiger met vertegenwoordigerId '3' is niet gekend",
+            "instance": "7cb958bf-7eae-452e-b362-4d014fe72620",
+            "status": 400,
+            "title": "Er heeft zich een fout voorgedaan!",
+            "type": "urn:associationregistry.admin.api:domain"
+        }
+    }
+}

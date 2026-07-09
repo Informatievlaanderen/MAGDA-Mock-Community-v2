@@ -1,0 +1,15 @@
+{
+    "response": {
+        "status": 404,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "detail": "Source: De gevraagde vereniging werd niet gevonden.",
+            "instance": "c647b716-ea39-4bf3-92c7-bfc8118ac886",
+            "status": 404,
+            "title": "Er heeft zich een fout voorgedaan!",
+            "type": "urn:associationregistry.admin.api:validation"
+        }
+    }
+}

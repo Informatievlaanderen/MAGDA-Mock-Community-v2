@@ -1,0 +1,15 @@
+{
+    "response": {
+        "status": 400,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "detail": "Source: Overleden vertegenwoordigers kunnen niet worden toegevoegd aan een vereniging.",
+            "instance": "f145044b-e607-4b9f-8ee8-f930c9b78292",
+            "status": 400,
+            "title": "Er heeft zich een fout voorgedaan!",
+            "type": "urn:associationregistry.admin.api:domain"
+        }
+    }
+}

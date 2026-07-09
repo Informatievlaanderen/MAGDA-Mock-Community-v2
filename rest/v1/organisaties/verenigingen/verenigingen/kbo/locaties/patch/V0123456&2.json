@@ -1,0 +1,15 @@
+{
+    "response": {
+        "status": 400,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "detail": "Source: Locatie met locatieId '2' is niet gekend",
+            "instance": "33a11796-8698-4c85-8d6b-3a75d159bfdd",
+            "status": 400,
+            "title": "Er heeft zich een fout voorgedaan!",
+            "type": "urn:associationregistry.admin.api:domain"
+        }
+    }
+}

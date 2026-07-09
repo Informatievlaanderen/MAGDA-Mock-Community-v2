@@ -1,0 +1,93 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "@context": "https://publiek.verenigingen.vlaanderen.be/v1/contexten/beheer/historiek-vereniging-context.json",
+      "vCode": "V0001031",
+      "gebeurtenissen": [
+          {
+              "beschrijving": "Feitelijke vereniging werd geregistreerd met naam 'Chocolat Biscuit'.",
+              "gebeurtenis": "FeitelijkeVerenigingWerdGeregistreerd",
+              "data": {
+                  "vCode": "V0001031",
+                  "naam": "Chocolat Biscuit",
+                  "korteNaam": "Choco",
+                  "korteBeschrijving": "Test MAGDAA",
+                  "doelgroep": {
+                      "minimumleeftijd": 0,
+                      "maximumleeftijd": 100
+                  },
+                  "isUitgeschrevenUitPubliekeDatastroom": false,
+                  "startdatum": "2005-08-13",
+                  "contactgegevens": [
+                      {
+                          "contactgegevenId": 1,
+                          "contactgegeventype": "E-mail",
+                          "waarde": "algemeen@noname.com",
+                          "beschrijving": "Algemeen",
+                          "isPrimair": true
+                      }
+                  ],
+                  "locaties": [
+                      {
+                          "locatieId": 1,
+                          "locatietype": "Activiteiten",
+                          "isPrimair": true,
+                          "naam": "Naam locatie",
+                          "adres": {
+                              "straatnaam": "Straatnddddaam",
+                              "huisnummer": "234",
+                              "busnummer": "12",
+                              "postcode": "1000",
+                              "gemeente": "Gemeente",
+                              "land": "België"
+                          },
+                          "adresId": {
+                              "broncode": "AR",
+                              "bronwaarde": "https://data.vlaanderen.be/id/adres/0"
+                          }
+                      }
+                  ],
+                  "vertegenwoordigers": [
+                      {
+                          "vertegenwoordigerId": 1,
+                          "isPrimair": true,
+                          "roepnaam": "Nickname",
+                          "rol": "testRole",
+                          "voornaam": "testAchernaam",
+                          "achternaam": "testAchernaam",
+                          "e-mail": "",
+                          "telefoon": "0000112233",
+                          "mobiel": "9999887766",
+                          "socialMedia": "http://example.org"
+                      }
+                  ],
+                  "hoofdactiviteitenVerenigingsloket": [
+                      {
+                          "code": "BWWC",
+                          "naam": "Buurtwerking & Wijkcomité"
+                      },
+                      {
+                          "code": "DINT",
+                          "naam": "Diversiteit & Integratie"
+                      },
+                      {
+                          "code": "GEWE",
+                          "naam": "Gezondheid & Welzijn"
+                      },
+                      {
+                          "code": "HOSP",
+                          "naam": "Hobby & Spel"
+                      }
+                  ]
+              },
+              "initiator": "OVO002949",
+              "tijdstip": "2024-03-18T09:24:29Z"
+          }
+      ]
+    }
+  }
+}

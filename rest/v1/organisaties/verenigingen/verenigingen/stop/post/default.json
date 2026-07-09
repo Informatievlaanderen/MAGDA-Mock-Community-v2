@@ -1,0 +1,9 @@
+{
+    "response": {
+        "status": 202,
+        "headers": {
+            "VR-sequence": "92906",
+            "ETag": "W/\"45\""
+        }
+    }
+}
