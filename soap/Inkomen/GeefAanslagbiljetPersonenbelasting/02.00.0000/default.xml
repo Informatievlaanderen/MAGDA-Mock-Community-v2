@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<web:GeefAanslagbiljetPersonenbelastingResponse xmlns:web="http://webservice.geefaanslagbiljetpersonenbelastingdienst-02_00.inkomen-02_00.vip.vlaanderen.be">
+    <Repliek>
+        <Context>
+            <Naam>GeefAanslagbiljetPersonenbelasting</Naam>
+            <Versie>02.00.0000</Versie>
+            <Bericht>
+                <Type>ANTWOORD</Type>
+                <Tijdstip>
+                    <Datum>0001-01-01</Datum>
+                    <Tijd>00:00:00.000</Tijd>
+                </Tijdstip>
+                <Afzender>
+                    <Identificatie>?</Identificatie>
+                    <Naam>?</Naam>
+                    <Referte>?</Referte>
+                </Afzender>
+                <Ontvanger>
+                    <Identificatie>?</Identificatie>
+                    <Referte>?</Referte>
+                    <Hoedanigheid>?</Hoedanigheid>
+                </Ontvanger>
+            </Bericht>
+        </Context>
+        <Antwoorden>
+            <Antwoord>
+                <Referte>?</Referte>
+                <Uitzonderingen>
+                    <Uitzondering>
+                        <Identificatie>45008</Identificatie>
+                        <Oorsprong>MAGDA</Oorsprong>
+                        <Type>INFORMATIE</Type>
+                        <Tijdstip>
+                            <Datum>2024-06-07</Datum>
+                            <Tijd>11:07:16.726</Tijd>
+                        </Tijdstip>
+                        <Diagnose>Het gevraagde inkomensjaar bestaat niet</Diagnose>
+                        <Omstandigheid>Geen gegevens beschikbaar voor meegeleverd inkomstenjaar</Omstandigheid>
+                    </Uitzondering>
+                </Uitzonderingen>
+            </Antwoord>
+        </Antwoorden>
+    </Repliek>
+</web:GeefAanslagbiljetPersonenbelastingResponse>
