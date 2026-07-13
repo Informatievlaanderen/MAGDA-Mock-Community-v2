@@ -1,0 +1,14 @@
+{
+    "response": {
+        "status": 404,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+			"title": "Not Found",
+			"detail": "Source: De VmswWoningId in de request is onbestaande binnen CWR",
+			"instance": "5198898f-0bda-4b38-874d-d4fd554c4286",
+			"status": "404"
+		}
+    }
+}
