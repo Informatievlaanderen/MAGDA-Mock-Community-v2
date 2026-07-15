@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<web:GeefSociaalStatuutResponse xmlns:web="http://magda.vlaanderen.be/soczek/soap/geefsociaalstatuut/v03_00">
+    <Repliek>
+        <Context>
+            <Naam>GeefSociaalStatuut</Naam>
+            <Versie>03.00.0000</Versie>
+            <Bericht>
+                <Type>ANTWOORD</Type>
+                <Tijdstip>
+                    <Datum>?</Datum>
+                    <Tijd>?</Tijd>
+                </Tijdstip>
+                <Afzender>
+                    <Identificatie>?</Identificatie>
+                    <Naam>?</Naam>
+                    <Referte>?</Referte>
+                </Afzender>
+                <Ontvanger>
+                    <Identificatie>?</Identificatie>
+                    <Referte>?</Referte>
+                    <Hoedanigheid>?</Hoedanigheid>
+                </Ontvanger>
+            </Bericht>
+        </Context>
+        <Antwoorden>
+            <Antwoord>
+                <Referte>?</Referte>
+                <Inhoud>
+                    <Persoon>
+                        <INSZ>12710295950</INSZ>
+                        <SocialeStatuten>
+                            <SociaalStatuut>
+                                <Naam>STATUUT_A</Naam>
+                                <Resultaat>
+                                    <Code>1</Code>
+                                    <Omschrijving>Van toepassing</Omschrijving>
+                                </Resultaat>
+                            </SociaalStatuut>
+                            <SociaalStatuut>
+                                <Naam>STATUUT_B</Naam>
+                                <Resultaat>
+                                    <Code>0</Code>
+                                    <Omschrijving>Niet van toepassing</Omschrijving>
+                                </Resultaat>
+                            </SociaalStatuut>
+                            <SociaalStatuut>
+                                <Naam>STATUUT_C</Naam>
+                                <Resultaat>
+                                    <Code>0</Code>
+                                    <Omschrijving>Van toepassing</Omschrijving>
+                                </Resultaat>
+                            </SociaalStatuut>
+                            <SociaalStatuut>
+                                <Naam>STATUUT_D</Naam>
+                                <Resultaat>
+                                    <Code>0</Code>
+                                    <Omschrijving>Niet van toepassing</Omschrijving>
+                                </Resultaat>
+                            </SociaalStatuut>
+                        </SocialeStatuten>
+                    </Persoon>
+                </Inhoud>
+            </Antwoord>
+        </Antwoorden>
+    </Repliek>
+</web:GeefSociaalStatuutResponse>
