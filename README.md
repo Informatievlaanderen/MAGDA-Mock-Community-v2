@@ -17,3 +17,13 @@ Underneath are the most important folders and files.
 
 - `Dockerfile`: the structure of the custom Docker container, linked to the rest and soap data as well as application.yml
 - `application.yml`: the necessary configuration for the app
+
+### Docker base image
+
+Note, the default base image that is used, `vlaamseoverheid-magda-docker-releases.jfrog.io/magda/magda.magdamock` (set by the `CONTAINER_NAME` argument in the Dockerfile), is not publicly available.
+To use a different base image (e.g. `ghcr.io/informatievlaanderen/magda-mock-v2`) you have to use the following build command:
+
+```bash
+docker build --build-arg CONTAINER_NAME="ghcr.io/informatievlaanderen/magda-mock-v2" -t custom-magdamock-community:latest
+```
+
