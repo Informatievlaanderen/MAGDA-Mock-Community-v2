@@ -1,4 +1,6 @@
-FROM vlaamseoverheid-magda-docker-releases.jfrog.io/magda/magda.magdamock:0.19.0
+ARG MAGDAMOCK_VERSION="0.22.1"
+ARG CONTAINER_NAME="vlaamseoverheid-magda-docker-releases.jfrog.io/magda/magda.magdamock"
+FROM ${CONTAINER_NAME}:${MAGDAMOCK_VERSION}
 
 COPY ./application.yml application.yml
 
