@@ -1,0 +1,843 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "@context": "https://vlaamseoverheid.atlassian.net/wiki/download/attachments/485949995/handicapvolledigeDossiers-context.jsonld?api=v2",
+      "wettelijkeVertegenwoordigers": [
+      ],
+      "persoonsgegevens": {
+        "@type": "Persoon",
+        "achternaam": "Doe",
+        "voornaam": "John",
+        "geslacht": "M",
+        "heeftGeboorte": {
+          "@type": "PersoonsGebeurtenis",
+          "datum": "1983-06-06"
+        },
+        "volledigeNaam": "John Doe",
+        "contactinfo": {
+          "telefoon": "0032475319781",
+          "email": "john.doe@example.com",
+          "adres": {
+            "@type": "AdresVoorstelling",
+            "straatnaam": {
+              "nl": "Kerkstraat"
+            },
+            "huisnummer": "15",
+            "postcode": "8000",
+            "postnaam": {
+              "nl": "Brugge"
+            },
+            "land": {
+              "nl": "België"
+            }
+          }
+        },
+        "rijksregisternummer": {
+          "notatie": "836606-341-35",
+          "agent": "rijksregister"
+        },
+        "dossiernummer": {
+          "notatie": "100176",
+          "agent": "VAPH"
+        },
+        "erkenningHandicap": {
+          "heeftHandicap": "JA",
+          "startdatum": "2001-05-03"
+        }
+      },
+      "persoonsvolgendBudget": {
+        "ondersteuningsplannen": [
+          {
+            "verzendingsdatum": "2023-04-11",
+            "gewoneVraag": {
+              "ondersteuningsfuncties": [
+                {
+                  "functie": "Dagondersteuning",
+                  "frequentie": "0.0",
+                  "eenheid": "dagen per week"
+                },
+                {
+                  "functie": "Woonondersteuning",
+                  "frequentie": "0.0",
+                  "eenheid": "nachten per week"
+                },
+                {
+                  "functie": "Individuele Psychosociale Begeleiding",
+                  "frequentie": "0.0",
+                  "eenheid": "uren per week"
+                },
+                {
+                  "functie": "Individuele Praktische Hulp",
+                  "frequentie": "117.0",
+                  "eenheid": "uren per week"
+                },
+                {
+                  "functie": "Globale Individuele Ondersteuning",
+                  "frequentie": "14.0",
+                  "eenheid": "uren per week"
+                }
+              ]
+            }
+          }
+        ],
+        "inAfwachtingVanBudgetOfExtraBudget": "NEEN",
+        "budget": {
+          "startdatum": "2011-07-25",
+          "startDatumEersteContract": "2011-07-25",
+          "terugvorderbaarVoorschot": 21000.0,
+          "budgetcategorie": {
+            "code": "BC_20"
+          },
+          "toegewezenZorgpunten": 80.58,
+          "jaarbudgetten": [
+            {
+              "jaar": 2025,
+              "type": "PVB",
+              "startdatum": "2025-01-01",
+              "einddatum": "2025-12-31",
+              "budgethoogte": 84922.4,
+              "saldoBudget": 45215.42
+            },
+            {
+              "jaar": 2024,
+              "type": "PVB",
+              "startdatum": "2024-01-01",
+              "einddatum": "2024-12-31",
+              "budgethoogte": 70271.9,
+              "saldoBudget": 0.0
+            },
+            {
+              "jaar": 2023,
+              "type": "PVB",
+              "startdatum": "2023-01-01",
+              "einddatum": "2023-12-31",
+              "budgethoogte": 51137.79,
+              "saldoBudget": 0.0
+            },
+            {
+              "jaar": 2022,
+              "type": "PVB",
+              "startdatum": "2022-01-01",
+              "einddatum": "2022-12-31",
+              "budgethoogte": 48036.28,
+              "saldoBudget": 0.0
+            },
+            {
+              "jaar": 2021,
+              "type": "PVB",
+              "startdatum": "2021-01-01",
+              "einddatum": "2021-12-31",
+              "budgethoogte": 55335.64,
+              "saldoBudget": 0.0
+            },
+            {
+              "jaar": 2020,
+              "type": "PVB",
+              "startdatum": "2020-01-01",
+              "einddatum": "2020-12-31",
+              "budgethoogte": 54745.35,
+              "saldoBudget": 0.0
+            },
+            {
+              "jaar": 2019,
+              "type": "PVB",
+              "startdatum": "2019-01-01",
+              "einddatum": "2019-12-31",
+              "budgethoogte": 44311.38,
+              "saldoBudget": 0.0
+            },
+            {
+              "jaar": 2018,
+              "type": "PVB",
+              "startdatum": "2018-01-01",
+              "einddatum": "2018-12-31",
+              "budgethoogte": 43444.3,
+              "saldoBudget": 0.0
+            },
+            {
+              "jaar": 2017,
+              "type": "PVB",
+              "startdatum": "2017-01-01",
+              "einddatum": "2017-12-31",
+              "budgethoogte": 42285.96,
+              "saldoBudget": 0.0
+            },
+            {
+              "jaar": 2016,
+              "type": "PAB",
+              "startdatum": "2016-01-01",
+              "einddatum": "2016-12-31",
+              "budgethoogte": 48236.87,
+              "saldoBudget": 0.0
+            },
+            {
+              "jaar": 2015,
+              "type": "PAB",
+              "startdatum": "2015-01-01",
+              "einddatum": "2015-12-31",
+              "budgethoogte": 47973.87,
+              "saldoBudget": 53.07
+            },
+            {
+              "jaar": 2014,
+              "type": "PAB",
+              "startdatum": "2014-01-01",
+              "einddatum": "2014-12-31",
+              "budgethoogte": 47894.23,
+              "saldoBudget": 12.09
+            },
+            {
+              "jaar": 2013,
+              "type": "PAB",
+              "startdatum": "2013-01-01",
+              "einddatum": "2013-12-31",
+              "budgethoogte": 45334.86,
+              "saldoBudget": 145.4
+            }
+          ],
+          "overeenkomsten": [
+            {
+              "startdatum": "2025-01-01",
+              "type": {
+                "code": "CASH",
+                "omschrijving": "Cash"
+              },
+              "zorgaanbieder": {
+                "persoon": {
+                  "@type": "Persoon",
+                  "achternaam": "Verbeke",
+                  "voornaam": "Maarten",
+                  "volledigeNaam": "Maarten Verbeke"
+                }
+              }
+            },
+            {
+              "startdatum": "2024-04-01",
+              "type": {
+                "code": "CASH",
+                "omschrijving": "Cash"
+              },
+              "zorgaanbieder": {
+                "organisatie": {
+                  "@type": "Organisatie",
+                  "ondernemingsnummer": {
+                    "notatie": "BE0801.233.262",
+                    "agent": "KBO"
+                  },
+                  "naam": "Kelly Versnick"
+                }
+              }
+            },
+            {
+              "startdatum": "2024-01-01",
+              "type": {
+                "code": "CASH",
+                "omschrijving": "Cash"
+              },
+              "zorgaanbieder": {
+                "organisatie": {
+                  "@type": "Organisatie",
+                  "ondernemingsnummer": {
+                    "notatie": "BE0409.533.604",
+                    "agent": "KBO"
+                  },
+                  "naam": "Familiehulp"
+                }
+              }
+            },
+            {
+              "startdatum": "2023-09-18",
+              "einddatum": "2023-09-18",
+              "type": {
+                "code": "CASH",
+                "omschrijving": "Cash"
+              },
+              "zorgaanbieder": {
+                "organisatie": {
+                  "@type": "Organisatie",
+                  "ondernemingsnummer": {
+                    "notatie": "BE0807.821.641",
+                    "agent": "KBO"
+                  },
+                  "erkenningsnummer": {
+                    "notatie": "SE.306",
+                    "agent": "VAPH"
+                  },
+                  "naam": "Aditi"
+                }
+              }
+            },
+            {
+              "startdatum": "2023-08-08",
+              "type": {
+                "code": "CASH",
+                "omschrijving": "Cash"
+              },
+              "zorgaanbieder": {
+                "organisatie": {
+                  "@type": "Organisatie",
+                  "ondernemingsnummer": {
+                    "notatie": "BE0673.790.011",
+                    "agent": "KBO"
+                  },
+                  "naam": "HELPPER"
+                }
+              }
+            },
+            {
+              "startdatum": "2023-08-04",
+              "type": {
+                "code": "CASH",
+                "omschrijving": "Cash"
+              },
+              "zorgaanbieder": {
+                "organisatie": {
+                  "@type": "Organisatie",
+                  "ondernemingsnummer": {
+                    "notatie": "BE0428.377.041",
+                    "agent": "KBO"
+                  },
+                  "naam": "Partner in Assistentie vrijwilligers"
+                }
+              }
+            },
+            {
+              "startdatum": "2021-01-01",
+              "einddatum": "2021-06-30",
+              "type": {
+                "code": "CASH",
+                "omschrijving": "Cash"
+              },
+              "zorgaanbieder": {
+                "organisatie": {
+                  "@type": "Organisatie",
+                  "ondernemingsnummer": {
+                    "notatie": "BE0807.261.417",
+                    "agent": "KBO"
+                  },
+                  "naam": "Vdet"
+                }
+              }
+            },
+            {
+              "startdatum": "2020-03-16",
+              "einddatum": "2020-12-31",
+              "type": {
+                "code": "CASH",
+                "omschrijving": "Cash"
+              },
+              "zorgaanbieder": {
+                "organisatie": {
+                  "@type": "Organisatie",
+                  "ondernemingsnummer": {
+                    "notatie": "BE0807.261.417",
+                    "agent": "KBO"
+                  },
+                  "naam": "Vdet"
+                }
+              }
+            },
+            {
+              "startdatum": "2017-04-24",
+              "einddatum": "2024-12-31",
+              "type": {
+                "code": "CASH",
+                "omschrijving": "Cash"
+              },
+              "zorgaanbieder": {
+                "organisatie": {
+                  "@type": "Organisatie",
+                  "ondernemingsnummer": {
+                    "notatie": "BE0478.971.449",
+                    "agent": "KBO"
+                  },
+                  "naam": "T - GROEP"
+                }
+              }
+            },
+            {
+              "startdatum": "2013-01-01",
+              "einddatum": "2016-12-31",
+              "type": {
+                "code": "CASH",
+                "omschrijving": "Cash"
+              },
+              "zorgaanbieder": {
+                "organisatie": {
+                  "@type": "Organisatie",
+                  "ondernemingsnummer": {
+                    "notatie": "BE0435.047.275",
+                    "agent": "KBO"
+                  },
+                  "naam": "Onafhankelijk Leven vzw"
+                }
+              }
+            },
+            {
+              "startdatum": "2012-01-01",
+              "type": {
+                "code": "CASH",
+                "omschrijving": "Cash"
+              },
+              "zorgaanbieder": {
+                "organisatie": {
+                  "@type": "Organisatie",
+                  "ondernemingsnummer": {
+                    "notatie": "BE0435.047.275",
+                    "agent": "KBO"
+                  },
+                  "erkenningsnummer": {
+                    "notatie": "SE.543",
+                    "agent": "VAPH"
+                  },
+                  "naam": "Onafhankelijk Leven"
+                }
+              }
+            },
+            {
+              "startdatum": "2011-09-23",
+              "type": {
+                "code": "CASH",
+                "omschrijving": "Cash"
+              },
+              "zorgaanbieder": {
+                "persoon": {
+                  "@type": "Persoon",
+                  "achternaam": "Vervaecke",
+                  "voornaam": "Filip",
+                  "volledigeNaam": "Filip Vervaecke"
+                }
+              }
+            },
+            {
+              "startdatum": "2011-07-25",
+              "type": {
+                "code": "CASH",
+                "omschrijving": "Cash"
+              },
+              "zorgaanbieder": {
+                "organisatie": {
+                  "@type": "Organisatie",
+                  "ondernemingsnummer": {
+                    "notatie": "BE0809.600.206",
+                    "agent": "KBO"
+                  },
+                  "naam": "Plus Home Services Geel"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "rth": [
+      ],
+      "overeenkomsten": {
+        "mfc": [
+        ],
+        "odb": [
+        ],
+        "geinterneerden": [
+        ],
+        "forensischeVAPHUnit": [
+        ],
+        "nah": [
+        ]
+      },
+      "diagnose": {
+        "laatsteVerslag": {
+          "verzendingsdatum": "2024-03-18",
+          "mdtVerslagNemer": {
+            "mdt": {
+              "@type": "Organisatie",
+              "erkenningsnummer": {
+                "notatie": "MDT.167.1020",
+                "agent": "VAPH"
+              },
+              "naam": "Oriëntatiecentrum - Multidisciplinair team"
+            }
+          }
+        },
+        "stoornissen": [
+          {
+            "code": "G710",
+            "naam": "Spierdystrofie (Beckers,Janssen,facioscapulohumeraal enz.)",
+            "verslag": {
+              "verzendingsdatum": "2012-10-22",
+              "mdtVerslagNemer": {
+                "mdt": {
+                  "@type": "Organisatie",
+                  "erkenningsnummer": {
+                    "notatie": "MDT.908.61",
+                    "agent": "VAPH"
+                  },
+                  "naam": "CM regio Mechelen-Turnhout"
+                }
+              }
+            }
+          },
+          {
+            "code": "G710  3",
+            "naam": "Janssen,myopathie van-",
+            "verslag": {
+              "verzendingsdatum": "2001-01-23",
+              "mdtVerslagNemer": {
+                "mdt": {
+                  "@type": "Organisatie",
+                  "erkenningsnummer": {
+                    "notatie": "MDT.816.215",
+                    "agent": "VAPH"
+                  },
+                  "naam": "Revalidatiecentrum voor kinderen"
+                }
+              }
+            }
+          }
+        ],
+        "handicaps": [
+          {
+            "code": "1210",
+            "naam": "(Loco)motorische stoornis [SUBDOMEIN]"
+          }
+        ],
+        "motorischeBeperkingen": {
+          "verslag": {
+            "verzendingsdatum": "2007-06-22",
+            "mdtVerslagNemer": {
+              "mdt": {
+                "@type": "Organisatie",
+                "erkenningsnummer": {
+                  "notatie": "MDT.816.215",
+                  "agent": "VAPH"
+                },
+                "naam": "Revalidatiecentrum voor Kinderen U.Z. Gasthuisberg"
+              }
+            }
+          },
+          "bovensteLedematenLinks": "Matig probleem",
+          "bovensteLedematenRechts": "Matig probleem",
+          "ondersteLedematenLinks": "Ernstig probleem",
+          "ondersteLedematenRechts": "Ernstig probleem",
+          "wervelkolom": "Matig probleem",
+          "stappen300m": "ja"
+        },
+        "zelfredzaamheid": {
+          "barthel": 41.0,
+          "verslag": {
+            "verzendingsdatum": "2007-06-22",
+            "mdtVerslagNemer": {
+              "mdt": {
+                "@type": "Organisatie",
+                "erkenningsnummer": {
+                  "notatie": "MDT.816.215",
+                  "agent": "VAPH"
+                },
+                "naam": "Revalidatiecentrum voor Kinderen U.Z. Gasthuisberg"
+              }
+            }
+          }
+        },
+        "zorgZwaarte": {
+          "bWaarde": 7.0,
+          "pWaarde": 6.0,
+          "verslag": {
+            "verzendingsdatum": "2024-03-18",
+            "mdtVerslagNemer": {
+              "mdt": {
+                "@type": "Organisatie",
+                "erkenningsnummer": {
+                  "notatie": "MDT.167.1020",
+                  "agent": "VAPH"
+                },
+                "naam": "Oriëntatiecentrum - Multidisciplinair team"
+              }
+            }
+          },
+          "zziWaarden": [
+            {
+              "code": "Kan de persoon 50 meter stappen op vlak terrein?",
+              "omschrijving": "Met hulp: volledig afhankelijk"
+            },
+            {
+              "code": "Kan de persoon zelfstandig gebruik maken van het openbaar vervoer (trein, bus, tram)?",
+              "omschrijving": "Met hulp: volledig afhankelijk"
+            }
+          ]
+        },
+        "beperkingen": [
+          {
+            "code": "3",
+            "omschrijving": "Personen met een ernstige communicatieve beperking"
+          },
+          {
+            "code": "8",
+            "omschrijving": "Personen met een matig functieverlies in één bovenste lidmaat"
+          },
+          {
+            "code": "9",
+            "omschrijving": "Personen met een matig functieverlies in beide bovenste ledematen"
+          },
+          {
+            "code": "11",
+            "omschrijving": "Personen met een ernstig functieverlies in beide bovenste ledematen"
+          },
+          {
+            "code": "13",
+            "omschrijving": "Personen met een volledig functieverlies in beide bovenste ledematen"
+          },
+          {
+            "code": "19",
+            "omschrijving": "Personen met een volledig functieverlies in beide onderste ledematen"
+          }
+        ],
+        "stoornisCodes": [
+        ]
+      },
+      "hulpmiddelen": {
+        "doelgroepen": [
+          {
+            "omschrijving": "Personen met een ernstige communicatieve beperking",
+            "categorien": [
+              {
+                "code": "9",
+                "omschrijving": "communicatie"
+              }
+            ]
+          },
+          {
+            "omschrijving": "Personen met een matig functieverlies in één bovenste lidmaat",
+            "categorien": [
+              {
+                "code": "14",
+                "omschrijving": "bovenste ledematen"
+              }
+            ]
+          },
+          {
+            "omschrijving": "Personen met een matig functieverlies in beide bovenste ledematen",
+            "categorien": [
+              {
+                "code": "14",
+                "omschrijving": "bovenste ledematen"
+              }
+            ]
+          },
+          {
+            "omschrijving": "Personen met een ernstig functieverlies in beide bovenste ledematen",
+            "categorien": [
+              {
+                "code": "14",
+                "omschrijving": "bovenste ledematen"
+              }
+            ]
+          },
+          {
+            "omschrijving": "Personen met een volledig functieverlies in beide bovenste ledematen",
+            "categorien": [
+              {
+                "code": "14",
+                "omschrijving": "bovenste ledematen"
+              }
+            ]
+          },
+          {
+            "omschrijving": "Personen met een volledig functieverlies in beide onderste ledematen",
+            "categorien": [
+              {
+                "code": "15",
+                "omschrijving": "onderste ledematen"
+              }
+            ]
+          }
+        ],
+        "hulpmiddel": [
+          {
+            "naam": "Anti-decubitusmatras",
+            "domein": "Activiteiten Dagelijks Leven",
+            "omschrijving": "anti-decubitus statische matras",
+            "aanvraagdatum": "2025-06-06",
+            "facturenBetaalbaarVanaf": "2025-05-01",
+            "toegewezenBedrag": 396.87,
+            "bewijzen": [
+              {
+                "factuurdatum": "2025-06-06",
+                "factuurReferentie": "#IN001104",
+                "bedrag": 970.0,
+                "betaalbaar": true
+              }
+            ],
+            "status": {
+              "code": "actief.goedgekeurd",
+              "omschrijving": ""
+            }
+          },
+          {
+            "naam": "Onderhoudskosten",
+            "domein": "Onderhoud- en herstellingskosten",
+            "omschrijving": "2024 onderhoudskosten elektrische lifter op wieltjes (188,38 euro per onderhoudsbeurt, maximaal 1 onderhoudsbeurt per jaar) 2024",
+            "aanvraagdatum": "2024-12-09",
+            "facturenBetaalbaarVanaf": "2015-07-01",
+            "toegewezenBedrag": 197.8,
+            "bewijzen": [
+            ],
+            "status": {
+              "code": "actief.goedgekeurd.ambtshalve goedgekeurd",
+              "omschrijving": ""
+            }
+          },
+          {
+            "naam": "Onderhoudskosten",
+            "domein": "Onderhoud- en herstellingskosten",
+            "omschrijving": "2024 onderhoudskosten til- en verplaatsingssysteem eerste verdieping (188,38 euro per onderhoudsbeurt, maximaal 1 onderhoudsbeurt per jaar) 2024",
+            "aanvraagdatum": "2024-12-09",
+            "facturenBetaalbaarVanaf": "2015-07-01",
+            "toegewezenBedrag": 197.8,
+            "bewijzen": [
+              {
+                "factuurdatum": "2024-11-27",
+                "factuurReferentie": "64519",
+                "bedrag": 237.65,
+                "betaalbaar": true
+              }
+            ],
+            "status": {
+              "code": "actief.goedgekeurd.ambtshalve goedgekeurd",
+              "omschrijving": ""
+            }
+          },
+          {
+            "naam": "Onderhoudskosten",
+            "domein": "Onderhoud- en herstellingskosten",
+            "omschrijving": "2024 onderhoudskosten til- en verplaatsingssysteem meerdere ruimten gelijkvloers (188,38 euro per onderhoudsbeurt, maximaal 1 onderhoudsbeurt per jaar) 2024",
+            "aanvraagdatum": "2024-12-09",
+            "facturenBetaalbaarVanaf": "2015-07-01",
+            "toegewezenBedrag": 197.8,
+            "bewijzen": [
+              {
+                "factuurdatum": "2024-11-27",
+                "factuurReferentie": "64519",
+                "bedrag": 237.66,
+                "betaalbaar": true
+              }
+            ],
+            "status": {
+              "code": "actief.goedgekeurd.ambtshalve goedgekeurd",
+              "omschrijving": ""
+            }
+          },
+          {
+            "naam": "Tilband of tildoek",
+            "domein": "Activiteiten Dagelijks Leven",
+            "omschrijving": "tilband of tildoek",
+            "aanvraagdatum": "2024-08-16",
+            "facturenBetaalbaarVanaf": "2024-07-01",
+            "toegewezenBedrag": 330.16,
+            "bewijzen": [
+              {
+                "factuurdatum": "2024-09-18",
+                "factuurReferentie": "63905",
+                "bedrag": 453.75,
+                "betaalbaar": true
+              }
+            ],
+            "status": {
+              "code": "actief.goedgekeurd",
+              "omschrijving": ""
+            }
+          },
+          {
+            "naam": "Onderhoudskosten",
+            "domein": "Onderhoud- en herstellingskosten",
+            "omschrijving": "2024 onderhoudskosten voor traplift (max. 1 beurt per beurt) 2024",
+            "aanvraagdatum": "2024-02-19",
+            "facturenBetaalbaarVanaf": "2015-08-01",
+            "toegewezenBedrag": 197.8,
+            "bewijzen": [
+              {
+                "factuurdatum": "2023-06-08",
+                "factuurReferentie": "SCF23057082",
+                "bedrag": 356.15,
+                "betaalbaar": true
+              }
+            ],
+            "status": {
+              "code": "actief.goedgekeurd.ambtshalve goedgekeurd",
+              "omschrijving": ""
+            }
+          },
+          {
+            "naam": "Onderhoudskosten",
+            "domein": "Onderhoud- en herstellingskosten",
+            "omschrijving": "2023 onderhoudskosten voor traplift (max. 1 beurt per beurt) 2023",
+            "aanvraagdatum": "2023-03-29",
+            "facturenBetaalbaarVanaf": "2015-08-01",
+            "toegewezenBedrag": 188.38,
+            "bewijzen": [
+              {
+                "factuurdatum": "2022-06-17",
+                "factuurReferentie": "SCF22057336",
+                "bedrag": 333.32,
+                "betaalbaar": true
+              }
+            ],
+            "status": {
+              "code": "actief.goedgekeurd.ambtshalve goedgekeurd",
+              "omschrijving": ""
+            }
+          },
+          {
+            "naam": "Til- en verplaatsingssysteem voor gebruik in één ruimte (rail- of wandliftsysteem) (excl. tildoek of tilband)",
+            "domein": "Activiteiten Dagelijks Leven",
+            "omschrijving": "til- en verplaatsingssysteem één ruimte (excl. tilband, -doek)",
+            "aanvraagdatum": "2022-12-16",
+            "facturenBetaalbaarVanaf": "2022-11-01",
+            "toegewezenBedrag": 5985.05,
+            "bewijzen": [
+              {
+                "factuurdatum": "2023-03-08",
+                "factuurReferentie": "58122",
+                "bedrag": 4979.95,
+                "betaalbaar": true
+              }
+            ],
+            "status": {
+              "code": "actief.goedgekeurd",
+              "omschrijving": ""
+            }
+          },
+          {
+            "naam": "Onderhoudskosten",
+            "domein": "Onderhoud- en herstellingskosten",
+            "omschrijving": "onderhoudskosten (el. lifter op wieltjes, til- en verpl. systemen)",
+            "aanvraagdatum": "2022-12-16",
+            "facturenBetaalbaarVanaf": "2022-11-01",
+            "toegewezenBedrag": 188.38,
+            "bewijzen": [
+            ],
+            "status": {
+              "code": "actief.goedgekeurd",
+              "omschrijving": ""
+            }
+          },
+          {
+            "naam": "Herstellingskosten",
+            "domein": "Onderhoud- en herstellingskosten",
+            "omschrijving": "herstellingskosten til- en verpl.-syst. één ruimte (excl. tilband, -doek)",
+            "aanvraagdatum": "2022-12-16",
+            "facturenBetaalbaarVanaf": "2022-11-01",
+            "toegewezenBedrag": 1197.01,
+            "bewijzen": [
+            ],
+            "status": {
+              "code": "actief.goedgekeurd",
+              "omschrijving": ""
+            }
+          }
+        ]
+      }
+    }
+  }
+}
