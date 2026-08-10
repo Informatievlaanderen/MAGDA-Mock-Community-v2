@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<web:GeefLoopbaanARZAResponse xmlns:web="http://webservice.geefloopbaanarzadienst-02_01.werk-02_01.vip.vlaanderen.be">
+    <Repliek>
+        <Context>
+            <Naam>GeefLoopbaanARZA</Naam>
+            <Versie>02.01.0000</Versie>
+            <Bericht>
+                <Type>ANTWOORD</Type>
+                <Tijdstip>
+                    <Datum>0001-01-01</Datum>
+                    <Tijd>00:00:00.000</Tijd>
+                </Tijdstip>
+                <Afzender>
+                    <Identificatie>?</Identificatie>
+                    <Naam>?</Naam>
+                    <Referte>?</Referte>
+                </Afzender>
+                <Ontvanger>
+                    <Identificatie>?</Identificatie>
+                    <Referte>?</Referte>
+                    <Hoedanigheid>?</Hoedanigheid>
+                </Ontvanger>
+            </Bericht>
+        </Context>
+        <Antwoorden>
+            <Antwoord>
+                <Referte>?</Referte>
+                <Inhoud>
+                    <Zelfstandige>
+                        <INSZ>87721300296</INSZ>
+                        <Ondernemingsnummer>0124567893</Ondernemingsnummer>
+                        <Aansluitingen>
+                            <Aansluiting>
+                                <SociaalVerzekeringsfonds>
+                                    <Code>003</Code>
+                                    <Omschrijving Oorsprong="MAGDA" TaalCode="nl">S.V.M.B.</Omschrijving>
+                                    <Ondernemingsnummer>0409088689</Ondernemingsnummer>
+                                </SociaalVerzekeringsfonds>
+                                <Loopbanen>
+                                    <Loopbaan>
+                                        <Bijdragereeks>
+                                            <Code>200</Code>
+                                            <Omschrijving Oorsprong="KSZ">Bijberoep</Omschrijving>
+                                        </Bijdragereeks>
+                                        <Periode>
+                                            <Begin>2019-10-01</Begin>
+                                            <Einde>2024-12-31</Einde>
+                                        </Periode>
+                                        <Hoedanigheid>
+                                            <Code>100</Code>
+                                            <Omschrijving Oorsprong="KSZ">Activiteit in eigen naam</Omschrijving>
+                                        </Hoedanigheid>
+                                    </Loopbaan>
+                                    <Loopbaan>
+                                        <Bijdragereeks>
+                                            <Code>100</Code>
+                                            <Omschrijving Oorsprong="KSZ">Hoofdberoep</Omschrijving>
+                                        </Bijdragereeks>
+                                        <Periode>
+                                            <Begin>2025-01-01</Begin>
+                                        </Periode>
+                                        <Hoedanigheid>
+                                            <Code>100</Code>
+                                            <Omschrijving Oorsprong="KSZ">Activiteit in eigen naam</Omschrijving>
+                                        </Hoedanigheid>
+                                    </Loopbaan>
+                                </Loopbanen>
+                            </Aansluiting>
+                        </Aansluitingen>
+                    </Zelfstandige>
+                </Inhoud>
+            </Antwoord>
+        </Antwoorden>
+    </Repliek>
+</web:GeefLoopbaanARZAResponse>

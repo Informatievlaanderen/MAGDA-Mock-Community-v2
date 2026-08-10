@@ -1,0 +1,38 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "@context": "https://vlaamseoverheid.atlassian.net/wiki/download/attachments/6118410708/context-werk.verrichtingen.jsonld?api=v2",
+      "insznummer": {
+        "identificator": "85640300207"
+      },
+      "verrichtingen": [
+        {
+          "maatregel": "JBPLUS",
+          "fiscaleJaren": [
+            {
+              "fiscaalJaar": 2024,
+              "totaalBedrag": {
+                "waarde": 500.12,
+                "valuta": "EUR"
+              },
+              "detailVerrichtingen": [
+                {
+                  "bedragType": "SCHIJF_1",
+                  "effectieveVerrichtingDatum": "2024-07-15",
+                  "verrichtingBedrag": {
+                    "waarde": 500.12,
+                    "valuta": "EUR"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
