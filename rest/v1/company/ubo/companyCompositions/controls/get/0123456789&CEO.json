@@ -1,0 +1,186 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "beneficiaryName": "baba bibi",
+        "benficiaryLastName" : "bibi",
+        "neneficiaryFistName": "baba",
+        "beneficiarySitranNames": {
+          "additionalProp1": "baba",
+          "additionalProp2": "bibi"
+        },
+        "beneficiaryIdentifier": "01234567980",
+        "controlId": 1736735,
+        "beneficiaryType": "PERSON",
+        "controlType": "CEO",
+        "percentInVote": 0.0000,
+        "percent": 0.0000,
+        "groupName": null,
+        "groupId": null,
+        "derogated": false,
+        "validated": true,
+        "belgian": true
+      },
+      {
+        "beneficiaryName": "Schol Jefke",
+        "controlId": 1094302,
+        "beneficiaryType": "PERSON",
+        "controlType": "PERCENT",
+        "percentInVote": 1.0000,
+        "percent": 1.0000,
+        "groupName": null,
+        "groupId": null,
+        "derogated": false,
+        "validated": true,
+        "belgian": true
+      },
+      {
+        "beneficiaryName": "test45 test étranger",
+        "controlId": 1625236,
+        "beneficiaryType": "PERSON",
+        "controlType": "CEO",
+        "percentInVote": 0.0000,
+        "percent": 0.0000,
+        "groupName": null,
+        "groupId": null,
+        "derogated": false,
+        "validated": true,
+        "belgian": true
+      },
+      {
+        "beneficiaryName": "Mvjspzc Vvzen",
+        "controlId": 1653654,
+        "beneficiaryType": "PERSON",
+        "controlType": "PERCENT",
+        "percentInVote": 9.8550,
+        "percent": 10.0000,
+        "groupName": null,
+        "groupId": null,
+        "derogated": false,
+        "validated": true,
+        "belgian": true
+      },
+      {
+        "beneficiaryName": "Testtt Testtt",
+        "controlId": 1588579,
+        "beneficiaryType": "PERSON",
+        "controlType": "OTHER",
+        "percentInVote": 0.0000,
+        "percent": 0.0000,
+        "groupName": null,
+        "groupId": null,
+        "derogated": false,
+        "validated": true,
+        "belgian": true
+      },
+      {
+        "beneficiaryName": "Jean-Jacques Kengo-wa-Dondo Walala",
+        "controlId": 1095552,
+        "beneficiaryType": "PERSON",
+        "controlType": "PERCENT",
+        "percentInVote": 2.0000,
+        "percent": 2.0000,
+        "groupName": null,
+        "groupId": null,
+        "derogated": false,
+        "validated": true,
+        "belgian": true
+      },
+      {
+        "beneficiaryName": "Q.A.V.C. Aqjcxuhlnfo fft Nyezlcj x'ébèvww kj t'Yyiénéw vnoae Wtjfka Zmnpch",
+        "controlId": 1801381,
+        "beneficiaryType": "COMPANY",
+        "controlType": "OTHER",
+        "percentInVote": 0.0000,
+        "percent": 0.0000,
+        "groupName": null,
+        "groupId": null,
+        "derogated": false,
+        "validated": true,
+        "belgian": true
+      },
+      {
+        "beneficiaryName": "Gdirize Ubauiibajr",
+        "controlId": 1094276,
+        "beneficiaryType": "PERSON",
+        "controlType": "CEO",
+        "percentInVote": 0.0000,
+        "percent": 0.0000,
+        "groupName": null,
+        "groupId": null,
+        "derogated": false,
+        "validated": true,
+        "belgian": true
+      },
+      {
+        "beneficiaryName": "Cqskkxdkj Nuhnfg",
+        "controlId": 1625208,
+        "beneficiaryType": "PERSON",
+        "controlType": "CEO",
+        "percentInVote": 0.0000,
+        "percent": 0.0000,
+        "groupName": null,
+        "groupId": null,
+        "derogated": false,
+        "validated": true,
+        "belgian": true
+      },
+      {
+        "beneficiaryName": "Eplipo Xwhkmnjgzt",
+        "controlId": 1094271,
+        "beneficiaryType": "PERSON",
+        "controlType": "OTHER",
+        "percentInVote": 0.0000,
+        "percent": 0.0000,
+        "groupName": null,
+        "groupId": null,
+        "derogated": false,
+        "validated": true,
+        "belgian": true
+      },
+      {
+        "beneficiaryName": "***** *****",
+        "controlId": 1673556,
+        "beneficiaryType": "PERSON",
+        "controlType": null,
+        "percentInVote": null,
+        "percent": null,
+        "groupName": null,
+        "groupId": null,
+        "derogated": false,
+        "validated": true,
+        "belgian": true
+      },
+      {
+        "beneficiaryName": "Skdg Ncagxafjntwx",
+        "controlId": 1731680,
+        "beneficiaryType": "PERSON",
+        "controlType": "CEO",
+        "percentInVote": 0.0000,
+        "percent": 0.0000,
+        "groupName": null,
+        "groupId": null,
+        "derogated": false,
+        "validated": true,
+        "belgian": true
+      },
+      {
+        "beneficiaryName": "test45 test étranger",
+        "controlId": 1625227,
+        "beneficiaryType": "PERSON",
+        "controlType": "PERCENT",
+        "percentInVote": 0.5000,
+        "percent": 0.0200,
+        "groupName": null,
+        "groupId": null,
+        "derogated": false,
+        "validated": true,
+        "belgian": true
+      }
+    ]
+  }
+}

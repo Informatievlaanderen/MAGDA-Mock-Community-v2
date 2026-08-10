@@ -1,0 +1,43 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "controlId": 0,
+      "controlType": "string",
+      "beginDate": "string",
+      "endDate": "string",
+      "percentInVote": 0,
+      "percent": 0,
+      "beneficiary": {
+        "identifier": "string",
+        "firstName": "string",
+        "lastName": "string",
+        "birthDate": "string",
+        "nationalities": [
+          "string"
+        ]
+      },
+      "companyIdentifier": "string",
+      "group": {
+        "id": "string",
+        "name": "string"
+      },
+      "comment": "string",
+      "derogated": true,
+      "documents": [
+        {
+          "name": "string",
+          "uuid": "string",
+          "controlId": 0,
+          "type": "string",
+          "dueDate": "2023-04-24",
+          "documentId": 0,
+          "removed": true
+        }
+      ]
+    }
+  }
+}

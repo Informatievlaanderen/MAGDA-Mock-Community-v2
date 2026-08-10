@@ -1,0 +1,14 @@
+{
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "title": "Not found",
+      "status": 404,
+      "detail": "Geen data gevonden",
+      "instance": "07f805b6-b400-4622-b7f4-5ba9e7cd8778"
+    }
+  }
+}
