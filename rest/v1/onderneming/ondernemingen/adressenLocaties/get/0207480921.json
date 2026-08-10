@@ -1,0 +1,72 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "@context": "https://vlaamseoverheid.atlassian.net/wiki/download/attachments/6118410708/adressenLocaties-context.jsonld?api=v2",
+      "ondernemingsNummer": "0207480921",
+      "soortOnderneming": {
+        "code": {
+          "waarde": 2,
+          "beschrijving": "Rechtspersoon"
+        }
+      },
+      "adresLocatieLijst": [
+        {
+          "kboAdres": {
+            "datumBegin": "1996-07-19",
+            "datumEinde": "9999-12-31",
+            "straat": {
+              "code": "9165",
+              "naam": "Maastrichtersteenweg"
+            },
+            "huisNummer": "2",
+            "busNummer": "B",
+            "gemeente": {
+              "nisCode": "73066",
+              "postCode": "3770",
+              "naam": "Riemst"
+            },
+            "land": {
+              "nisCode": "150",
+              "isoCode": "BEL",
+              "naam": "België"
+            },
+            "taal": {
+              "code": {
+                "waarde": "2",
+                "beschrijving": "nl"
+              }
+            },
+            "type": {
+              "code": {
+                "waarde": "001",
+                "beschrijving": "Onderneming"
+              }
+            }
+          },
+          "grarAdressen": [
+            {
+              "taalCode": "nl",
+              "grarId": 2722276,
+              "straat": {
+                "grarId": 122769,
+                "naam": "Maastrichtersteenweg"
+              },
+              "huisNummer": "2",
+              "busNummer": "B",
+              "postKanton": "3770",
+              "adresPositie": {
+                "coördinaat": "POINT (236619.97 167628.26)",
+                "positieGeometrieMethode": "aangeduidDoorBeheerder",
+                "positieSpecificatie": "gemeente"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
