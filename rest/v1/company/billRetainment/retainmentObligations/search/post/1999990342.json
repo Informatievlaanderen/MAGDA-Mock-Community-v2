@@ -1,0 +1,64 @@
+{
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "@context": "https://vlaamseoverheid.atlassian.net/wiki/download/attachments/6118410708/context-socialBillretainment.jsonld?api=v2",
+            "total": 2,
+            "items": [
+                {
+                    "enterprise": {
+                        "enterpriseIdentifiers": [
+                            {
+                                "identification": "1999990342",
+                                "type": "enterpriseNumber"
+                            },
+                            {
+                                "identification": "BE1999990342",
+                                "type": "vatNumber"
+                            }
+                        ]
+                    },
+                    "retainmentCheckReference": "20903E1Z80QSZ",
+                    "fiscalSection": {
+                        "situation": "noObligation",
+                        "fiscalWithholdingPercentage": 0,
+                        "nonRetainmentExpirationDate": "2026-07-29T00:00:00.000Z",
+                        "attestId": 0
+                    },
+                    "socialSection": {
+                        "situation": "noObligation",
+                        "socialWithholdingPercentage": 0,
+                        "nonRetainmentExpirationDate": "2026-07-29T00:00:00.000Z"
+                    }
+                },
+                {
+                    "enterprise": {
+                        "enterpriseIdentifiers": [
+                            {
+                                "identification": "1999990243",
+                                "type": "enterpriseNumber"
+                            },
+                            {
+                                "identification": "BE1999990243",
+                                "type": "vatNumber"
+                            }
+                        ]
+                    },
+                    "retainmentCheckReference": "21503E1Z80QRT",
+                    "fiscalSection": {
+                        "situation": "obligation",
+                        "fiscalWithholdingPercentage": 15,
+                        "attestId": 12345
+                    },
+                    "socialSection": {
+                        "situation": "obligation",
+                        "socialWithholdingPercentage": 35
+                    }
+                }
+            ]
+        }
+    }
+}
