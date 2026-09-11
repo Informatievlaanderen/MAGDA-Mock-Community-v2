@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<web:GeefKadastraleAfdelingenOpKBOResponse xmlns:web="http://magda.vlaanderen.be/kadaster/soap/geefkadastraleafdelingenopkbo/v01_00">
+	<Repliek>
+		<Context>
+			<Naam>GeefKadastraleAfdelingenOpKBO</Naam>
+			<Versie>01.00.0000</Versie>
+			<Bericht>
+				<Type>ANTWOORD</Type>
+				<Tijdstip>
+					<Datum>0001-01-01</Datum>
+					<Tijd>00:00:00.000</Tijd>
+				</Tijdstip>
+				<Afzender>
+					<Identificatie>?</Identificatie>
+					<Naam>?</Naam>
+					<Referte>?</Referte>
+				</Afzender>
+				<Ontvanger>
+					<Identificatie>?</Identificatie>
+					<Referte>?</Referte>
+					<Hoedanigheid>?</Hoedanigheid>
+				</Ontvanger>
+			</Bericht>
+		</Context>
+		<Antwoorden>
+			<Antwoord>
+				<Referte>?</Referte>
+				<Inhoud>
+					<KadastraleAfdeling>
+						<KadastraleAfdelingCode>
+							<Code>11001</Code>
+							<Omschrijving>AARTSELAAR  1 AFD</Omschrijving>
+						</KadastraleAfdelingCode>
+						<PartijId>54007276</PartijId>
+					</KadastraleAfdeling>
+					<KadastraleAfdeling>
+						<KadastraleAfdelingCode>
+							<Code>11342</Code>
+							<Omschrijving>ANTWERPEN 28 AFD/DEURNE 02 AFD</Omschrijving>
+						</KadastraleAfdelingCode>
+						<PartijId>54007276</PartijId>
+					</KadastraleAfdeling>
+					<KadastraleAfdeling>
+						<KadastraleAfdelingCode>
+							<Code>23582</Code>
+							<Omschrijving>SINT-PIETERS-LEEUW 02 AFD</Omschrijving>
+						</KadastraleAfdelingCode>
+						<PartijId>54007276</PartijId>
+					</KadastraleAfdeling>
+					<KadastraleAfdeling>
+						<KadastraleAfdelingCode>
+							<Code>24119</Code>
+							<Omschrijving>LANDEN 08 AFD/WANGE</Omschrijving>
+						</KadastraleAfdelingCode>
+						<PartijId>54007276</PartijId>
+					</KadastraleAfdeling>
+					<KadastraleAfdeling>
+						<KadastraleAfdelingCode>
+							<Code>31021</Code>
+							<Omschrijving>BEERNEM 02 AFD/OEDELEM</Omschrijving>
+						</KadastraleAfdelingCode>
+						<PartijId>54007276</PartijId>
+					</KadastraleAfdeling>
+				</Inhoud>
+			</Antwoord>
+		</Antwoorden>
+	</Repliek>
+</web:GeefKadastraleAfdelingenOpKBOResponse>
