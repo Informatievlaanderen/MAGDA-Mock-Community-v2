@@ -1,0 +1,26 @@
+{
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": [
+            {
+                "beneficiaryName": "Ahmed Alami",
+				"beneficiaryLastName": "Alami",
+				"beneficiaryFirstName": "Ahmed",
+				"beneficiaryIdentifier": "85671284183",
+                "controlId": 1094302,
+                "beneficiaryType": "PERSON",
+                "controlType": "FOUNDER",
+                "percentInVote": 100.0,
+                "percent": 100.0,
+                "groupName": null,
+                "groupId": null,
+                "derogated": false,
+                "validated": true,
+                "belgian": true
+            }
+        ]
+    }
+}
