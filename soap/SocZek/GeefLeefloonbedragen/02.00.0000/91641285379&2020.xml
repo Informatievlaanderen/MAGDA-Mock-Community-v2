@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<web:GeefLeefloonbedragenResponse xmlns:web="http://webservice.geefleefloonbedragendienst-02_00.soczek-02_00.vip.vlaanderen.be">
+	<Repliek>
+		<Context>
+			<Naam>GeefLeefloonbedragen</Naam>
+			<Versie>02.00.0000</Versie>
+            <Bericht>
+                <Type>ANTWOORD</Type>
+                <Tijdstip>
+                    <Datum>?</Datum>
+                    <Tijd>?</Tijd>
+                </Tijdstip>
+                <Afzender>
+                    <Identificatie>?</Identificatie>
+                    <Naam>?</Naam>
+                    <Referte>?</Referte>
+                </Afzender>
+                <Ontvanger>
+                    <Identificatie>?</Identificatie>
+                    <Referte>?</Referte>
+                    <Hoedanigheid>?</Hoedanigheid>
+                </Ontvanger>
+            </Bericht>
+		</Context>
+		<Antwoorden>
+			<Antwoord>
+				<Referte>?</Referte>
+				<Inhoud>
+					<Leefloonbedragen>
+						<Leefloonbedrag>
+							<Jaar>2020</Jaar>
+							<Tegemoetkoming>
+								<Jaarlijks Jaar="2020">
+									<Kinderbijslag>
+										<Bedrag>846.00</Bedrag>
+										<TweedeGerechtigde>0</TweedeGerechtigde>
+									</Kinderbijslag>
+								</Jaarlijks>
+								<Maandelijks>
+									<Maand JaarMaand="2020-01">
+										<KinderbijslagPerPeriode LaatsteUitbetaling="1">
+											<KinderbijslagPeriode ID="20200101">
+												<Bedrag>70.50</Bedrag>
+												<Periode>
+													<Begin>2020-01-01</Begin>
+													<Einde>2020-01-31</Einde>
+												</Periode>
+												<Begunstigde>
+													<INSZ>91641285379</INSZ>
+												</Begunstigde>
+												<Partner>
+													<TweedeGerechtigde>0</TweedeGerechtigde>
+												</Partner>
+												<OCMW>
+													<Ondernemingsnummer>0212189676</Ondernemingsnummer>
+													<Bestand>20200101</Bestand>
+													<Suffix>0</Suffix>
+												</OCMW>
+											</KinderbijslagPeriode>
+										</KinderbijslagPerPeriode>
+									</Maand>
+									<Maand JaarMaand="2020-02">
+										<KinderbijslagPerPeriode LaatsteUitbetaling="1">
+											<KinderbijslagPeriode ID="20200201">
+												<Bedrag>70.50</Bedrag>
+												<Periode>
+													<Begin>2020-02-01</Begin>
+													<Einde>2020-02-28</Einde>
+												</Periode>
+												<Begunstigde>
+													<INSZ>91641285379</INSZ>
+												</Begunstigde>
+												<Partner>
+													<TweedeGerechtigde>0</TweedeGerechtigde>
+												</Partner>
+												<OCMW>
+													<Ondernemingsnummer>0212189676</Ondernemingsnummer>
+													<Bestand>20200201</Bestand>
+													<Suffix>0</Suffix>
+												</OCMW>
+											</KinderbijslagPeriode>
+										</KinderbijslagPerPeriode>
+									</Maand>
+									<Maand JaarMaand="2020-03">
+										<KinderbijslagPerPeriode LaatsteUitbetaling="1">
+											<KinderbijslagPeriode ID="20200301">
+												<Bedrag>70.50</Bedrag>
+												<Periode>
+													<Begin>2020-03-01</Begin>
+													<Einde>2020-03-31</Einde>
+												</Periode>
+												<Begunstigde>
+													<INSZ>91641285379</INSZ>
+												</Begunstigde>
+												<Partner>
+													<TweedeGerechtigde>0</TweedeGerechtigde>
+												</Partner>
+												<OCMW>
+													<Ondernemingsnummer>0212189676</Ondernemingsnummer>
+													<Bestand>20200301</Bestand>
+													<Suffix>0</Suffix>
+												</OCMW>
+											</KinderbijslagPeriode>
+										</KinderbijslagPerPeriode>
+									</Maand>
+									<Maand JaarMaand="2020-04">
+										<KinderbijslagPerPeriode LaatsteUitbetaling="1">
+											<KinderbijslagPeriode ID="20200401">
+												<Bedrag>70.50</Bedrag>
+												<Periode>
+													<Begin>2020-04-01</Begin>
+													<Einde>2020-04-30</Einde>
+												</Periode>
+												<Begunstigde>
+													<INSZ>91641285379</INSZ>
+												</Begunstigde>
+												<Partner>
+													<TweedeGerechtigde>0</TweedeGerechtigde>
+												</Partner>
+												<OCMW>
+													<Ondernemingsnummer>0212189676</Ondernemingsnummer>
+													<Bestand>20200401</Bestand>
+													<Suffix>0</Suffix>
+												</OCMW>
+											</KinderbijslagPeriode>
+										</KinderbijslagPerPeriode>
+									</Maand>
+									<Maand JaarMaand="2020-05">
+										<KinderbijslagPerPeriode LaatsteUitbetaling="1">
+											<KinderbijslagPeriode ID="20200501">
+												<Bedrag>70.50</Bedrag>
+												<Periode>
+													<Begin>2020-05-01</Begin>
+													<Einde>2020-05-31</Einde>
+												</Periode>
+												<Begunstigde>
+													<INSZ>91641285379</INSZ>
+												</Begunstigde>
+												<Partner>
+													<TweedeGerechtigde>0</TweedeGerechtigde>
+												</Partner>
+												<OCMW>
+													<Ondernemingsnummer>0212189676</Ondernemingsnummer>
+													<Bestand>20200501</Bestand>
+													<Suffix>0</Suffix>
+												</OCMW>
+											</KinderbijslagPeriode>
+										</KinderbijslagPerPeriode>
+									</Maand>
+									<Maand JaarMaand="2020-06">
+										<KinderbijslagPerPeriode LaatsteUitbetaling="1">
+											<KinderbijslagPeriode ID="20200601">
+												<Bedrag>70.50</Bedrag>
+												<Periode>
+													<Begin>2020-06-01</Begin>
+													<Einde>2020-06-30</Einde>
+												</Periode>
+												<Begunstigde>
+													<INSZ>91641285379</INSZ>
+												</Begunstigde>
+												<Partner>
+													<TweedeGerechtigde>0</TweedeGerechtigde>
+												</Partner>
+												<OCMW>
+													<Ondernemingsnummer>0212189676</Ondernemingsnummer>
+													<Bestand>20200601</Bestand>
+													<Suffix>0</Suffix>
+												</OCMW>
+											</KinderbijslagPeriode>
+										</KinderbijslagPerPeriode>
+									</Maand>
+									<Maand JaarMaand="2020-07">
+										<KinderbijslagPerPeriode LaatsteUitbetaling="1">
+											<KinderbijslagPeriode ID="20200701">
+												<Bedrag>70.50</Bedrag>
+												<Periode>
+													<Begin>2020-07-01</Begin>
+													<Einde>2020-07-31</Einde>
+												</Periode>
+												<Begunstigde>
+													<INSZ>91641285379</INSZ>
+												</Begunstigde>
+												<Partner>
+													<TweedeGerechtigde>0</TweedeGerechtigde>
+												</Partner>
+												<OCMW>
+													<Ondernemingsnummer>0212189676</Ondernemingsnummer>
+													<Bestand>20200701</Bestand>
+													<Suffix>0</Suffix>
+												</OCMW>
+											</KinderbijslagPeriode>
+										</KinderbijslagPerPeriode>
+									</Maand>
+									<Maand JaarMaand="2020-08">
+										<KinderbijslagPerPeriode LaatsteUitbetaling="1">
+											<KinderbijslagPeriode ID="20200801">
+												<Bedrag>70.50</Bedrag>
+												<Periode>
+													<Begin>2020-08-01</Begin>
+													<Einde>2020-08-31</Einde>
+												</Periode>
+												<Begunstigde>
+													<INSZ>91641285379</INSZ>
+												</Begunstigde>
+												<Partner>
+													<TweedeGerechtigde>0</TweedeGerechtigde>
+												</Partner>
+												<OCMW>
+													<Ondernemingsnummer>0212189676</Ondernemingsnummer>
+													<Bestand>20200801</Bestand>
+													<Suffix>0</Suffix>
+												</OCMW>
+											</KinderbijslagPeriode>
+										</KinderbijslagPerPeriode>
+									</Maand>
+									<Maand JaarMaand="2020-09">
+										<KinderbijslagPerPeriode LaatsteUitbetaling="1">
+											<KinderbijslagPeriode ID="20200901">
+												<Bedrag>70.50</Bedrag>
+												<Periode>
+													<Begin>2020-09-01</Begin>
+													<Einde>2020-09-30</Einde>
+												</Periode>
+												<Begunstigde>
+													<INSZ>91641285379</INSZ>
+												</Begunstigde>
+												<Partner>
+													<TweedeGerechtigde>0</TweedeGerechtigde>
+												</Partner>
+												<OCMW>
+													<Ondernemingsnummer>0212189676</Ondernemingsnummer>
+													<Bestand>20200901</Bestand>
+													<Suffix>0</Suffix>
+												</OCMW>
+											</KinderbijslagPeriode>
+										</KinderbijslagPerPeriode>
+									</Maand>
+									<Maand JaarMaand="2020-10">
+										<KinderbijslagPerPeriode LaatsteUitbetaling="1">
+											<KinderbijslagPeriode ID="20201001">
+												<Bedrag>70.50</Bedrag>
+												<Periode>
+													<Begin>2020-10-01</Begin>
+													<Einde>2020-10-31</Einde>
+												</Periode>
+												<Begunstigde>
+													<INSZ>91641285379</INSZ>
+												</Begunstigde>
+												<Partner>
+													<TweedeGerechtigde>0</TweedeGerechtigde>
+												</Partner>
+												<OCMW>
+													<Ondernemingsnummer>0212189676</Ondernemingsnummer>
+													<Bestand>20201001</Bestand>
+													<Suffix>0</Suffix>
+												</OCMW>
+											</KinderbijslagPeriode>
+										</KinderbijslagPerPeriode>
+									</Maand>
+									<Maand JaarMaand="2020-11">
+										<KinderbijslagPerPeriode LaatsteUitbetaling="1">
+											<KinderbijslagPeriode ID="20201101">
+												<Bedrag>70.50</Bedrag>
+												<Periode>
+													<Begin>2020-11-01</Begin>
+													<Einde>2020-11-30</Einde>
+												</Periode>
+												<Begunstigde>
+													<INSZ>91641285379</INSZ>
+												</Begunstigde>
+												<Partner>
+													<TweedeGerechtigde>0</TweedeGerechtigde>
+												</Partner>
+												<OCMW>
+													<Ondernemingsnummer>0212189676</Ondernemingsnummer>
+													<Bestand>20201101</Bestand>
+													<Suffix>0</Suffix>
+												</OCMW>
+											</KinderbijslagPeriode>
+										</KinderbijslagPerPeriode>
+									</Maand>
+									<Maand JaarMaand="2020-12">
+										<KinderbijslagPerPeriode LaatsteUitbetaling="1">
+											<KinderbijslagPeriode ID="20201201">
+												<Bedrag>70.50</Bedrag>
+												<Periode>
+													<Begin>2020-12-01</Begin>
+													<Einde>2020-12-31</Einde>
+												</Periode>
+												<Begunstigde>
+													<INSZ>91641285379</INSZ>
+												</Begunstigde>
+												<Partner>
+													<TweedeGerechtigde>0</TweedeGerechtigde>
+												</Partner>
+												<OCMW>
+													<Ondernemingsnummer>0212189676</Ondernemingsnummer>
+													<Bestand>20201201</Bestand>
+													<Suffix>0</Suffix>
+												</OCMW>
+											</KinderbijslagPeriode>
+										</KinderbijslagPerPeriode>
+									</Maand>
+								</Maandelijks>
+							</Tegemoetkoming>
+						</Leefloonbedrag>
+					</Leefloonbedragen>
+				</Inhoud>
+			</Antwoord>
+		</Antwoorden>
+	</Repliek>
+</web:GeefLeefloonbedragenResponse>
