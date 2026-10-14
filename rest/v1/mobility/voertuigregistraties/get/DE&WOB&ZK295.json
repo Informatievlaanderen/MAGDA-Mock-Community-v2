@@ -1,0 +1,91 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "@type": "VehicleRegistrationEnvelope",
+      "language": "de",
+      "data": [
+        {
+          "@type": "Registratie",
+          "taal": {
+            "@type": "Concept",
+            "code": "de",
+            "voorkeursnaam": "Duits"
+          },
+          "nummerplaat": {
+            "@type": "Nummerplaat",
+            "referentiedatum": "2026-10-12T12:08:00Z",
+            "registratienummer": {
+              "@type": "Identificator",
+              "identificator": "WOB ZK295",
+              "schema": {
+                "@type": "Concept",
+                "voorkeursnaam": "Duitse nummerplaat"
+              }
+            }
+          },
+          "houder": {
+            "@type": "GeregistreerdeOrganisatie",
+            "referentiedatum": "2026-10-12T12:08:00Z",
+            "voorkeursnaam": "Wolfsburger Autohaus GmbH",
+            "rechtsvorm": [
+              {
+                "@type": "Concept",
+                "code": "CIN",
+                "voorkeursnaam": "Buitenlandse onderneming"
+              }
+            ],
+            "registratie": {
+              "@type": "Identificator",
+              "identificator": "HRB 12345",
+              "schema": {
+                "@type": "Concept",
+                "code": "HRB",
+                "voorkeursnaam": "Handelsregister B"
+              }
+            },
+            "contactinfo": {
+              "@type": "Contactpunt",
+              "adres": {
+                "@type": "Adresvoorstelling",
+                "landcode": "DE",
+                "gemeentenaam": "WOLFSBURG",
+                "huisnummer": "12",
+                "land": "Duitsland",
+                "postcode": "38440",
+                "straatnaam": "Berliner Straße",
+                "volledigAdres": "Berliner Straße 12, 38440 Wolfsburg, Duitsland"
+              }
+            },
+            "rechtspersoonlijkheid": {
+              "@type": "Concept",
+              "code": "O",
+              "voorkeursnaam": "Legal entity other than natural person"
+            }
+          },
+          "voertuig": {
+            "@type": "Voertuig",
+            "eersteRegistratieDatum": "2023-05-18",
+            "commercieleNaam": "VW GOLF VIII; 1.5 TSI",
+            "type": {
+              "@type": "Concept",
+              "code": "M1"
+            },
+            "vin": {
+              "@type": "Identificator",
+              "identificator": "WVWZZZ1KZAW123456",
+              "schema": {
+                "@type": "Concept",
+                "voorkeursnaam": "Chassisnummer (VIN)"
+              }
+            }
+          }
+        }
+      ],
+      "@context": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/voertuigregistratie/v0.3.0/context/voertuigregistratie-im.jsonld"
+    }
+  }
+}

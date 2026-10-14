@@ -1,0 +1,82 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "@type": "VehicleRegistrationEnvelope",
+      "language": "nl",
+      "data": [
+        {
+          "@type": "Registratie",
+          "taal": {
+            "@type": "Concept",
+            "code": "nld",
+            "voorkeursnaam": "Dutch"
+          },
+          "nummerplaat": {
+            "@type": "Nummerplaat",
+            "referentiedatum": "2026-10-12T12:08:00Z",
+            "registratienummer": {
+              "@type": "Identificator",
+              "identificator": "04GSRS",
+              "schema": {
+                "@type": "Concept",
+                "voorkeursnaam": "Buitenlandse nummerplaat"
+              }
+            }
+          },
+          "houder": {
+            "@type": "GeregistreerdeOrganisatie",
+            "referentiedatum": "2026-10-12T12:08:00Z",
+            "voorkeursnaam": "Stichting ter bevordering van roekeloos weggedrag",
+            "rechtsvorm": [
+              {
+                "@type": "Concept",
+                "code": "CIN",
+                "voorkeursnaam": "Company identification number"
+              }
+            ],
+            "contactinfo": {
+              "@type": "Contactpunt",
+              "adres": {
+                "@type": "Adresvoorstelling",
+                "landcode": "NL",
+                "gemeentenaam": "VEENDAM",
+                "huisnummer": "10",
+                "land": "NL",
+                "postcode": "9642CZ",
+                "straatnaam": "Skager Rak",
+                "volledigAdres": "Stichting ter bevordering van roekeloos weggedrag"
+              }
+            },
+            "rechtspersoonlijkheid": {
+              "@type": "Concept",
+              "code": "O",
+              "voorkeursnaam": "Legal entity other than natural person"
+            }
+          },
+          "voertuig": {
+            "@type": "Voertuig",
+            "eersteRegistratieDatum": "2026-10-12",
+            "commercieleNaam": "VECTRA-B; X1.7DT",
+            "type": {
+              "@type": "Concept",
+              "code": "M1"
+            },
+            "vin": {
+              "@type": "Identificator",
+              "identificator": "EUCAR1S04GSRS",
+              "schema": {
+                "@type": "Concept",
+                "voorkeursnaam": "Chassisnummer (VIN)"
+              }
+            }
+          }
+        }
+      ],
+      "@context": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/voertuigregistratie/v0.3.0/context/voertuigregistratie-im.jsonld"
+    }
+  }
+}

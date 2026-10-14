@@ -1,0 +1,80 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "@type": "VehicleRegistrationEnvelope",
+      "language": "nl",
+      "data": [
+        {
+          "@type": "Registratie",
+          "taal": {
+            "@type": "Concept",
+            "code": "nld",
+            "voorkeursnaam": "Dutch"
+          },
+          "nummerplaat": {
+            "@type": "Nummerplaat",
+            "referentiedatum": "2025-08-11T09:22:11.123Z",
+            "registratienummer": {
+              "@type": "Identificator",
+              "identificator": "1DSI823",
+              "schema": {
+                "@type": "Concept",
+                "voorkeursnaam": "Belgische nummerplaat"
+              }
+            }
+          },
+          "houder": {
+            "@type": "GeregistreerdPersoon",
+            "referentiedatum": "2025-08-11T09:22:11.123Z",
+            "volledigeNaam": "Annemie Baeckeland",
+            "voornaam": "Annemie",
+            "achternaam": "Baeckeland",
+            "registratie": {
+              "@type": "Identificator",
+              "identificator": "01700462685",
+              "schema": {
+                "@type": "Concept",
+                "voorkeursnaam": "Rijksregisternummer"
+              }
+            },
+            "contactinfo": {
+              "@type": "Contactpunt",
+              "adres": {
+                "@type": "Adresvoorstelling",
+                "landcode": "BE",
+                "gemeentenaam": "Gent",
+                "huisnummer": "31",
+                "land": "België",
+                "postcode": "9031",
+                "straatnaam": "Varendrieskouter",
+                "volledigAdres": "Varendrieskouter 31, 9031 Gent, België"
+              }
+            }
+          },
+          "voertuig": {
+            "@type": "Voertuig",
+            "eersteRegistratieDatum": "2019-03-12",
+            "commercieleNaam": "OPEL Corsa",
+            "type": {
+              "@type": "Concept",
+              "code": "M1"
+            },
+            "vin": {
+              "@type": "Identificator",
+              "identificator": "SALLMAMU2KA7B8C9D",
+              "schema": {
+                "@type": "Concept",
+                "voorkeursnaam": "Chassisnummer (VIN)"
+              }
+            }
+          }
+        }
+      ],
+      "@context": "https://implementatie.data.vlaanderen.be/doc/implementatiemodel/magda/voertuigregistratie/v0.3.0/context/voertuigregistratie-im.jsonld"
+    }
+  }
+}
