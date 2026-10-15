@@ -1,0 +1,189 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "items": [
+        {
+          "license": {
+            "languageCode": "FR",
+            "statusLegal": {
+              "code": "NOR"
+            },
+            "startSituationDate": "2026-01-01T00:00:00Z",
+            "plateType": {
+              "code": "NM"
+            },
+            "status": {
+              "code": "REG"
+            },
+            "reRegistrationFlag": "N",
+            "plateUID": "0282335146",
+            "plateNr": "2ABC517",
+            "lastRegistrationDate": "2026-01-01T00:00:00Z"
+          },
+          "titular": {
+            "contactInfo": {
+              "address": {
+                "countryName": {
+                  "string": "Belgique"
+                },
+                "houseNumber": "13",
+                "streetName": {
+                  "string": "Technologielaan"
+                },
+                "countryISO": "056",
+                "cityName": {
+                  "string": "Leuven"
+                },
+                "postalCode": "3001",
+                "cityNisCode": "24062",
+                "@type": "http://www.w3.org/ns/locn#Address"
+              },
+              "@type": "https://schema.org/ContactPoint",
+              "registrationAddress": {
+                "countryName": {
+                  "string": "Belgique"
+                },
+                "houseNumber": "13",
+                "streetName": {
+                  "string": "Technologielaan"
+                },
+                "countryISO": "056",
+                "cityName": {
+                  "string": "Leuven"
+                },
+                "postalCode": "3001",
+                "cityNisCode": "24062",
+                "@type": "http://www.w3.org/ns/locn#Address"
+              }
+            },
+            "organisation": {
+              "companyNr": {
+                "identificator": "0465771828"
+              },
+              "organisationName": {
+                "string": "CAMCO TECHNOLOGIES"
+              },
+              "legalFormCode": {
+                "@id": "http://data.vlaanderen.be/id/concept/Rechtsvorm/naamloze-vennootschap",
+                "prefLabel": {
+                  "string": "Naamloze vennootschap",
+                  "lang": "nl"
+                }
+              },
+              "isLeaseCompany": false,
+              "@id": "_:org200",
+              "@type": "http://www.w3.org/ns/regorg#RegisteredOrganization"
+            },
+            "type": "O",
+            "@type": "http://purl.org/dc/terms/Agent",
+            "source": "KBO",
+            "@id": "_:org200"
+          },
+          "vehicle": {
+            "unifier": "01",
+            "statusAdministrative": {
+              "code": "NOR"
+            },
+            "engine": [
+              {
+                "fuel": [
+                  {
+                    "combinedFuelConsumption": 5,
+                    "combinedCO2": 453,
+                    "maximumNetPower": 133.67,
+                    "particulatesMassBenchTest": 100000,
+                    "code": "40",
+                    "WLTPCombinedCO2": 453,
+                    "euroNormCode": "5",
+                    "description": "CNG"
+                  }
+                ],
+                "engineCapacity": 2097
+              }
+            ],
+            "firstKnownUseDate": "2026-01-01",
+            "numberOfAxles": 2,
+            "variant": "AXA1A",
+            "sizeWidth": 1877,
+            "techControlEntryDatetime": "2026-01-02T10:12:02Z",
+            "limiterIndicator": false,
+            "techControlValidityDate": "2027-01-02",
+            "statusLegal": {
+              "code": "NOR"
+            },
+            "maximumSpeed": 194,
+            "maxPermMassCombination": 0,
+            "sizeLength": 4730,
+            "customsStickerCode": "3",
+            "sizeHeight": 0,
+            "nrOfSeatingPositions": 2,
+            "dateCOC": "2026-01-01",
+            "maxPermLadenMassNational": 0,
+            "wheelBase": 2947,
+            "wvta": "e11*2007/46*3320*05",
+            "colour": [
+              {
+                "code": "8",
+                "description": "Grijs"
+              }
+            ],
+            "assistanceWithoutPedallingIndicator": false,
+            "codeForBodyWork": [
+              {
+                "code": "SC"
+              }
+            ],
+            "tachoIndicator": false,
+            "status": {
+              "code": "NOR"
+            },
+            "actualMassOfTheVehicle": 0,
+            "kind": {
+              "code": "AZ"
+            },
+            "commercialName": "MERCEDES",
+            "typeApprovalType": "AAAEY",
+            "handicapIndicator": false,
+            "firstRegistrationDate": "2026-01-01",
+            "version": "00AF",
+            "numberOfStandingPlaces": 0,
+            "makeName": "MERCEDES",
+            "type": "MST",
+            "massOfTheVehicleInRunningOrder": 2500,
+            "vin": "WDB98765432109876",
+            "exhaustDirectiveRefCode": "134/2014*2016/1824A2",
+            "suspension": {
+              "code": "1"
+            },
+            "category": {
+              "code": "M1"
+            },
+            "referenceMass": 0,
+            "technicPermissibleMaxMass": 2830
+          },
+          "transaction": {
+            "typeCode": "REG",
+            "subTypeCode": {
+              "code": "REGNM"
+            },
+            "info": {
+              "importedVehicle": false,
+              "correctionType": {
+                "code": "0"
+              }
+            },
+            "UID": "12345679",
+            "dateTime": "2026-01-01T10:12:02.475Z"
+          }
+        }
+      ],
+      "total": 1,
+      "self": "/movementIndications/rowDetails?companyNr=0465771828",
+      "@context": "https://vlaamseoverheid.atlassian.net/wiki/download/attachments/1693680273/Mobility-context.jsonld"
+    }
+  }
+}
