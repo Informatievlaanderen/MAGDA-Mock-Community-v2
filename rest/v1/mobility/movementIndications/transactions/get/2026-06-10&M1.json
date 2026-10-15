@@ -1,0 +1,50 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "dateTime": "2026-01-01T10:12:02.475Z",
+        "transactionTypeCode": "REG",
+        "objectKey": {
+          "plateNr": "1PQR237",
+          "vin": "WVWZZZ1JZXW000201",
+          "unifier": "01",
+          "transactionUID": "83010431"
+        }
+      },
+      {
+        "dateTime": "2026-01-01T10:12:12.540587Z",
+        "transactionTypeCode": "REG",
+        "objectKey": {
+          "plateNr": "2STU681",
+          "vin": "WVWZZZ1JZXW000202",
+          "unifier": "01",
+          "transactionUID": "83010432"
+        }
+      },
+      {
+        "dateTime": "2026-01-01T10:12:21.248813Z",
+        "transactionTypeCode": "REG",
+        "objectKey": {
+          "plateNr": "1VWX904",
+          "vin": "WVWZZZ1JZXW000203",
+          "unifier": "01",
+          "transactionUID": "83010433"
+        }
+      },
+      {
+        "dateTime": "2026-01-01T10:12:29.963419Z",
+        "transactionTypeCode": "REG",
+        "objectKey": {
+          "plateNr": "2YZA352",
+          "vin": "WVWZZZ1JZXW000204",
+          "unifier": "01",
+          "transactionUID": "83010434"
+        }
+      }
+    ]
+  }
+}
