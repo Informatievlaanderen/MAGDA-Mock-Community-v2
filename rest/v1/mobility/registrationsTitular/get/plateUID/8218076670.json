@@ -1,0 +1,78 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "items": [
+        {
+          "license": {
+            "languageCode": "NL",
+            "status": {
+              "code": "REG",
+              "description": "Ingeschreven"
+            },
+            "plateNr": "1DSI823"
+          },
+          "titular": {
+            "contactInfo": {
+              "address": {
+                "houseNumber": "292",
+                "streetName": {
+                  "string": "Brusselsesteenweg"
+                },
+                "cityName": {
+                  "string": "Gent"
+                },
+                "postalCode": "9050",
+                "cityNisCode": "44021"
+              }
+            },
+            "person": {
+              "lastName": [
+                "Tahiri"
+              ],
+              "nationalNr": {
+                "identificator": "01690129514"
+              },
+              "firstName": [
+                "Yoessef"
+              ]
+            },
+            "type": "P",
+            "source": "RRN"
+          },
+          "vehicle": {
+            "unifier": "01",
+            "colour": [
+              {
+                "code": "1",
+                "description": "Wit"
+              }
+            ],
+            "codeForBodyWork": [
+              {
+                "code": "AA",
+                "description": "BERLINE"
+              }
+            ],
+            "kind": {
+              "code": "AA",
+              "description": "BERLINE"
+            },
+            "commercialName": "Corsa",
+            "makeName": "OPEL",
+            "vin": "SALLMAMU2KA7B8C9D",
+            "category": {
+              "code": "M1",
+              "description": "Voertuigen bestemd voor personenvervoer, ten hoogste 8 zitplaatsen (zonder bestuurder)"
+            }
+          }
+        }
+      ],
+      "self": "/registrationsTitular?plateUID=8218076670",
+      "@context": "https://vlaamseoverheid.atlassian.net/wiki/download/attachments/1693680273/Mobility-context.jsonld"
+    }
+  }
+}
