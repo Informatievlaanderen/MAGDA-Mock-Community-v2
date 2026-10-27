@@ -1,7 +1,6 @@
 <?xml version="1.0" standalone="no"?>
 <web:GeefAttestResponse xmlns:web="http://webservice.geefattestdienst-02_00.persoon-02_00.vip.vlaanderen.be">
     <Repliek>
-    <Repliek>
         <Context>
             <Naam>GeefAttest</Naam>
             <Versie>02.00.0000</Versie>
