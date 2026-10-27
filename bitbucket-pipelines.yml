@@ -65,16 +65,16 @@ pipelines:
       - step:
           <<: *deploy
           name: Deploy release to TST
-          deployment: TST_SOLID
+          deployment: TST
       - step:
           <<: *deploy
           name: Deploy release to TNI
-          deployment: TNI_SOLID
+          deployment: TNI
       - step:
           <<: *deploy
           name: Deploy release to PRD
           trigger: manual
-          deployment: PRD_SOLID
+          deployment: PRD
     develop:
       - step: *dockerBuild
       - step:
