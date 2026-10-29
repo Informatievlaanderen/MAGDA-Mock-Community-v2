@@ -92,7 +92,6 @@
 											<Oppervlakte>
 												<Belast>177</Belast>
 											</Oppervlakte>
-											<SleutelToestandPUR>1686427</SleutelToestandPUR>
 											<Coordinaat>
 												<x>123456</x>
 												<y>123456</y>
@@ -100,7 +99,6 @@
 										</AlgemeneInformatie>
 										<AlgemeneInformatie>
 											<VolgordeOnderdelen>B1</VolgordeOnderdelen>
-											<SleutelToestandPUR>1686426</SleutelToestandPUR>
 											<Coordinaat>
 												<x>123456</x>
 												<y>123456</y>
@@ -203,7 +201,6 @@
 									<LijstOnbebouwd>
 										<Onbebouwd>
 											<PUR>
-												<Id>AA11.WE11.QX</Id>
 												<Aard>
 													<Code>200</Code>
 													<Omschrijving>HUIS</Omschrijving>

@@ -1,5 +1,5 @@
 <web:GeefHistoriekEigendomstoestandResponse
-        xmlns:web="http://webservice.geefhistoriekeigendomstoestanddienst-03_00.kadaster-03_00.vip.vlaanderen.be">
+        xmlns:web="http://magda.vlaanderen.be/kadaster/soap/geefhistoriekeigendomstoestand/v03_00">
     <Repliek>
         <Context>
             <Naam>GeefHistoriekEigendomstoestand</Naam>
