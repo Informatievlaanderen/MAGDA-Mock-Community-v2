@@ -1,4 +1,4 @@
-ARG MAGDAMOCK_VERSION="0.41.0"
+ARG MAGDAMOCK_VERSION="0.41.1"
 ARG CONTAINER_NAME="vlaamseoverheid-magda-docker-releases.jfrog.io/magda/magda.magdamock"
 # ARG CONTAINER_NAME="ghcr.io/informatievlaanderen/magda-mock-v2"
 FROM ${CONTAINER_NAME}:${MAGDAMOCK_VERSION}
